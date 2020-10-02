@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /_posts/
+Sitemap: http://jiftle.github.io/atom.xml
