@@ -1,0 +1,325 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>小鸟的博客 - 做自己</title><meta name="keywords" content="Boss is SB"><meta name="author" content="John"><meta name="copyright" content="John"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="我的🐦比你的大">
+<meta property="og:type" content="website">
+<meta property="og:title" content="小鸟的博客">
+<meta property="og:url" content="http://jiftle.github.io/page/3/index.html">
+<meta property="og:site_name" content="小鸟的博客">
+<meta property="og:description" content="我的🐦比你的大">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://jiftle.github.io/null">
+<meta property="article:author" content="John">
+<meta property="article:tag" content="Boss is SB">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://jiftle.github.io/null"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://jiftle.github.io/page/3/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '5.2.0',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  ClickShowText: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isSidebar: false,
+  postUpdate: '2020-10-03 11:08:47'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {
+  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }
+})()</script><meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="小鸟的博客" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">33</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">5</div></a></div></div></div><hr/></div></div><div id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">小鸟的博客</a></span><span id="menus"><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="site-info"><h1 id="site-title">小鸟的博客</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/10/03/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/" title="003-Docker运行图形界面程序.md">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="003-Docker运行图形界面程序.md"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/" title="003-Docker运行图形界面程序.md">003-Docker运行图形界面程序.md</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.174Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">003-Docker运行图形界面程序.md原理简介宿主机配置
+宿主机系统中安装x11服务1sudo apt-get install x11-xserver-utils
+启动容器前执行xhost +
+
+容器启动配置
+容器运行时加入参数，uid和gid两个参数不需要12-v /tmp/.X11-unix:/tmp/.X11-unix `# gui程序需要`\-e DISPLAY=$DISPLAY \
+完整指令123456789101112docker run -itd \-v ~:&#x2F;home&#x2F;john &#96;# 默认工作目录，映射&#96; \-v &#x2F;usrlocal&#x2F;git:&#x2F;home&#x2F;john&#x2F;git &#96;# git仓库目录&#96; \-p 8001:8001 &#96;# 日志仓库，预览服务&#96; \-p 8080:8080 &#96;# web程序调试端口&#96; \-w &#x2F;home&#x2F;john &#96;# 默认工作目录&#96; \-v &#x2F;etc&#x2F;loc ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/10/03/027-vagrant%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/" title="No title">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="No title"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/027-vagrant%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/" title="No title">No title</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.174Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">vagrant使用入门vagrant官方网站
+官方镜像仓库https://app.vagrantup.com/boxes/search
+
+镜像离线下载或镜像加速
+官方网站，大陆访问非常慢7kb/s
+http://www.vagrantbox.es/
+
+
+清华大学镜像 ubuntu 14.04https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/
+
+ubuntu 18
+
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152vagrant box add \https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;ubuntu-cloud-images&#x2F;bionic&#x2F;current&#x2F;bionic-server-cloudimg-amd64-vagrant.box \--name ubuntu&#x2F;bionicvag ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/10/03/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/" title="构建基于Git的知识管理体系">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="构建基于Git的知识管理体系"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/" title="构建基于Git的知识管理体系">构建基于Git的知识管理体系</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.173Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">构建基于Git的知识管理体系简介基于“让你成长为一棵树而不是一地草”的理念，搭建自己的知识金字塔，构建持续发展、增值的技能树。
+最终目标主阵地
+GitMdNote 个人日志，Git仓库，个人知识，收集归纳的主战场
+GitMdBlog 日志仓库预览工具，方便查看，友好界面，专注(golang)
+
+
+
+第二大脑
+EverNote 云端存储同步工具，可以用来归档，整理，多终端查看
+
+辅助工具
+EverSynClient 印象笔记同步工具，同步笔记仓库到印象笔记(TypeScript)
+GitHubPage 定期发布文章，输出成功到Page，打造个人名片
+
+路线图 RoadMap
+v1.0 (初步构建起，一个小型的，自发展的个人知识管理体系)
+GitMdNote   –已实现
+EverNote    –已实现
+GitMdBlog   –已实现
+EverSynClient  –开发中
+GitHubPage     –未开始
+
+
+
+遐想
+拥有自己的知识体系后，就可以定时从思维宝库里，提取出精华，知识变现
+拥有知识，并能够将接收到的信息，转化为知识，并将其变现为财富，才是真的学有所成
+当前网络中，现 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/10/03/EverSynClientTestMd/" title="EverSynClientTestMd">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="EverSynClientTestMd"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/EverSynClientTestMd/" title="EverSynClientTestMd">EverSynClientTestMd</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.172Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">EverSynClientTestMd 印象笔记同步测试原理简介主机配置
+安装1sudo apt-get install x11-xserver-utils
+
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/10/03/015-Emacs%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/" title="Emacs常用技巧">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Emacs常用技巧"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/015-Emacs%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/" title="Emacs常用技巧">Emacs常用技巧</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.171Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">Emacs常用技巧简介Org-Mode管理你的生活
+常用快捷键
+转接文件 C-r f
+
+文件操作
+C-x C-f 读取文件到Emacs
+C-x r 只读的方式打开一个文件
+C-x C-q 清除一个窗口的只读属性
+C-x C-s 保存文件到磁盘
+C-x s 保存所有文件
+C-x i 插入其它文件的内容到当前缓冲
+C-x C-v 用将要读取的文件替换当前文件
+C-x C-w 将当前缓冲写入指定的文件
+C-x C-q Version control checkin/checkout 
+
+输入TAB
+C-q Tab
+
+阅读模式
+C-L 屏幕重绘，光标行到屏幕中央
+
+安装配置额外的包
+.spacemacs配置文件
+将包名添加到 dotspacemacs-additional-packages 这个变量中去
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/10/03/006-MTP%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0%E8%AF%BB%E5%90%8E%E6%84%9F/" title="2019年MTP管理技能培训笔记-读后感">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2019年MTP管理技能培训笔记-读后感"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/006-MTP%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0%E8%AF%BB%E5%90%8E%E6%84%9F/" title="2019年MTP管理技能培训笔记-读后感">2019年MTP管理技能培训笔记-读后感</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.170Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">2019年MTP管理技能培训笔记-读后感如何分析和解决问题
+原则和理论支撑
+从现象到本质
+根据问题现象指定临时应急方案，解决问题
+从多角度调查问题，了解问题的范围
+分析问题原因，包括表面问题和深层问题（引入专家）
+讨论范围内（专家参与）
+进行方案选择和决策（专家参与）
+总结经验，预防再次发生
+
+
+思维呈现的4个层次
+通过语言表达出来
+通过文字记录下来（重新思考的过程）
+对文字进行结构化分类（信息处理，清晰）
+形成图表（量化）
+形成检查清单
+
+
+
+
+如何描述问题
+描述问题的一般模式： 从什么角度出发，通过什么手段，解决什么问题，最终达到了什么成果
+如何清晰的描述问题
+多使用数据，量化的形式描述
+描述具体的行为
+举例说明
+
+
+描述问题的5W3H法则（回顾报告）
+when,where,who,what,why 什么时间什么地点谁发生了什么事，为什么
+How,How Many,How Often 如何发生的，严重程度，频次
+
+
+
+
+如何分析问题
+站在一定的高度来分析，从全局看个体，从现象看及本质，从未来回看现在
+5M1E分析法
+man 人的问题 -&gt; 当事人，当事人同事，上级，干系人
+m ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/10/03/010-Linux%E5%AD%97%E4%BD%93/" title="Linux下安装字体">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Linux下安装字体"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/010-Linux%E5%AD%97%E4%BD%93/" title="Linux下安装字体">Linux下安装字体</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.170Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">Linux下安装字体复制字体到目录
+目录名字 /usr/share/fonts/
+
+刷新缓存
+生成字体索引信息12sudo mkfontscalesudo mkfontdir
+更新字体缓存1sudo fc-cache
+
+
+
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/10/03/hello-world/" title="Hello World">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.169Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server1$ hexo server
+
+More info: Server
+Generate static files1$ hexo generate
+
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+
+More info: Deployment
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/10/03/018-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" title="如何写好年终总结">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何写好年终总结"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/018-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" title="如何写好年终总结">如何写好年终总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.168Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">如何写好年终总结每年临近年底都是企业进行年度工作总结的阶段，而工作总结则是每一位管理者必须面对的课题。如何写好一份年终工作总结是许多管理者头疼的问题，既不能太过“格式化”， 又不能写成“流水账”，要不自己不满意，上司也不满意。一篇好的年终总结是职场人士有利的竞争筹码，甚至是升职加薪的“助推器”。
+为什么要写年终总结？不要小看工作总结，或大或小，都与我们的绩效，升迁，加薪，去留息息相关。聪明的人不会仅仅在工作总结里总结，而是会通过汇报的机会争取资源，毕竟，工作总结是制度规定里面允许你和上级领导沟通的一种重要途径。
+对于领导来说，他们不会盯着每个员工的日常工作情况，而且时间的跨度比较大，年初做的事情，到了年底，不提醒下领导，都忘记了，年终总结有助于了解员工的工作成果，工作状态，关注员工在工作中的成长，看到员工哪方面有所欠缺需要弥补，那些地方做的不对需要调整，领导根据了解到的情况，在未来的工作中给予帮助和支持；领导也会在你自己的分析与调整中，发现你的潜力，会给你一些机会，让你更好的成长。
+对于自己来说，为自己一年的工作经历做梳理归纳，从中总结经验，做好复盘，发现自己的不足，然后做好改进计划， ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/10/03/026-Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/" title="Mac常用软件">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Mac常用软件"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/10/03/026-Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/" title="Mac常用软件">Mac常用软件</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-10-02T17:07:05.168Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></span></div><div class="content">Mac系统常用软件简介收集常用的、好用的软件，顺序代表优先级
+知识管理体系
+整理思路，读书笔记归纳
+思维导图
+Xmind8
+
+
+
+
+第二大脑
+印象笔记
+有道云笔记
+git
+
+
+开发环境
+devenv-vim 开发环境
+
+
+
+时间管理系统扩展
+网速监视(顶部工具栏扩展，显示当前网速)
+Network Speed Monitor
+
+
+
+娱乐休闲
+视频转换
+UniConverter 11.6.1.1  万能视频格式转换器
+破解版
+
+
+
+
+娱乐游戏
+大富翁4（Rich4） 1.0
+红色警戒3：起义时刻（Red Alert 3） 1.00.4473
+The SIM S4 模拟人生4
+
+
+
+</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/2/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/null" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">John</div><div class="author-info__description">我的🐦比你的大</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">33</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">5</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div></div><div class="sticky_layout"><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2020/10/03/024-Vim%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E5%85%A5%E9%97%A8/" title="024-Vim脚本编写入门.md"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="024-Vim脚本编写入门.md"/></a><div class="content"><a class="title" href="/2020/10/03/024-Vim%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E5%85%A5%E9%97%A8/" title="024-Vim脚本编写入门.md">024-Vim脚本编写入门.md</a><time datetime="2020-10-02T17:07:05.187Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/10/03/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/" title="使用docker构建vim-golang开发环境"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="使用docker构建vim-golang开发环境"/></a><div class="content"><a class="title" href="/2020/10/03/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/" title="使用docker构建vim-golang开发环境">使用docker构建vim-golang开发环境</a><time datetime="2020-10-02T17:07:05.186Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/10/03/025-Vim%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/" title="Vim基本操作"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vim基本操作"/></a><div class="content"><a class="title" href="/2020/10/03/025-Vim%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/" title="Vim基本操作">Vim基本操作</a><time datetime="2020-10-02T17:07:05.186Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/10/03/013-vim%E8%84%9A%E6%9C%AC%E6%8F%90%E5%8F%96%E6%96%87%E4%BB%B6%E5%90%8D/" title="vim脚本提取文件名"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="vim脚本提取文件名"/></a><div class="content"><a class="title" href="/2020/10/03/013-vim%E8%84%9A%E6%9C%AC%E6%8F%90%E5%8F%96%E6%96%87%E4%BB%B6%E5%90%8D/" title="vim脚本提取文件名">vim脚本提取文件名</a><time datetime="2020-10-02T17:07:05.185Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/10/03/012-Tmux%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/" title="Tmux使用入门"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Tmux使用入门"/></a><div class="content"><a class="title" href="/2020/10/03/012-Tmux%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/" title="Tmux使用入门">Tmux使用入门</a><time datetime="2020-10-02T17:07:05.184Z" title="Created 2020-10-03 01:07:05">2020-10-03</time></div></div></div></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/Markdown-GitMdNote-blog-2020-01/" style="font-size: 1.3em; color: #99a1ac">Markdown,GitMdNote,blog-2020-01</a> <a href="/tags/Markdown-blog/" style="font-size: 1.5em; color: #99a9bf">Markdown,blog</a> <a href="/tags/Markdown-blog-2019-blog-2019-12/" style="font-size: 1.3em; color: #99a1ac">Markdown,blog-2019,blog-2019-12</a> <a href="/tags/Markdown-blog-2020-blog-2020-01/" style="font-size: 1.1em; color: #999">Markdown,blog-2020,blog-2020-01</a> <a href="/tags/Markdown-daily/" style="font-size: 1.1em; color: #999">Markdown,daily</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/10/"><span class="card-archive-list-date">October 2020</span><span class="card-archive-list-count">33</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">33</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2020-10-03T03:08:47.040Z"></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 By John</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div></body></html>
