@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/03/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>https://jiftle.github.io/2020/10/03/015-Emacs%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
     
     <lastmod>2020-10-03</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/03/hello-world/</loc>
+    <loc>https://jiftle.github.io/2020/10/03/0-DevEnvBaseOnDocker/</loc>
     
     <lastmod>2020-10-03</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/03/EverSynClientTestMd/</loc>
+    <loc>https://jiftle.github.io/2020/10/03/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
     
     <lastmod>2020-10-03</lastmod>
     
@@ -107,14 +107,14 @@
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/03/015-Emacs%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    <loc>https://jiftle.github.io/2020/10/03/001-%E4%BD%BF%E7%94%A8emby%E6%9E%84%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/</loc>
     
     <lastmod>2020-10-03</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/03/029-etcd%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://jiftle.github.io/2020/10/03/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     
     <lastmod>2020-10-03</lastmod>
     
@@ -212,21 +212,7 @@
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/03/001-%E4%BD%BF%E7%94%A8emby%E6%9E%84%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/</loc>
-    
-    <lastmod>2020-10-03</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jiftle.github.io/2020/10/03/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
-    
-    <lastmod>2020-10-03</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jiftle.github.io/2020/10/03/0-DevEnvBaseOnDocker/</loc>
+    <loc>https://jiftle.github.io/2020/10/03/029-etcd%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2020-10-03</lastmod>
     
@@ -240,6 +226,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://jiftle.github.io/tags/Markdown-GitMdNote-blog-2020-10/</loc>
+    <lastmod>2020-10-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>https://jiftle.github.io/tags/Markdown-blog-2019-blog-2019-12/</loc>
