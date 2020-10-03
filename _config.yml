@@ -6,15 +6,16 @@
 title: 小鸟的博客
 subtitle: '做自己'
 description: '我的🐦比你的大'
-keywords:
+keywords: Boss is SB
 author: John
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://jiftle.github.io
-root: /
+# url: http://jiftle.github.io
+url: https://yctxkj.gitee.io/bigbdblog
+root: /bigbdblog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,4 +104,10 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  # repo: git@github.com:jiftle/jiftle.github.io.git
+  # branch: gh-pages
+  # message: 'Site updated'
+  repo: git@gitee.com:yctxkj/bigbdblog.git
+  branch: master
+  
