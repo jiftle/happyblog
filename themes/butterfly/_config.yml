@@ -626,7 +626,7 @@ aside:
       link: https://github.com/jiftle
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 《格局》吴军，戒骄戒躁，每日精进
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

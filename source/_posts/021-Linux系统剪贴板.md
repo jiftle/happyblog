@@ -1,7 +1,7 @@
 ---
 title: 021-Linux系统剪贴板.md
 time: 2020-01-01 23:10
-tags: Markdown,blog
+tags: [Markdown,blog]
 notebook: blog
 ---
 

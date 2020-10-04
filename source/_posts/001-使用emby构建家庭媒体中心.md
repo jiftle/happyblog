@@ -1,7 +1,7 @@
 ---
 title: 使用emby构建家庭媒体中心
 time: 2019-12-02 17:38
-tags: Markdown,blog-2019,blog-2019-12
+tags: [Markdown,blog-2019,blog-2019-12]
 notebook: blog
 ---
 

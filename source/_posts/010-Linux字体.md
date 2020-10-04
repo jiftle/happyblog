@@ -1,7 +1,7 @@
 ---
 title: Linux下安装字体
 time: 2019-12-25 11:48
-tags: Markdown,daily
+tags: [Markdown,daily]
 notebook: diary
 ---
 
