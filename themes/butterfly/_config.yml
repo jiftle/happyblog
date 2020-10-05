@@ -290,12 +290,12 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
-  language: en # en, zh-CN, zh-TW, es-ES, fr, ru
+  client_id: bdcb7e65e2d12b842564
+  client_secret: 37ee0ef427ba11eac6b32cdf9295aa1aa66d98e5
+  repo: jiftle.github.io
+  owner: jiftle
+  admin: jiftle
+  language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: false # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
