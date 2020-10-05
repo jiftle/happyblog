@@ -4,32 +4,11 @@
   
     
     <entry>
-      <title>Linux命令行常用快捷键</title>
-      <link href="2020/10/04/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-      <url>2020/10/04/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      <title>030-做好自己的事&amp;如何挣钱.md</title>
+      <link href="2020/10/05/030-%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%8B&amp;%E5%A6%82%E4%BD%95%E6%8C%A3%E9%92%B1/"/>
+      <url>2020/10/05/030-%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%8B&amp;%E5%A6%82%E4%BD%95%E6%8C%A3%E9%92%B1/</url>
       
-        <content type="html"><![CDATA[<h1 id="Linux命令行常用快捷键"><a href="#Linux命令行常用快捷键" class="headerlink" title="Linux命令行常用快捷键"></a>Linux命令行常用快捷键</h1><p>以下命令为Linux中高频发常用命令，适用于Linux中远程连接客户端软件“SecureCTR”和“Xshell” 。其他远程客户端软件使用情况基本与之类似</p><h2 id="高频命令"><a href="#高频命令" class="headerlink" title="高频命令"></a>高频命令</h2><ul><li><p>补全命令</p><ul><li>tab   补全命令，每补全一个字符至少两次。</li></ul></li><li><p>移动光标快捷键：</p><ul><li>Ctrl+a   光标回到命令行首。</li><li>Ctrl+e    光标回到命令行末。</li><li>Ctrl+f   光标向右移动一个字符。</li><li>Ctrl+b   光标向左移动一个字符。</li></ul></li><li><p>中断命令：</p><ul><li>Ctrl+c  中断正在执行的任务命令或者删除整行。</li></ul></li><li><p>暂停命令：</p><ul><li>Ctrl+z   暂停正在运行行中的任务。</li></ul></li></ul><h2 id="低频命令"><a href="#低频命令" class="headerlink" title="低频命令"></a>低频命令</h2><ul><li><p>复制快捷键：</p><ul><li>Ctrl+Insert   复制命令（选中字符进行复制）</li></ul></li><li><p>粘贴快捷键：</p><ul><li>Ctrl+Insert   粘贴命令 </li></ul></li><li><p>剪切命令：</p><ul><li>Ctrl+k  剪切光标处到行尾处的字符。（有删除的作用）</li><li>Ctrl+u  剪切光标处到行首处的字符。（有删除的作用）</li><li>Ctrl+w  剪切光标前的一个单词（有删除的作用）</li><li>Ctrl+y   粘贴Ctrl+k 、Ctrl+u、Ctrl+w  剪切/删除的文本</li></ul></li><li><p>清除命令：</p><ul><li>Ctrl+h   删除光标前一个字符，等同于‘’Backspance‘’</li><li>Del       删除光标后的一个字符。</li><li>Ctrl+l    清除屏幕上所有内容，并开始新的一行，</li></ul></li><li><p>锁定、 解锁命令：</p><ul><li>Ctrl+s   锁定界面，使之无法输入内容。</li><li>Ctrl+q   解开Ctrl+s的锁定界面，进行输入</li></ul></li><li><p>重复使用命令：</p><ul><li>Ctrl+d   退出当前shell命令行，也可以直接关闭shell运行。</li><li>Ctrl+r   搜索命令行中使用过的命令记录。</li><li>Ctrl+g   从正在执行Ctrl+r的搜索中退出。</li></ul></li><li><p>Esc相关命令：</p><ul><li>Esc+.    获取上一条命令的最后部分（空格分隔）</li><li>Esc+b   移动到当前单词的开头。</li><li>Esc+f    移动到当前单词的结尾。</li></ul></li></ul><h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><ul><li><a href="https://www.cnblogs.com/wangxiaopang/p/10828471.html">Linux命令行常用快捷键</a></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>使用Docker构建开发环境</title>
-      <link href="2020/10/04/0-DevEnvBaseOnDocker/"/>
-      <url>2020/10/04/0-DevEnvBaseOnDocker/</url>
-      
-        <content type="html"><![CDATA[<h1 id="使用Docker构建开发环境"><a href="#使用Docker构建开发环境" class="headerlink" title="使用Docker构建开发环境"></a>使用Docker构建开发环境</h1><h2 id="Base-Docker-Images"><a href="#Base-Docker-Images" class="headerlink" title="Base Docker Images"></a>Base Docker Images</h2><ul><li>Ubuntu 1804</li></ul><h2 id="支持的系统"><a href="#支持的系统" class="headerlink" title="支持的系统"></a>支持的系统</h2><ul><li>Linux(deepin)</li><li>MacOS(10.15)</li></ul><h2 id="Feature"><a href="#Feature" class="headerlink" title="Feature"></a>Feature</h2><ul><li>vim 8.2</li><li>gvim</li><li>emacs 26.3</li><li>spacemacs</li><li>eclipse 3.8</li><li>gtk2.0</li><li>gtk3.0</li><li>eclipse 4.15</li></ul><h2 id="Docker和主机之间的互操作性"><a href="#Docker和主机之间的互操作性" class="headerlink" title="Docker和主机之间的互操作性"></a>Docker和主机之间的互操作性</h2><ul><li>目录共享</li><li>剪贴板共享</li><li>GUI程序运行在主机桌面</li></ul><h2 id="缺陷"><a href="#缺陷" class="headerlink" title="缺陷"></a>缺陷</h2><ul><li>大型的GUI不能运行，依赖多，（不如直接安装虚拟机）</li><li>gvim中文输入法，不能解决<ul><li>emacs can input chinese , select input-method of use set-input-method</li></ul></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sed &#39;4,4s&#x2F;tags: [&#x2F;tags: [[&#x2F;; 4,4s&#x2F;$&#x2F;&amp;]&#x2F;&#39; 0-DevEnvBaseOnDocker.md]</span><br><span class="line"></span><br><span class="line">sed -i &#39;s&#x2F;tags: [&#x2F;tags: [[&#x2F;g;s&#x2F;tags: [.*&#x2F;&amp;]&#x2F;g&#39; &#96;grep .md -rl .&#x2F;&#96;]</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="做好自己的事-amp-如何挣钱-amp-瞎想"><a href="#做好自己的事-amp-如何挣钱-amp-瞎想" class="headerlink" title="做好自己的事&amp;如何挣钱&amp;瞎想"></a>做好自己的事&amp;如何挣钱&amp;瞎想</h1><p>我想挣钱，我想有钱花，每个人的梦想</p><p>怎么实现？怎么实现？怎么实现？连续问3遍，大多人都不知道，不确定自己知不知道？</p><p>什么途径可以挣钱？能挣多少钱？能为他人提供什么服务？这些服务能值多少钱？</p><p>灵魂三连击！！！重击，bengbengbeng</p><p>现在我的主要任务是什么呢？</p><p>放假，当然是好好休息了。</p><p>休息应该做什么，当然是好好睡觉啦</p><p>学驾驶啦，软件设计师考试啦，看好孩子啦</p><p>今年我有哪些成就</p><ol><li>go语言开发了一个后台服务，并使用了文件型数据库mongoDB</li><li>docker打包，发布，编译，私服搭建，一整套流程完全学会，满足日常工作需要</li><li>成果，形成了完全属于自己的开发环境Docker镜像，实现机器电脑，开发环境的无缝切换</li><li>新技术，搭建了自己的博客，基于GitPage，非常的酷炫，使用了CI，Docker的自动打包也应用了 CI，自动构建，非常的时髦</li><li>在看云上建立的自己的文档仓库，实现了Kindle的无缝打通，融会贯通的感觉，还是相当不错的</li></ol><p>正在进行</p><ol><li>驾校学习，争取今年拿到驾照</li><li>希望今年可以买车</li></ol>]]></content>
       
       
       
@@ -48,517 +27,9 @@
     
     
     <entry>
-      <title>使用docker构建vim-golang开发环境</title>
-      <link href="2020/10/04/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
-      <url>2020/10/04/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</url>
-      
-        <content type="html"><![CDATA[<h1 id="使用docker构建vim-golang开发环境"><a href="#使用docker构建vim-golang开发环境" class="headerlink" title="使用docker构建vim-golang开发环境"></a>使用docker构建vim-golang开发环境</h1><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>docker可以构建一个属于自己的开发环境容器，需要使用时，下载镜像，开箱即用，避免每次都搭建开发环境，浪费不少的时间。</p><h2 id="路线图Road-Map"><a href="#路线图Road-Map" class="headerlink" title="路线图Road Map"></a>路线图Road Map</h2><ul><li>vim-golang 开发环境</li><li>spacemacs Org-mode  –放弃，鸡肋  –已实现，转变思维不一定非要运行在GUI模式下</li></ul><h2 id="目的-抓住主要矛盾-围绕目标来展开工作"><a href="#目的-抓住主要矛盾-围绕目标来展开工作" class="headerlink" title="目的(抓住主要矛盾,围绕目标来展开工作)"></a>目的(抓住主要矛盾,围绕目标来展开工作)</h2><ul><li>搭建基于Docker的开箱即用的，工作和开发环境  –已实现</li><li>支持golang开发  –已实现</li><li>支持TypeScript的开发  –已实现</li></ul><h2 id="需要解决的问题"><a href="#需要解决的问题" class="headerlink" title="需要解决的问题"></a>需要解决的问题</h2><ul><li>vim插件vim-airline，状态栏图标不显示  –优先级，低   –已解决</li><li>重新构建devenv-vim镜像，使用dockerfile技术构建，减小体积，去除冗余  –优先级，低 [#D]<ul><li>已进行尝试，但是体积不能没有减小，反而增大了</li></ul></li></ul><h2 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h2><ul><li>家里-运行<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">docker run -itd \</span><br><span class="line">`<span class="comment"># 注释请忽略，----------- 工作目录映射 -------------` \</span></span><br><span class="line">-w /home/john `<span class="comment"># 默认工作目录` \</span></span><br><span class="line">-v ~:/home/john `<span class="comment"># 默认工作目录，映射` \</span></span><br><span class="line">-v /media/jiftle/work/work/git/coding_net/grocery/dailylog:/home/john/dailylog `<span class="comment"># 日志仓库目录` \</span></span><br><span class="line">-v /media/jiftle/work/work/git:/home/john/git `<span class="comment"># git仓库目录` \</span></span><br><span class="line">`<span class="comment"># 注释请忽略，----------- 用户密钥 -------------` \</span></span><br><span class="line">-v ~/.ssh:/home/john/.ssh:ro `<span class="comment"># .ssh密钥` \</span></span><br><span class="line">`<span class="comment"># 注释请忽略，----------- 端口映射 -------------` \</span></span><br><span class="line">-p 8001:8001 `<span class="comment"># 日志仓库，预览服务` \</span></span><br><span class="line">-p 8080:8080 `<span class="comment"># web程序调试端口` \</span></span><br><span class="line">`<span class="comment"># 注释请忽略，----------- 解决时区问题 -------------` \</span></span><br><span class="line">-v /etc/localtime:/etc/localtime:ro \</span><br><span class="line">jiftle/devenv-vim:V1.0.0.B.6_191208</span><br></pre></td></tr></table></figure></li><li>公司运行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">docker run -itd \</span><br><span class="line">&#96;# 注释请忽略，----------- 设置名称 -------------&#96; \</span><br><span class="line">--name&#x3D;&quot;devenv-vim&quot; \</span><br><span class="line">&#96;# 注释请忽略，----------- 工作目录映射 -------------&#96; \</span><br><span class="line">-w &#x2F;home&#x2F;john &#96;# 默认工作目录&#96; \</span><br><span class="line">-v ~:&#x2F;home&#x2F;john &#96;# 默认工作目录，映射&#96; \</span><br><span class="line">-v &#x2F;usrlocal&#x2F;git:&#x2F;home&#x2F;john&#x2F;git &#96;# git仓库目录&#96; \</span><br><span class="line">&#96;# 注释请忽略，----------- 用户密钥 -------------&#96; \</span><br><span class="line">-v ~&#x2F;.ssh:&#x2F;root&#x2F;.ssh:ro &#96;# .ssh密钥&#96; \</span><br><span class="line">&#96;# 注释请忽略，----------- 端口映射 -------------&#96; \</span><br><span class="line">-p 8001:8001 &#96;# 日志仓库，预览服务&#96; \</span><br><span class="line">-p 8080:8080 &#96;# 调试运行，端口&#96; \</span><br><span class="line">&#96;# 注释请忽略，----------- 解决时区问题 -------------&#96; \</span><br><span class="line">-v &#x2F;etc&#x2F;localtime:&#x2F;etc&#x2F;localtime:ro \</span><br><span class="line">&#96;# 注释请忽略，----------- 自动重启 -------------&#96; \</span><br><span class="line">--restart&#x3D;always \</span><br><span class="line">&#96;# 共享主机剪贴板，因为剪贴板是x11的一部分&#96; \</span><br><span class="line">-e DISPLAY \</span><br><span class="line">-v &#x2F;tmp&#x2F;.X11-unix:&#x2F;tmp&#x2F;.X11-unix \</span><br><span class="line">jiftle&#x2F;devenv-vim:v0.3</span><br></pre></td></tr></table></figure></li><li>附加进入容器<code>docker exec -it devenv-vim bash</code></li></ul><h2 id="容器保存为镜像"><a href="#容器保存为镜像" class="headerlink" title="容器保存为镜像"></a>容器保存为镜像</h2><ul><li>提交容器的快照作为镜像<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker commit -m=<span class="string">&#x27;vim,git,vim-plug,ctags,tig,lang=C.UTF-8&#x27;</span> -a=<span class="string">&#x27;jiftle&#x27;</span> 5d jiftle/devenv-vim:V1.0.0.B.1_191206</span><br></pre></td></tr></table></figure></li></ul><h2 id="内存限制报错处理"><a href="#内存限制报错处理" class="headerlink" title="内存限制报错处理"></a>内存限制报错处理</h2><ul><li>docker run报错<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Your kernel does not support cgroup swap limit capabilities</span><br></pre></td></tr></table></figure></li><li>原因，内核需要设置cgroup参数</li><li>处理步骤<ul><li>修改配置grub配置文件<code>/etc/default/grub</code></li><li>修改<code>GRUB_CMDLINE_LINE</code>参数为<code>GRUB_CMDLINE_LINUX=&quot;cgroup_enable=memory swapaccount=1&quot;</code></li><li>更新Grub，<code>sudo update-grub</code></li><li>重启机器</li></ul></li></ul><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul><li>需要映射的目录<ul><li>/home 主目录</li><li>dailylog 日志目录</li><li>devrepo 开发仓库</li></ul></li></ul><h2 id="存在问题"><a href="#存在问题" class="headerlink" title="存在问题"></a>存在问题</h2><ul><li>vim状态栏的字体图标不显示，乱码  –已解决，字体问题NerdFont可以解决<ul><li>家里电脑正常</li></ul></li></ul><h2 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h2><ul><li>12.5 周四<ul><li>日志<ul><li>开始尝试制作vim镜像，成功</li><li>安装git</li><li>安装vim插件</li><li>配置golang的开发环境</li></ul></li><li>遗留问题<ul><li>关于映射目录下软连接不能用的问题，因为软连接的路径指向的是宿主机的，不是容器里的，所以软连接失效了</li><li>尝试解决<ul><li>方法1：常用的开发目录，都用卷标的方式引用下  –已解决</li><li>方法2：目标目录搞成软连接，软连接再映射到容器里</li></ul></li></ul></li></ul></li><li>12.8 周日<ul><li>V1.0.0.B.6版本<ul><li>开发环境<ul><li>vim</li><li>golang env</li><li>node env</li><li>YCM</li></ul></li><li>工具<ul><li>curl</li><li>wget</li><li>git</li><li>tig</li><li>tree</li><li>htop</li><li>cmake</li><li>python3</li></ul></li></ul></li></ul></li><li>12.9 周一<ul><li>尝试x11docker，能够运行图形化程序，但是不是我想要的   –放弃这种方式</li></ul></li><li>12.25 周二<ul><li>制作v0.5版本镜像，目标如下<ul><li>支持多种配色       –ok</li><li>支持代码片段       –ok</li><li>加入自己开发的vim插件  –ok</li><li>为镜像设置默认的git配置账号和Email，名字要中性的，不要体现自己的名字，保护隐私  -ok</li></ul></li></ul></li><li>2019-12-25 Wed.<ul><li><input checked="" disabled="" type="checkbox"> GitMdBlog模板修改修改，列表页，文章页超级链接，打开新页面</li></ul></li><li>2019-12-27 周五<ul><li>v0.7版本<ul><li>spacemacs，集成完毕，without gui, run on the term</li><li>vim markdown outline</li><li>vim-orgmode，能够显示*.org文件，自动折叠功能，语法高亮</li><li>spacemacs，Org-Mode，自定义GTD时间管理法可以用  –最大心愿实现</li></ul></li><li>v0.8版本<ul><li>tmux</li></ul></li></ul></li><li>2020-05-24 周日<ul><li>集成了emacs</li><li>eclipse</li><li>vim</li></ul></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>003-Docker运行图形界面程序.md</title>
-      <link href="2020/10/04/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/"/>
-      <url>2020/10/04/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/</url>
-      
-        <content type="html"><![CDATA[<h1 id="003-Docker运行图形界面程序-md"><a href="#003-Docker运行图形界面程序-md" class="headerlink" title="003-Docker运行图形界面程序.md"></a>003-Docker运行图形界面程序.md</h1><h2 id="原理简介"><a href="#原理简介" class="headerlink" title="原理简介"></a>原理简介</h2><h2 id="宿主机配置"><a href="#宿主机配置" class="headerlink" title="宿主机配置"></a>宿主机配置</h2><ul><li>宿主机系统中安装x11服务<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install x11-xserver-utils</span><br></pre></td></tr></table></figure></li><li>启动容器前执行<code>xhost +</code></li></ul><h2 id="容器启动配置"><a href="#容器启动配置" class="headerlink" title="容器启动配置"></a>容器启动配置</h2><ul><li>容器运行时加入参数，uid和gid两个参数不需要<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-v /tmp/.X11-unix:/tmp/.X11-unix `<span class="comment"># gui程序需要`\</span></span><br><span class="line">-e DISPLAY=<span class="variable">$DISPLAY</span> \</span><br></pre></td></tr></table></figure></li><li>完整指令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">docker run -itd \</span><br><span class="line">-v ~:&#x2F;home&#x2F;john &#96;# 默认工作目录，映射&#96; \</span><br><span class="line">-v &#x2F;usrlocal&#x2F;git:&#x2F;home&#x2F;john&#x2F;git &#96;# git仓库目录&#96; \</span><br><span class="line">-p 8001:8001 &#96;# 日志仓库，预览服务&#96; \</span><br><span class="line">-p 8080:8080 &#96;# web程序调试端口&#96; \</span><br><span class="line">-w &#x2F;home&#x2F;john &#96;# 默认工作目录&#96; \</span><br><span class="line">-v &#x2F;etc&#x2F;localtime:&#x2F;etc&#x2F;localtime:ro &#96;# 当地时间&#96; \</span><br><span class="line">-v &#x2F;tmp&#x2F;.X11-unix:&#x2F;tmp&#x2F;.X11-unix &#96;# gui程序需要&#96;\</span><br><span class="line">-e DISPLAY&#x3D;$DISPLAY \</span><br><span class="line">--name devenv-vim &#96;# 容器名字&#96; \</span><br><span class="line">jiftle&#x2F;devenv-vim:V1.0.0.B.6_191208 \</span><br><span class="line">bash</span><br></pre></td></tr></table></figure></li></ul><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><ul><li>安装GUI小工具<code>sudo apt-get install xarclock</code></li><li>运行工具<code>xarclock</code></li><li>配置成功，会显示个桌面时钟</li></ul><h2 id="高阶，在Docker中运行Emacs"><a href="#高阶，在Docker中运行Emacs" class="headerlink" title="高阶，在Docker中运行Emacs"></a>高阶，在Docker中运行Emacs</h2><ul><li>经过测试，网上的方法，会引起deepin桌面系统的崩溃，不建议用这种方式</li><li>x11docker 验证了debian下有bug，导致x11 server崩溃</li><li>调整方向，使用别人做好的spacemacs Docker</li><li>网上的Docker解决了dbus的问题，但是中文输入法不支持的问题，仍然存在</li><li>可能是这句<code>-v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket </code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">docker run -ti --rm -v $(<span class="string">&#x27;pwd&#x27;</span>):/mnt/workspace \</span><br><span class="line"> -v /etc/localtime:/etc/localtime:ro \</span><br><span class="line"> -v ~/.ssh/id_rsa:<span class="variable">$&#123;HOME&#125;</span>/.ssh/id_rsa:ro \</span><br><span class="line"> -v ~/.gnupg:<span class="variable">$&#123;HOME&#125;</span>/.gnupg \</span><br><span class="line"> -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket \  </span><br><span class="line"> -v /tmp/.X11-unix:/tmp/.X11-unix \</span><br><span class="line"> -v /etc/machine-id:/etc/machine-id:ro \</span><br><span class="line"> -e DISPLAY=<span class="variable">$DISPLAY</span> \</span><br><span class="line"> -e TZ=UA \</span><br><span class="line"> --name spacemacs jare/spacemacs</span><br></pre></td></tr></table></figure></li><li>关于输入法的问题，EmcasChina有解答pyim，明天安装pyim试试</li><li><a href="https://github.com/tumashu/pyim">https://github.com/tumashu/pyim</a></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>构建基于Git的知识管理体系</title>
-      <link href="2020/10/04/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/"/>
-      <url>2020/10/04/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/</url>
-      
-        <content type="html"><![CDATA[<h1 id="构建基于Git的知识管理体系"><a href="#构建基于Git的知识管理体系" class="headerlink" title="构建基于Git的知识管理体系"></a>构建基于Git的知识管理体系</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>基于“让你成长为一棵树而不是一地草”的理念，搭建自己的知识金字塔，构建持续发展、增值的技能树。</p><h2 id="最终目标"><a href="#最终目标" class="headerlink" title="最终目标"></a>最终目标</h2><h3 id="主阵地"><a href="#主阵地" class="headerlink" title="主阵地"></a>主阵地</h3><ul><li>GitMdNote 个人日志，Git仓库，个人知识，收集归纳的主战场<ul><li>GitMdBlog 日志仓库预览工具，方便查看，友好界面，专注(golang)</li></ul></li></ul><h3 id="第二大脑"><a href="#第二大脑" class="headerlink" title="第二大脑"></a>第二大脑</h3><ul><li>EverNote 云端存储同步工具，可以用来归档，整理，多终端查看</li></ul><h3 id="辅助工具"><a href="#辅助工具" class="headerlink" title="辅助工具"></a>辅助工具</h3><ul><li>EverSynClient 印象笔记同步工具，同步笔记仓库到印象笔记(TypeScript)</li><li>GitHubPage 定期发布文章，输出成功到Page，打造个人名片</li></ul><h2 id="路线图-RoadMap"><a href="#路线图-RoadMap" class="headerlink" title="路线图 RoadMap"></a>路线图 RoadMap</h2><ul><li>v1.0 (初步构建起，一个小型的，自发展的个人知识管理体系)<ul><li>GitMdNote   –已实现</li><li>EverNote    –已实现</li><li>GitMdBlog   –已实现</li><li>EverSynClient  –开发中</li><li>GitHubPage     –未开始</li></ul></li></ul><h2 id="遐想"><a href="#遐想" class="headerlink" title="遐想"></a>遐想</h2><ul><li>拥有自己的知识体系后，就可以定时从思维宝库里，提取出精华，知识变现</li><li>拥有知识，并能够将接收到的信息，转化为知识，并将其变现为财富，才是真的学有所成</li><li>当前网络中，现实生活中，存在非常多的傻逼，脑袋不清楚，容易带节奏，还他妈的纠缠不清，活该一辈子搬砖</li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>高标准做事</title>
-      <link href="2020/10/04/005-%E9%AB%98%E6%A0%87%E5%87%86%E5%81%9A%E4%BA%8B/"/>
-      <url>2020/10/04/005-%E9%AB%98%E6%A0%87%E5%87%86%E5%81%9A%E4%BA%8B/</url>
-      
-        <content type="html"><![CDATA[<h1 id="高标准做事"><a href="#高标准做事" class="headerlink" title="高标准做事"></a>高标准做事</h1><p>高标准做事，做事要强调一个“高”字，要有高度的责任心，高度的执行力：高昂的志向、高远的目标、高涨的激情、高雅的格调、高超的水平、高强的技能。要做到高瞻远瞩、高屋建瓴、高歌猛进！正是这些高标准和高要求，才使人成就了事业的辉煌和人生的高贵与完美！</p><h2 id="一、思想上要高标准"><a href="#一、思想上要高标准" class="headerlink" title="一、思想上要高标准"></a>一、思想上要高标准</h2><ul><li>给自己一个希望：<ul><li>不论你遇到了多揪心的挫折，都应当以坚持不懈的信心和毅力，感动自己，感动他人，把自己锤炼成一个做大事的人。</li></ul></li><li>保持向上的激情：<ul><li>我们需要激情，需要开拓，让我们从现在做起，兢兢业业，开拓创新，扎扎实实做好本职工作，在平凡的工作中燃烧激情。</li></ul></li><li>自信是高调做事的秘诀：<ul><li>信心对于做事成功者具有重要意义，成功的欲望是创造和拥有财富的源泉。人一旦有了这种欲望，并经由自我暗示和潜意识的激发后形成一种自信心，这种信心就会转化成一种“积极的感情”，它能帮助人们释放出无穷的热情、智慧和精力，进而帮助人们获得财富与事业上的巨大成就。</li></ul></li><li>别让借口“吃掉”你的希望：<ul><li>无论什么时候，我们都不要为自己寻找借口，只有尽职尽责，勇往直前，不找借口，才能实现理想，创造辉煌人生。</li></ul></li><li>丑小鸭也能变成白天鹅：<ul><li>一个人有希望，再加上坚忍不拔的决心，就会产生创造的能力；一个人有希望，再加上持之以恒的努力，就会达到目的。</li></ul></li><li>点燃希望之火：<ul><li>一颗充满希望的心灵，具有极大的创造力，这种创造力会激发人的潜能，实现人的理想。</li></ul></li><li>成功需要付出代价：<ul><li>从古到今，凡成事者，成大事者，莫不受尽磨难，在磨难中完成自我教育，如此也水到渠成地成就了事业。</li></ul></li><li>主动去做应该做的事：<ul><li>只有气服懒惰，积极进取的人，才能不断成功，不断取得好成绩。</li></ul></li><li>不要轻言放弃，坚持就能成功：<ul><li>抱定任何都不放弃的信念，即使在一片懊悔或叹息、宽容或指责的氛围中也要坚持。是的，任何时候都不要放弃，无论条件多么的困难，只要能坚持到底，成功就一定属于你。</li></ul></li><li>学会自己鼓励自己：<ul><li>能自己鼓励自己的人就算不是一个成功者，但绝对不会是一个失败者，你还是趁早练练这“功夫”吧！<br>永远保持好心情：</li><li>突破困境的方法，首先在于要肃清胸中快乐和成功的仇敌，其次要集中思想，坚定意识。只有运用正确的思想，并抱定坚定的精神，才能从逆境中突围。</li></ul></li><li>激发自己的潜能：<ul><li>倘若你和一般失败者面谈，你就会发现：他们之所以失败，是因为他们从来不曾走进足以激发人、鼓励人的环境中，是因为他们的潜能从来不曾被激发，是因为他们没有力量从不良的环境中振作。</li></ul></li><li>不要畏惧贫穷和困苦：<ul><li>行走于人生丛林中的每个人都应该记住，如果你正在遭受困苦，这并不是完全是件坏事，“天将大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为”。因为老天要把重任交给你，必先磨炼和考验你！</li></ul></li><li>发掘出自身的强项：<ul><li>当巨大的压力、非常的变故和重大责任压在一个人身上时，隐伏在他生命最深处的种种能力，才会突然涌现出来，使他成就大业。</li></ul></li><li>坚定生活的信念：<ul><li>困境可以检验一个人的品质。如果一个人敢于直面困境，积极主动寻求解决问题的办法，能在任何不利的环境中始终充满热情，坚定对生活的信念，那么他迟早会成功。</li></ul></li><li>把挫折当成垫脚石：<ul><li>在生活中，有的人被挫折打倒，有的人却把挫折当成垫脚石，不断前进。只要我们正视坎坷，永不放弃自己的追求，生活的艰辛将被我们踩在脚下，生命将会永放光芒！</li></ul></li><li>对生活充满热情：<ul><li>有了热情，就能把额外的工作视作机遇，就能把陌生人变成朋友，就能真诚地宽容别人。有了热情，就能充分利用余暇时间来完成自己的兴趣爱好。有了热情，就会抛弃怨恨，变得心胸宽广。有了热情，就会战胜困难，取得成功。</li></ul></li></ul><h2 id="二、在细节上要高标准"><a href="#二、在细节上要高标准" class="headerlink" title="二、在细节上要高标准"></a>二、在细节上要高标准</h2><ul><li>注重细节，从小事做起：<ul><li>看不到细节，或者不把细节当回事的人，对工作缺乏认真的态度，对事情只能是敷衍了事。而注重细节的人，不仅认真地对待工作，将小事做细，并且能在做细的过程中找到机会，从而使自己走上成功之路。</li></ul></li><li>工作中没有小事：<ul><li>点石成金，滴水成河，只有认真对待自己所做的一切事情，才能克服万难，取得成功。</li></ul></li><li>认真对待每一次训练：<ul><li>那些在平时训练和准备过程中认真对待的人则相反，由于一直接受了高强度的模拟训练，他们更容易在关键的比赛中表现出镇定的心态，因为在他们心目中，这无异于平时的一场简单的比赛和训练。</li></ul></li><li>悄悄地为他人做点好事；<ul><li>试着去真心真意地帮助别人，当这一切完全发自你的意愿时，你将会感觉到这是件多么快乐的事，你的心灵就会得到回报—一种和平、安静、温暖的感觉。</li></ul></li><li>敬业精神+脚踏实地=成功：<ul><li>敬业，不仅仅是事业成功的保障，更是实现人生价值的手段，有的人在生活中，总是不满意目前的职业，希望改变自己的处境。但世界上绝对没有不劳而获的事情，人们的成功无一不是按部就班、脚踏实地努力的结果。</li></ul></li><li>相信自己，正视开端：<ul><li>任何大的成功，都是从小事一点一滴累积而来的。没有做不到的事，只有不肯做的人。想想你曾经历过的失败，当时的你真的用尽全力试过各种办法了吗？困难不会是成功的障碍，只有你自己才可能是一个最大的绊脚石。</li></ul></li><li>扎实的基础是成功的法宝：<ul><li>如果一味地追求过高远的目标，丧失了眼前可以成功的机会，就会成为高远目标的牺牲品。许多年轻人不满意现在的工作，羡慕那些大款或高级白领人员，不安心本职工作，总是想跳槽。其实，没有十分的本领，就不应有些妄想。我们还是多向成功之人学习，脚踏实地，做好基础工作，一步一个脚印地走上成功之途。</li></ul></li><li>实干才能脱颖而出：<ul><li>那些充满乐观精神、积极向上的人，总有一股使不完的劲，神情专注，心情愉快，并且主动找事做，在实干中实现自己的理想。</li></ul></li><li>不为薪水而工作：<ul><li>想要获得成功，实现人生目标，就不要为薪水而工作。当一个人积极进取，尽心尽力时，他就能实现更高的人生价值。</li></ul></li><li>要征服世界，先战胜自己：<ul><li>要想成功，就要战胜自己的感情，培养自己控制命运的能力。</li></ul></li><li>用心做事，尽职尽责：<ul><li>以积极主动的心态对待你的工作、你的公司，你就会充满活力与创造性的完成工作，你就会成为一个值得信赖的人，一个老板乐于雇用的人，一个拥有自己事业的人。</li></ul></li></ul><h2 id="三，目标有多大，人生舞台就有多大，志存高远自强不息。"><a href="#三，目标有多大，人生舞台就有多大，志存高远自强不息。" class="headerlink" title="三，目标有多大，人生舞台就有多大，志存高远自强不息。"></a>三，目标有多大，人生舞台就有多大，志存高远自强不息。</h2><p>要重视自己的人生志向，志存高远就会自我激励，奋发向上，有所成就。人生就是奋斗与抗争的醒悟过程。靠进取心摆脱颓废，胜利属于坚韧性格的人。万丈高楼平地起，循序渐进铸辉煌！</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2019年MTP管理技能培训笔记-读后感</title>
-      <link href="2020/10/04/006-MTP%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
-      <url>2020/10/04/006-MTP%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0%E8%AF%BB%E5%90%8E%E6%84%9F/</url>
-      
-        <content type="html"><![CDATA[<h1 id="2019年MTP管理技能培训笔记-读后感"><a href="#2019年MTP管理技能培训笔记-读后感" class="headerlink" title="2019年MTP管理技能培训笔记-读后感"></a>2019年MTP管理技能培训笔记-读后感</h1><h2 id="如何分析和解决问题"><a href="#如何分析和解决问题" class="headerlink" title="如何分析和解决问题"></a>如何分析和解决问题</h2><ul><li>原则和理论支撑<ul><li>从现象到本质<ul><li>根据问题现象指定临时应急方案，解决问题</li><li>从多角度调查问题，了解问题的范围</li><li>分析问题原因，包括表面问题和深层问题（引入专家）</li><li>讨论范围内（专家参与）</li><li>进行方案选择和决策（专家参与）</li><li>总结经验，预防再次发生</li></ul></li><li>思维呈现的4个层次<ul><li>通过语言表达出来</li><li>通过文字记录下来（重新思考的过程）</li><li>对文字进行结构化分类（信息处理，清晰）</li><li>形成图表（量化）</li><li>形成检查清单</li></ul></li></ul></li><li>如何描述问题<ul><li>描述问题的一般模式： <strong>从什么角度出发，通过什么手段，解决什么问题，最终达到了什么成果</strong></li><li>如何清晰的描述问题<ul><li>多使用数据，量化的形式描述</li><li>描述具体的行为</li><li>举例说明</li></ul></li><li>描述问题的5W3H法则（回顾报告）<ul><li>when,where,who,what,why 什么时间什么地点谁发生了什么事，为什么</li><li>How,How Many,How Often 如何发生的，严重程度，频次</li></ul></li></ul></li><li>如何分析问题<ul><li>站在一定的高度来分析，从全局看个体，从现象看及本质，从未来回看现在</li><li>5M1E分析法<ul><li>man 人的问题 -&gt; 当事人，当事人同事，上级，干系人</li><li>machine 设备的问题 -&gt; 设备，工具，技术</li><li>material 材料的问题 -&gt; 原料，资金，资源投入</li><li>Enviroment 环境的问题 -&gt;  制度，体系，文化</li><li>Measure 测试的问题 -&gt; 考核，计划，激励</li></ul></li><li>持续发问法<ul><li>继续提出Why，每个问题都是对上一个问题产生的原因（到自己权限的上限为止）</li><li>针对每一层的原因都提出解决方案</li></ul></li></ul></li><li>管理沟通技巧<ul><li>什么是管理沟通<ul><li>目的是为了有效管理，达成共识，双向传递“信息、思想、感情”</li><li>沟通三要素<ul><li>清晰的信息</li><li>正面的思想</li><li>关心的情感</li></ul></li><li>沟通的九大技巧<ul><li>礼貌尊重</li><li>背景铺垫</li><li>认可信任</li><li>征询意见</li><li>同理感受（表达理解）</li><li>自我反思（自我批评）</li><li>积极迎合对方（顺着对方的话往下讲，让对话可以继续）</li><li>委婉拒绝</li><li>展望鼓励（祝福，一般在讲话的最后）</li></ul></li><li>如何向上级汇报工作<ul><li>汇报内容<ul><li>信息方面展现</li><li>思想上表达态度</li><li>情感上表达感谢</li></ul></li><li>汇报方法<ul><li>高，先结果后过程，树立高度，讲话具有层次感</li><li>大，整理信息，呈现大量信息</li><li>上，通过数据表达事实，一次性包领导关心的内容讲完</li><li>全，分享经验教训，全面总结提意见</li></ul></li></ul></li><li>如何向上级提出意见<ul><li>重点在于，通过改变观点背后的事实来改变上级的观点</li><li>注意事项<ul><li>提出新信息，照亮盲点，让事实来改变上级自己的观点</li><li>支持上级的初衷，提出更好的意见</li><li>维护领导尊严，由领导做出决策</li></ul></li><li>说服的套路<ul><li>表达自己的目的意愿(表达共同的愿景）</li><li>描述客观事实（量化，层次化，提供全面的信息）</li><li>假设预期后果</li><li>提供新的方案</li><li>新方案的前景展望</li><li>请领导拍板（决定权交给领导，尊重领导权威）</li></ul></li></ul></li><li>化解平级冲突（消灭萌芽，克己双赢）<ul><li>伸手，主动沟通，提前探讨</li><li>握手，放下面子，承认不足</li><li>牵手，平等互利，双赢</li><li>挽手，自己协商出解决方案，请领导拍板</li></ul></li></ul></li></ul></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Docker简易使用教程</title>
-      <link href="2020/10/04/007-Docker%E7%AE%80%E6%98%93%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
-      <url>2020/10/04/007-Docker%E7%AE%80%E6%98%93%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Docker简易使用教程"><a href="#Docker简易使用教程" class="headerlink" title="Docker简易使用教程"></a>Docker简易使用教程</h1><h2 id="配置注册处镜像"><a href="#配置注册处镜像" class="headerlink" title="配置注册处镜像"></a>配置注册处镜像</h2><ul><li>配置阿里云的加速器，支持配置多个镜像<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ cat &#x2F;etc&#x2F;docker&#x2F;daemon.json</span><br><span class="line">&#123;</span><br><span class="line">    &quot;registry-mirrors&quot;: [</span><br><span class="line">        &quot;https:&#x2F;&#x2F;registry.docker-cn.com&quot;,</span><br><span class="line">        &quot;https:&#x2F;&#x2F;eqcxmbvw.mirror.aliyuncs.com&quot;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="容器运行状态"><a href="#容器运行状态" class="headerlink" title="容器运行状态"></a>容器运行状态</h2><ul><li><code>docker container stats</code></li></ul><h2 id="查看网络状态"><a href="#查看网络状态" class="headerlink" title="查看网络状态"></a>查看网络状态</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker inspect mongo |grep IP</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>搭建家庭媒体中心</title>
-      <link href="2020/10/04/008-%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/"/>
-      <url>2020/10/04/008-%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/</url>
-      
-        <content type="html"><![CDATA[<h1 id="搭建家庭媒体中心"><a href="#搭建家庭媒体中心" class="headerlink" title="搭建家庭媒体中心"></a>搭建家庭媒体中心</h1><h2 id="下载最新的Minidlna镜像"><a href="#下载最新的Minidlna镜像" class="headerlink" title="下载最新的Minidlna镜像"></a>下载最新的Minidlna镜像</h2><p>docker pull vladgh/minidlna</p><h2 id="启动容器"><a href="#启动容器" class="headerlink" title="启动容器"></a>启动容器</h2><p>MiniDLNA (Dockerfile)</p><p>Image Version Commit License</p><p>This is MiniDLNA on top of minimal Alpine. It can be configured with environment variables.<br>Usage</p><p>Prefix any configuration directive of MiniDLNA with MINIDLNA_ and run your container:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --net&#x3D;host \</span><br><span class="line">  -v &lt;media dir on host&gt;:&#x2F;media \</span><br><span class="line">  -e MINIDLNA_MEDIA_DIR&#x3D;&#x2F;media \</span><br><span class="line">  -e MINIDLNA_FRIENDLY_NAME&#x3D;MyMini \</span><br><span class="line">  vladgh&#x2F;minidlna</span><br></pre></td></tr></table></figure><p>Note: You need to run the container in host mode for it to be able to receive UPnP broadcast packets. The default bridge mode will not work.<br>Multiple Media dirs</p><p>Any environment variable starting with MINIDLNA_MEDIA_DIR will be treated as an additional media_dir directive and any suffix in the variable name will be trimmed (ex: MINIDLNA_MEDIA_DIR_1). This way you can declare multiple media_dir directives</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --net&#x3D;host \</span><br><span class="line">  -v &lt;media dir on host&gt;:&#x2F;media&#x2F;audio \</span><br><span class="line">  -v &lt;media dir on host&gt;:&#x2F;media&#x2F;video \</span><br><span class="line">  -e MINIDLNA_MEDIA_DIR_1&#x3D;A,&#x2F;media&#x2F;audio \</span><br><span class="line">  -e MINIDLNA_MEDIA_DIR_2&#x3D;V,&#x2F;media&#x2F;video \</span><br><span class="line">  -e MINIDLNA_FRIENDLY_NAME&#x3D;MyMini \</span><br><span class="line">  vladgh&#x2F;minidlna</span><br></pre></td></tr></table></figure><p>See: <a href="http://manpages.ubuntu.com/manpages/raring/man5/minidlna.conf.5.html">http://manpages.ubuntu.com/manpages/raring/man5/minidlna.conf.5.html</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>月度考勤统计SQL脚本</title>
-      <link href="2020/10/04/009-%E6%9C%88%E5%BA%A6%E8%80%83%E5%8B%A4%E7%BB%9F%E8%AE%A1SQL%E8%84%9A%E6%9C%AC/"/>
-      <url>2020/10/04/009-%E6%9C%88%E5%BA%A6%E8%80%83%E5%8B%A4%E7%BB%9F%E8%AE%A1SQL%E8%84%9A%E6%9C%AC/</url>
-      
-        <content type="html"><![CDATA[<h1 id="月度考勤统计SQL脚本"><a href="#月度考勤统计SQL脚本" class="headerlink" title="月度考勤统计SQL脚本"></a>月度考勤统计SQL脚本</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><ul><li>python脚本抓取平台考勤数据</li></ul><h2 id="加班数据统计"><a href="#加班数据统计" class="headerlink" title="加班数据统计"></a>加班数据统计</h2><ul><li>统计下班时间<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">--- 查询加班记录</span></span><br><span class="line"><span class="comment">--------------------</span></span><br><span class="line"><span class="keyword">SELECT</span> *</span><br><span class="line"><span class="keyword">FROM</span> touch_card_record <span class="keyword">WHERE</span> <span class="keyword">substr</span>(touchdate,<span class="number">12</span>,<span class="number">19</span>) &gt; <span class="string">&#x27;18:30:00&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">--- 查询所有记录</span></span><br><span class="line"><span class="comment">----------------</span></span><br><span class="line"><span class="keyword">SELECT</span> *</span><br><span class="line"><span class="keyword">FROM</span> touch_card_record;</span><br><span class="line"></span><br><span class="line"><span class="comment">--- 总记录数</span></span><br><span class="line"><span class="comment">-----------------</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="keyword">COUNT</span>(*) <span class="keyword">FROM</span> touch_card_record</span><br></pre></td></tr></table></figure></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Linux下安装字体</title>
-      <link href="2020/10/04/010-Linux%E5%AD%97%E4%BD%93/"/>
-      <url>2020/10/04/010-Linux%E5%AD%97%E4%BD%93/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Linux下安装字体"><a href="#Linux下安装字体" class="headerlink" title="Linux下安装字体"></a>Linux下安装字体</h1><h2 id="复制字体到目录"><a href="#复制字体到目录" class="headerlink" title="复制字体到目录"></a>复制字体到目录</h2><ul><li>目录名字 <code>/usr/share/fonts/</code></li></ul><h2 id="刷新缓存"><a href="#刷新缓存" class="headerlink" title="刷新缓存"></a>刷新缓存</h2><ul><li>生成字体索引信息<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo mkfontscale</span><br><span class="line">sudo mkfontdir</span><br></pre></td></tr></table></figure></li><li>更新字体缓存<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo fc-cache</span><br></pre></td></tr></table></figure></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> daily </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Linux系统启动慢排查</title>
-      <link href="2020/10/04/011-Linux%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E6%85%A2%E6%8E%92%E6%9F%A5%E6%89%8B%E5%86%8C/"/>
-      <url>2020/10/04/011-Linux%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E6%85%A2%E6%8E%92%E6%9F%A5%E6%89%8B%E5%86%8C/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Linux系统启动慢排查"><a href="#Linux系统启动慢排查" class="headerlink" title="Linux系统启动慢排查"></a>Linux系统启动慢排查</h1><h2 id="排除指令"><a href="#排除指令" class="headerlink" title="排除指令"></a>排除指令</h2><ul><li>systemd-cgls 查看服务的启动顺序</li><li>systemd-analyze 查看启动时间</li><li>systemd-analyze blame 查看启动占用的时间</li><li>udisk.server 挂载分区的</li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Tmux使用入门</title>
-      <link href="2020/10/04/012-Tmux%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/"/>
-      <url>2020/10/04/012-Tmux%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Tmux使用入门"><a href="#Tmux使用入门" class="headerlink" title="Tmux使用入门"></a>Tmux使用入门</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Tmux是终端多路复用工具</p><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><ul><li>tmux 进入tmux</li></ul><h2 id="窗口分割"><a href="#窗口分割" class="headerlink" title="窗口分割"></a>窗口分割</h2><ul><li>垂直分屏 C-b %</li><li>水平分屏 C-b “</li></ul><h2 id="面板切换"><a href="#面板切换" class="headerlink" title="面板切换"></a>面板切换</h2><ul><li>切换窗口 C-b o/方向键</li><li>上下分屏与左右分屏切换 C-b SPACE</li></ul><h2 id="面板大小"><a href="#面板大小" class="headerlink" title="面板大小"></a>面板大小</h2><ul><li>调整窗口大小 C-b C+方向键</li><li>窗口最大化 C-b z</li></ul><h2 id="翻页"><a href="#翻页" class="headerlink" title="翻页"></a>翻页</h2><ul><li>内容翻页 <code>C-b [</code> ，然后方向键控制，q退出</li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>vim脚本提取文件名</title>
-      <link href="2020/10/04/013-vim%E8%84%9A%E6%9C%AC%E6%8F%90%E5%8F%96%E6%96%87%E4%BB%B6%E5%90%8D/"/>
-      <url>2020/10/04/013-vim%E8%84%9A%E6%9C%AC%E6%8F%90%E5%8F%96%E6%96%87%E4%BB%B6%E5%90%8D/</url>
-      
-        <content type="html"><![CDATA[<h1 id="vim脚本提取文件名"><a href="#vim脚本提取文件名" class="headerlink" title="vim脚本提取文件名"></a>vim脚本提取文件名</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>创建文件时，希望直接生成文件标题</p><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><ul><li>vimrc支持函数expand，:h expand可以查看帮助<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">:echo expand(&#39;%:t&#39;)     my.txt  name of file (&#39;tail&#39;)</span><br><span class="line">:echo expand(&#39;%:p&#39;)     &#x2F;abc&#x2F;def&#x2F;my.txt full path</span><br><span class="line">:echo expand(&#39;%:p:h&#39;)   &#x2F;abc&#x2F;def    directory containing file (&#39;head&#39;)</span><br><span class="line">:echo expand(&#39;%:p:h:t&#39;) def First get the full path with :p (&#x2F;abc&#x2F;def&#x2F;my.txt), then get the head of that with :h (&#x2F;abc&#x2F;def), then get the tail of that with :t (def)</span><br><span class="line">:echo expand(&#39;%:r&#39;)     my  name of file less one extension (&#39;root&#39;)</span><br><span class="line">:echo expand(&#39;%:e&#39;)     txt name of file&#39;s extension (&#39;extension&#39;)&#96;&#96;&#96;</span><br><span class="line">For more info run :help expand</span><br><span class="line"></span><br><span class="line">If all that is wanted is to display the name of the current file, type Ctrl-G (or press 1 then Ctrl-G for the full path).</span><br><span class="line"></span><br><span class="line">When using @%, the name is displayed relative to the current directory.</span><br><span class="line"></span><br><span class="line">In insert mode, type Ctrl-R then % to insert the name of the current file.</span><br><span class="line"></span><br><span class="line">In command mode (after typing a colon), type Ctrl-R then % to insert the name of the current file. The inserted name can then be edited to create a similar name.</span><br><span class="line"></span><br><span class="line">In normal mode, type &quot;%p to put the name of the current file after the cursor (or &quot;%P to insert the name before the cursor).</span><br><span class="line"></span><br><span class="line">The following commands insert lines consisting of the full path of the current and alternate files into the buffer:</span><br><span class="line"></span><br><span class="line">:put &#x3D;expand(&#39;%:p&#39;)</span><br><span class="line">:put &#x3D;expand(&#39;#:p&#39;)</span><br></pre></td></tr></table></figure></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>vim插件管理</title>
-      <link href="2020/10/04/014-vim%E6%8F%92%E4%BB%B6%E7%AE%A1%E7%90%86/"/>
-      <url>2020/10/04/014-vim%E6%8F%92%E4%BB%B6%E7%AE%A1%E7%90%86/</url>
-      
-        <content type="html"><![CDATA[<h1 id="vim插件管理"><a href="#vim插件管理" class="headerlink" title="vim插件管理"></a>vim插件管理</h1><h2 id="使用vim-plug管理vim插件"><a href="#使用vim-plug管理vim插件" class="headerlink" title="使用vim-plug管理vim插件"></a>使用vim-plug管理vim插件</h2><ul><li>vim-plug 非常好用</li></ul><h2 id="修改-vimrc配置文件后，如何重新加载"><a href="#修改-vimrc配置文件后，如何重新加载" class="headerlink" title="修改~/.vimrc配置文件后，如何重新加载"></a>修改<code>~/.vimrc</code>配置文件后，如何重新加载</h2><ul><li>方法1 <code>source %</code></li><li>方法2 <code>so ~/.vimrc</code></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Emacs常用技巧</title>
-      <link href="2020/10/04/015-Emacs%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
-      <url>2020/10/04/015-Emacs%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Emacs常用技巧"><a href="#Emacs常用技巧" class="headerlink" title="Emacs常用技巧"></a>Emacs常用技巧</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Org-Mode管理你的生活</p><h2 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h2><ul><li>转接文件 <code>C-r f</code></li></ul><h3 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h3><ul><li>C-x C-f 读取文件到Emacs</li><li>C-x r 只读的方式打开一个文件</li><li>C-x C-q 清除一个窗口的只读属性</li><li>C-x C-s 保存文件到磁盘</li><li>C-x s 保存所有文件</li><li>C-x i 插入其它文件的内容到当前缓冲</li><li>C-x C-v 用将要读取的文件替换当前文件</li><li>C-x C-w 将当前缓冲写入指定的文件</li><li>C-x C-q Version control checkin/checkout </li></ul><h3 id="输入TAB"><a href="#输入TAB" class="headerlink" title="输入TAB"></a>输入TAB</h3><ul><li>C-q Tab</li></ul><h3 id="阅读模式"><a href="#阅读模式" class="headerlink" title="阅读模式"></a>阅读模式</h3><ul><li>C-L 屏幕重绘，光标行到屏幕中央</li></ul><h2 id="安装配置额外的包"><a href="#安装配置额外的包" class="headerlink" title="安装配置额外的包"></a>安装配置额外的包</h2><ul><li>.spacemacs配置文件</li><li>将包名添加到 dotspacemacs-additional-packages 这个变量中去</li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>使用emby构建家庭媒体中心</title>
-      <link href="2020/10/04/001-%E4%BD%BF%E7%94%A8emby%E6%9E%84%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/"/>
-      <url>2020/10/04/001-%E4%BD%BF%E7%94%A8emby%E6%9E%84%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/</url>
-      
-        <content type="html"><![CDATA[<h1 id="001-使用emby构建家庭媒体中心"><a href="#001-使用emby构建家庭媒体中心" class="headerlink" title="001-使用emby构建家庭媒体中心"></a>001-使用emby构建家庭媒体中心</h1><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>使用Docker快速构建媒体中心</p><ul><li><code>/media</code>媒体目录<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ docker run \</span><br><span class="line">-e PUID&#x3D;1000 \</span><br><span class="line">-e PGID&#x3D;1000 \</span><br><span class="line">-p 8096:8096 \</span><br><span class="line">-v &#x2F;docker&#x2F;emby&#x2F;host&#x2F;config:&#x2F;config \</span><br><span class="line">-v &#x2F;host&#x2F;media:&#x2F;media \</span><br><span class="line">nvllsvm&#x2F;emby-unlocked</span><br></pre></td></tr></table></figure></li></ul><p>docker run <br>-e PUID=1000 <br>-e PGID=1000 <br>-p 8096:8096 <br>-p 8200:8200 <br>-p 1900:1900/udp <br>-v /docker/emby/host/config:/config <br>-v /host/media:/media/jiftle/storage/媒体库 <br>nvllsvm/emby-unlocked</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog-2019 </tag>
-            
-            <tag> blog-2019-12 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>年终总结如何写</title>
-      <link href="2020/10/04/017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%E5%A6%82%E4%BD%95%E5%86%99/"/>
-      <url>2020/10/04/017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%E5%A6%82%E4%BD%95%E5%86%99/</url>
-      
-        <content type="html"><![CDATA[<h1 id="年终总结如何写"><a href="#年终总结如何写" class="headerlink" title="年终总结如何写"></a>年终总结如何写</h1><h2 id="主要从六个方面入手"><a href="#主要从六个方面入手" class="headerlink" title="主要从六个方面入手"></a>主要从六个方面入手</h2><ol><li>要充分认识到<strong>年终总结的重要意义</strong></li><li>工作回顾，对工作完成情况进行总结，全面总结成绩</li><li>分析取得成绩的原因</li><li>分析导致工作目标没有达成的失误和问题</li><li>对当前形势的展望与分析</li><li>下年度的展望和安排，下一年的工作计划</li></ol><h2 id="年总总结的重要意义"><a href="#年总总结的重要意义" class="headerlink" title="年总总结的重要意义"></a>年总总结的重要意义</h2><ul><li>年终总结是一个人对自己过去一年中所做成绩的分析和总结，对查漏补缺，推动工作前进、提高工作素质和能力具有重要的作用。</li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>如何写好年终总结</title>
-      <link href="2020/10/04/018-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
-      <url>2020/10/04/018-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
-      
-        <content type="html"><![CDATA[<h1 id="如何写好年终总结"><a href="#如何写好年终总结" class="headerlink" title="如何写好年终总结"></a>如何写好年终总结</h1><p>每年临近年底都是企业进行年度工作总结的阶段，而工作总结则是每一位管理者必须面对的课题。如何写好一份年终工作总结是许多管理者头疼的问题，既不能太过“格式化”， 又不能写成“流水账”，要不自己不满意，上司也不满意。一篇<strong>好的年终总结是职场人士有利的竞争筹码</strong>，甚至是<strong>升职加薪的“助推器”</strong>。</p><h2 id="为什么要写年终总结？"><a href="#为什么要写年终总结？" class="headerlink" title="为什么要写年终总结？"></a>为什么要写年终总结？</h2><p>不要小看工作总结，或大或小，都与我们的绩效，升迁，加薪，去留息息相关。聪明的人不会仅仅在工作总结里总结，而是会<strong>通过汇报的机会争取资源</strong>，毕竟，工作总结是制度规定里面允许你和上级领导沟通的一种重要途径。</p><p>对于领导来说，他们不会盯着每个员工的日常工作情况，而且时间的跨度比较大，年初做的事情，到了年底，不<strong>提醒下领导</strong>，都忘记了，年终总结有助于了解员工的工作成果，工作状态，关注员工在工作中的成长，看到员工哪方面有所欠缺需要弥补，那些地方做的不对需要调整，领导根据了解到的情况，在未来的工作中给予帮助和支持；领导也会在你自己的分析与调整中，发现你的潜力，会给你一些机会，让你更好的成长。</p><p><strong>对于自己来说</strong>，为自己一年的工作经历做梳理归纳，从中总结经验，做好复盘，发现自己的不足，然后做好改进计划，这种计划，实施，总结，发现不足，改进计划的<strong>自我螺旋式成长</strong>。在这个过程中，不断整理分析，最终形成自己的方法论，实践经验+理论知识，工作总结就是这样一个自身提高的机会，要用心看待这个事情。</p><p>那怎么才能写出一份既能体现个人价值，又能讨领导欢心的年终总结呢？这里有个<strong>套路</strong>：“找找模版，整整数据，夸夸自己，表表忠心，复制黏贴，搞定”</p><h2 id="年终总结写什么"><a href="#年终总结写什么" class="headerlink" title="年终总结写什么"></a>年终总结写什么</h2><h3 id="工作成果回顾"><a href="#工作成果回顾" class="headerlink" title="工作成果回顾"></a>工作成果回顾</h3><p>作为总结的第一部分，目的就是要<strong>让领导最直观的知道过去的一年完成了那些工作？经历了怎样的过程？ 最终的结果如何？</strong></p><p>很多人头疼内容怎么写，感觉无从下笔，可以采用记“流水账”的形式把一年的做过事情都列出来。不管三七二十一，只要做过的事情都写下来，借助OKR，包括时间，目标，关键结果，完成的情况，最好每一个条附上一个实例说明，全部列完以后，挑出重要的部分，然后根据你呈现方式的需要，做数据的统计。</p><p>有了内容和数据以后，需要把它呈现出来， 可以使用不同的形式</p><ol><li><p>时间轴<br>最简单的是用时间轴，常用的时间轴有<br>根据日期，比如月份，季度<br>根据项目阶段，比如准备阶段，实施阶段，冲刺阶段，维护阶段，<br>里程碑事件，比如用户数量突破xx, 成交金额突破xxx</p></li><li><p>关键词</p></li></ol><p>关键词很好理解，可以把一年的成绩做一个统计，比如说2018年，拿了2个大奖，得了3个荣誉，开发了多少新客户等等，这些数字就是关键词</p><ol start="3"><li>重要性</li></ol><p>根据重要性排序把你的工作进行归类，按重要性进行排列，在工作中的重要性的潜规则就是领导最重视的就是最重要的。</p><p>如今是数字时代，数据是多多益善，呈现的方式最好用图表，数据太枯燥，数据可以做成折现统计图，扇形统计图，条形统计图，对比表格等直观，可视的图表</p><p>通过罗列出成果，用表格，图表展示出来，成果回顾可以给领导一个深刻的印象，为接下来的分析做好准备。</p><h3 id="总结自己的经验和不足"><a href="#总结自己的经验和不足" class="headerlink" title="总结自己的经验和不足"></a>总结自己的经验和不足</h3><p>这一份对自己过去一年做一个分析，你对自己过往的工作经历有什么看法，那些地方做的不错，那些地方存在不足，那些地方需要改进。</p><p>对于领导来说，希望通过<strong>了解员工的工作状态与其在工作中的成长</strong>，所以其中内容要体现重点</p><p>可以借助平衡计分卡（BSC）， 这是一种常见的绩效考核方式，针对每个问题说出2～3个具体点，主要不要假大空的废话</p><ol><li>为公司贡献了什么？</li><li>为客户做了什么？</li><li>为自己学习了什么？</li><li>为下属做了什么？</li><li>为公司在管理和流程上做了什么？</li></ol><p>对于每个问题，那些对的好，那些做的不好，那些需要改进，都记下来。<br>点出我们工作中有价值的成果，并且提炼经验，与公司同事共享，让别人也能从中获得价值。<br>对于工作中的不足之处以及需要改进的地方，也需要列出来，这样也可以树立一个踏实，谦逊和可靠的形象。</p><h3 id="来年的改善和设定明年的目标规划"><a href="#来年的改善和设定明年的目标规划" class="headerlink" title="来年的改善和设定明年的目标规划"></a>来年的改善和设定明年的目标规划</h3><p>针对自己的分析，你觉得在这些重要的环节和发现的问题中，有没有办法把事情做的更好或者解决存在的问题，可以把这些思考列出来，做一个行动计划</p><p>更重要的是，一年过去了，有问题、有收获，更重要的是明年你的目标是什么？这里边可以跟你的领导去谈，看看公司的规划，领导对你的期望，也可以寻求领导资源和帮助， 然后给出你的打算、你的方向、你的目标。</p><p>根据目标，开始做明年的规划，这里面需要用到SMART原则。</p><h3 id="最后记得感谢领导和同事"><a href="#最后记得感谢领导和同事" class="headerlink" title="最后记得感谢领导和同事"></a>最后记得感谢领导和同事</h3><p>年度总结，不能只谈自己的业绩，还要<strong>感谢</strong>那些支持你取得这些成绩和成长的领导和同事，感谢领导的支持，同事的帮助。</p><h3 id="好的模板"><a href="#好的模板" class="headerlink" title="好的模板"></a>好的模板</h3><p>写完了这些，我们需要有一个<strong>好的呈现方式</strong>，那就找一个好的模版，小编这里给你准备了PPT模版</p><h3 id="年终总结的禁忌"><a href="#年终总结的禁忌" class="headerlink" title="年终总结的禁忌"></a>年终总结的禁忌</h3><ul><li>避免主观感受或模糊不清的词汇<ul><li>你觉得“这个任务我完成的挺好的”， 领导可不一定这么觉得，要用数据说话，比如用户增长多少，成交增加多少，效率提高多少等等</li><li>少用“差不多”，“还行吧”等不确定的词语，会让人家觉得你做事马虎。</li></ul></li><li>避免夸大其词或者轻描淡写<ul><li>看你的工作总结都是你的直属领导，他对你的工作有一定的了解，面对领导吹牛的事情最好不要做。</li><li>但是总结中也不能轻描淡写，只有总结成绩，没有经验，成果以及影响的总结，没有亮点，这样领导会觉得你什么都没有做，觉得你可有可无。</li></ul></li><li>缺乏分析<br>  -这类总结，只有总结工作和取得的成绩，没有发现工作中存在的问题，也没有进行认真的分析和研究，或者只是提困难，没有建设性的意见。对于未来，领导最看重的是你对工作看法，建议或者意见，通过这些看法领导可以看到你的潜力，然后培养你。如果没有分析，领导觉得你没有自己的看法，看不到你的潜力。</li><li>避免花里胡哨，内容空洞<ul><li>“题目吸引人，格式很动人，内容恶心人”，注重形式而不注重事实，形式大于内容。这类总结没有实际意义</li></ul></li></ul><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>世上有个不变的真理：只有从偶然的成功中寻获可复制的规律，才能从一个成功创造出另一个成功。年终总结不仅仅是升级交代的一项任务，更是一次自我的复盘和检验，把经验转化为能力的过程。</p><h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><ul><li><a href="http://www.sohu.com/a/288014197_100091630">如何写好年终工作总结？这是最全面的答案了 </a></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>vim分屏标签</title>
-      <link href="2020/10/04/019-vim%E5%88%86%E5%B1%8F%E6%A0%87%E7%AD%BE/"/>
-      <url>2020/10/04/019-vim%E5%88%86%E5%B1%8F%E6%A0%87%E7%AD%BE/</url>
-      
-        <content type="html"><![CDATA[<h1 id="vim分屏标签"><a href="#vim分屏标签" class="headerlink" title="vim分屏标签"></a>vim分屏标签</h1><h2 id="tab标签"><a href="#tab标签" class="headerlink" title="tab标签"></a>tab标签</h2><ul><li>创建新tab :tabnew</li><li>关闭当前tab :tabc</li><li>关闭其他tab :tabo</li><li>查看所有的tab :tabs</li><li>前一个 :tabp</li><li>后一个 :tabn</li></ul><h2 id="分屏"><a href="#分屏" class="headerlink" title="分屏"></a>分屏</h2><ul><li>上下分屏 sp</li><li>左右分屏 vsp</li><li>关闭当前屏幕 Ctrl+W c</li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>设计模式学习笔记</title>
-      <link href="2020/10/04/019-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-      <url>2020/10/04/019-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-      
-        <content type="html"><![CDATA[<h1 id="设计模式学习笔记"><a href="#设计模式学习笔记" class="headerlink" title="设计模式学习笔记"></a>设计模式学习笔记</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>有人一直说开发人员，23种设计模式要烂熟于胸，而我没有做到，学习之。</p><h2 id="J2EE模式-超越教科书，不在23种以内-7种"><a href="#J2EE模式-超越教科书，不在23种以内-7种" class="headerlink" title="J2EE模式(超越教科书，不在23种以内) 7种"></a>J2EE模式(超越教科书，不在23种以内) 7种</h2><ul><li>数据传输对象模式<ul><li>数据传输对象是可以序列化和反序列化的，方便在网络上传输。这种处理数据传输的方式，一般会包含多个字段/属性，这种方式成为数据传输设计模式. DTO</li></ul></li><li>服务定位器设计模式<ul><li>就是定义一个服务的集合，这个集合具有缓存功能，能够缓存已经实例化的服务，不需要每次都创建新的实例</li></ul></li><li>拦截过滤器模式<ul><li>集中的请求处理机制</li></ul></li><li>数据访问对象模式<ul><li>DAO模式，实体，访问，接口</li></ul></li><li>组合实体模式<ul><li>一个实体包含多个实体，通过最外层的实体方法更新内部实体的属性</li></ul></li><li>业务代码模式<ul><li>表示层和业务层解耦</li></ul></li><li>MVC模式<ul><li>模型，视图，控制器，分层开发</li></ul></li></ul><h2 id="创建型-Creational-Patterns-5种"><a href="#创建型-Creational-Patterns-5种" class="headerlink" title="创建型(Creational Patterns) 5种"></a>创建型(Creational Patterns) 5种</h2><p>解决的对象创建的问题</p><ul><li>工厂模式(Factory Pattern)<ul><li>提供一种创建对象的方式</li><li>提供统一的接口负载对象的创建，具体的实现类负责创建类的实例，</li><li>有多种实现，但是想提供统一接口的场景，适用工厂模式</li></ul></li><li>抽象工厂模式(Abstract Factory Pattern)<ul><li>生产工厂的工厂，在工厂模式上的基础上更加抽象</li></ul></li><li>单例模式(Singleton Pattern)<ul><li>单一实例，减少实例不断创建释放造成的资源消耗</li></ul></li><li>建造者模式(Builder Pattern)<ul><li>建造器，负责复杂对象的创建</li></ul></li><li>原型模式(Prototype Pattern)<ul><li>对象的缓存，一旦创建直接返回，没有创建才会进行实例化</li></ul></li></ul><h2 id="结构型-Structural-Patterns-8种"><a href="#结构型-Structural-Patterns-8种" class="headerlink" title="结构型(Structural Patterns) 8种"></a>结构型(Structural Patterns) 8种</h2><ul><li>适配器模式<ul><li>两个不兼容接口之间的桥梁，解决兼容性问题</li></ul></li><li>桥接器模式<ul><li>使用非继承的模式来解决类关系的问题</li></ul></li><li>过滤器模式<ul><li>实现过滤功能</li></ul></li><li>组合模式<ul><li>复杂对象，属性可以时对象</li></ul></li><li>装饰器模式<ul><li>定义独立的类，在类的功能上加上其他的功能，称之为装饰</li></ul></li><li>外观模式<ul><li>系统的对外展现提供一个组接口，屏蔽内部的复杂实现，目标简单易用，易于理解</li></ul></li><li>享元模式<ul><li>运行共享技术实现减少对象创建资源消耗的问题，数据库的连接池就是实现的一种</li></ul></li><li>代理模式<ul><li>加入中间层，实现间接访问</li></ul></li></ul><h2 id="行为型-Behavioral-Patterns-12种"><a href="#行为型-Behavioral-Patterns-12种" class="headerlink" title="行为型(Behavioral Patterns) 12种"></a>行为型(Behavioral Patterns) 12种</h2><ul><li>责任链模式<ul><li>链条式结构，处理消息传递时常用</li></ul></li><li>命令模式<ul><li>请求或参数抽象为命令对象，新的命令很容易添加</li></ul></li><li>解释器模式<ul><li>常用在SQL解析符号处理、表达式解析引擎、规则解析</li></ul></li><li>迭代器模式<ul><li>提供统一的接口，访问集合，不需要集合内部复杂的结构</li></ul></li><li>中介者模式<ul><li>MVC模式中的控制器属于中介者模式，加入中间层，不直接交互</li></ul></li><li>备忘录模式<ul><li>为了反悔，保存中间状态</li></ul></li><li>观察者模式<ul><li>一对多关系时，一个发生变化，通知其他关联对象</li></ul></li><li>状态模式<ul><li>状态决定行为，存储类的状态</li></ul></li><li>空对象模式<ul><li>一种默认状态，处理默认的情况，提供默认的行为</li></ul></li><li>策略模式<ul><li>不同策略，封装不同行为的组合，不同的策略，不同的算法，策略可以自由切换非常灵活</li></ul></li><li>模板模式<ul><li>变和不变分类抽离，封装不变的部分形成模板</li></ul></li><li>访问者模式<ul><li>数据结构与数据操作分离，稳定的数据结构和易变的操作</li></ul></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Emacs性能问题排查</title>
-      <link href="2020/10/04/020-Emacs%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
-      <url>2020/10/04/020-Emacs%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Emacs性能问题排查"><a href="#Emacs性能问题排查" class="headerlink" title="Emacs性能问题排查"></a>Emacs性能问题排查</h1><h2 id="查看启动时间"><a href="#查看启动时间" class="headerlink" title="查看启动时间"></a>查看启动时间</h2><ul><li>命令 <code>emacs --timed-requires</code></li><li>输出<ul><li>屏幕中央的位置显示</li></ul></li></ul><h2 id="查看内存和CPU占用"><a href="#查看内存和CPU占用" class="headerlink" title="查看内存和CPU占用"></a>查看内存和CPU占用</h2><ul><li>命令 <code>emacs --profile</code></li><li>输出<ul><li>屏幕中央的位置显示</li></ul></li></ul><h2 id="换个思路，Emacs以服务的方式运行"><a href="#换个思路，Emacs以服务的方式运行" class="headerlink" title="换个思路，Emacs以服务的方式运行"></a>换个思路，Emacs以服务的方式运行</h2><ul><li>启动服务<code>emacs --daemon</code></li><li>启动客户端<code>emacsclient -t</code>，终端方式启动</li><li>启动客户端的命令太长，在<code>/etc/bash.bashrc</code>设置别名<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ------------ 定义emacsclient的别名，Emacs后台服务模式启动，加快速度 -----------</span></span><br><span class="line"><span class="built_in">alias</span> et=<span class="string">&#x27;emacsclient -t&#x27;</span></span><br></pre></td></tr></table></figure></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>021-Linux系统剪贴板.md</title>
-      <link href="2020/10/04/021-Linux%E7%B3%BB%E7%BB%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/"/>
-      <url>2020/10/04/021-Linux%E7%B3%BB%E7%BB%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Linux系统剪贴板"><a href="#Linux系统剪贴板" class="headerlink" title="Linux系统剪贴板"></a>Linux系统剪贴板</h1><h2 id="终端结果复制到系统剪贴板"><a href="#终端结果复制到系统剪贴板" class="headerlink" title="终端结果复制到系统剪贴板"></a>终端结果复制到系统剪贴板</h2><ul><li>需要借助xclip命令行工具’xclip’</li><li>安装<code>apt-get install -y xclip</code></li></ul><h2 id="命令结果终端共享"><a href="#命令结果终端共享" class="headerlink" title="命令结果终端共享"></a>命令结果终端共享</h2><ul><li>结果输出到系统剪贴板’pwd | xclip -selection c’</li><li>粘贴<code>Ctrl + Shift + v</code></li></ul><h2 id="Docker和宿主机共享剪贴板"><a href="#Docker和宿主机共享剪贴板" class="headerlink" title="Docker和宿主机共享剪贴板"></a>Docker和宿主机共享剪贴板</h2><ul><li>在共享卷创建clipboard.md文件</li><li>需要共享的写入到clipboard.md文件，相互读取就可以了</li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Git使用技巧</title>
-      <link href="2020/10/04/022-Git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
-      <url>2020/10/04/022-Git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Git使用技巧"><a href="#Git使用技巧" class="headerlink" title="Git使用技巧"></a>Git使用技巧</h1><h2 id="HTTPS和GIT协议转换"><a href="#HTTPS和GIT协议转换" class="headerlink" title="HTTPS和GIT协议转换"></a>HTTPS和GIT协议转换</h2><ul><li>git协议，不用每次都输入用户名和密码<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git@github.com:jiftle&#x2F;grocery.git</span><br></pre></td></tr></table></figure></li><li>https协议，服务器端不要做配置<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;git.dev.tencent.com&#x2F;jiftle&#x2F;grocery.git</span><br></pre></td></tr></table></figure></li></ul><h2 id="git本地仓库和远程仓库关联"><a href="#git本地仓库和远程仓库关联" class="headerlink" title="git本地仓库和远程仓库关联"></a>git本地仓库和远程仓库关联</h2><ol><li>创建远程仓库</li><li>初始化本地仓库<code>git init     git add .     git commit  -m &quot;desc&quot;</code></li><li>关联远程仓库  <code>git remote add origin https://gitee.com/lp369/mypython.git</code></li><li>第一次先拉取远程库中的README.md和.gitignore等文件     <code>git pull --rebase origin master</code></li><li>提交本地代码<code>git push origin master</code></li></ol>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Vim使用技巧</title>
-      <link href="2020/10/04/023-Vim%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7-%E6%89%A7%E8%A1%8C%E5%A4%96%E9%83%A8%E5%91%BD%E4%BB%A4/"/>
-      <url>2020/10/04/023-Vim%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7-%E6%89%A7%E8%A1%8C%E5%A4%96%E9%83%A8%E5%91%BD%E4%BB%A4/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Vim使用技巧-执行外部命令"><a href="#Vim使用技巧-执行外部命令" class="headerlink" title="Vim使用技巧-执行外部命令"></a>Vim使用技巧-执行外部命令</h1><h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><p>vim 是十分强大的文本编辑工具，但有一些事它做不了。本文简单说说在不离开 vim 编辑器的情况下，执行 shell 命令、工具。</p><h2 id="进入shell"><a href="#进入shell" class="headerlink" title="进入shell"></a>进入shell</h2><ul><li>在 vim 中执行 :shell 或 :sh，当退出当前 shell 时，就会回到 vim；</li><li>也可以使用 ctr-z 进入 shell， 然后执行 fg 回到 vim。</li><li>上述功能可用于下述场景：<ul><li>如我们编辑了一个文件，但是发现无法保存（没有写权限），你可以先改变该文件读写权限，然后再回到 vim 保存刚刚的修改。</li></ul></li></ul><h2 id="在vim中执行-shell-命令"><a href="#在vim中执行-shell-命令" class="headerlink" title="在vim中执行 shell 命令!"></a>在vim中执行 shell 命令!</h2><ul><li>我们只需要在命令前 加上 ! 就可以。<ul><li>如，<code>:! sort %</code><ul><li>该命令会对当前编辑的文件（％）内容进行排序，并输出。</li><li>但该命令仅对文件内容进行操作，命令不会缓存中的内容进行操作。</li><li>! 通常和非交互式命令结合使用。</li></ul></li></ul></li></ul><h2 id="读取命令的输出"><a href="#读取命令的输出" class="headerlink" title="读取命令的输出"></a>读取命令的输出</h2><ul><li>很多人常用 vim read命令读取内容， 如：<code>:read textfile</code></li><li>但 read还可以用于读取 shell 命令的输出，如：<code>:read ! ls | sort</code></li></ul><h2 id="使用外部命令过滤文本"><a href="#使用外部命令过滤文本" class="headerlink" title="使用外部命令过滤文本"></a>使用外部命令过滤文本</h2><ul><li>进入 vim visual模式，选中你想操作的文本，然后执行 shell 命令。</li><li>你选中的命令会被 shell 命令的输出替换。</li></ul><h2 id="注："><a href="#注：" class="headerlink" title="注："></a>注：</h2><ul><li>默认情况下，vim 使用系统默认使用的 shell。</li><li>查看 vim 使用了哪一个 shell <code>:set shell ?</code></li><li>设置你想要试用的shell <code>:set shell=/path/to/shell</code></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog-2020 </tag>
-            
-            <tag> blog-2020-01 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>024-Vim脚本编写入门.md</title>
-      <link href="2020/10/04/024-Vim%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E5%85%A5%E9%97%A8/"/>
-      <url>2020/10/04/024-Vim%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E5%85%A5%E9%97%A8/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Vim脚本编写入门"><a href="#Vim脚本编写入门" class="headerlink" title="Vim脚本编写入门"></a>Vim脚本编写入门</h1><h2 id="入门案例："><a href="#入门案例：" class="headerlink" title="入门案例："></a>入门案例：</h2><ul><li>冒号: 字符非必须，只有键入命令时需要，编写Vim脚本时可以省略<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">:let i &#x3D; 1</span><br><span class="line">:while i &lt; 5</span><br><span class="line">:echo &quot;Hello,World!&quot; i</span><br><span class="line">:let i +&#x3D; 1</span><br><span class="line">:endwhile</span><br></pre></td></tr></table></figure></li></ul><h2 id="1-变量"><a href="#1-变量" class="headerlink" title="1.变量"></a>1.变量</h2><ul><li><p>定义变量 :let<br>:let {变量} = {表达式}<br>表达式类型</p></li><li><p>==vim脚本变量类型有9种==    </p></li></ul><p>数值        32位或64位带符号整数。<br>        64-位整数只有在编译时带  +num64  特性时才有效。<br>        示例:  -123  0x10  0177  0b1011<br>浮点数     带小数的数值。<br>        {仅当编译时加入  +float  特性才有效}<br>        示例: 123.456  1.15e-6  -1.1e3<br>字符串<br>列表     项目的有序的序列。<br>        示例: [1, 2, [‘a’, ‘b’]]<br>字典        关联数组:每个项目包含一个键和一个值<br>        示例: {‘blue’: “#0000ff”, ‘red’: “#ff0000”}<br>函数引用 指向一个函数的引用<br>        示例: function(“strlen”)<br>特殊     v:false 、 v:true 、 v:none  和  v:null 。<br>工作        用于作业<br>通道        用于通道<br>    数值和字符串类型之间会根据使用的情况自动转换<br>    列表、字典、函数引用、作业和通道类型不会自动进行转换。</p><p>变量有不同的命名空间，根据附加的前缀决定:</p><p> (无) 函数内: 局部于函数；否则: 全局<br> buffer-variable     b:   局部于当前缓冲区。<br> window-variable     w:   局部于当前窗口。<br> tabpage-variable    t:   局部于当前标签页。<br> global-variable     g:   全局。<br> local-variable      l:   局部于函数。<br> script-variable     s:   局部于  :source  的 Vim 脚本。<br> function-argument   a:   函数参数 (只限于函数内使用)。<br> vim-variable        v:   Vim 预定义的全局变量</p><p>删除变量 :unlet<br>:unlet {变量}</p><pre><code>例如:unlet s:count，这将删除count局部变量并释放其占用的内存。如果不确定这个变量是否存在，又不希望看到系统在它不存在时报错，可以在命令后面加!，即:unlet! s:count</code></pre><h2 id="2-表达式"><a href="#2-表达式" class="headerlink" title="2. 表达式"></a>2. 表达式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">expr2 ? expr1 : expr1   if-then-else</span><br><span class="line">expr3 || expr3 ..       逻辑或</span><br><span class="line">expr4 &amp;&amp; expr4 ..       逻辑与</span><br><span class="line">expr5 &#x3D;&#x3D; expr5          等于</span><br><span class="line">expr5 !&#x3D; expr5          不等于</span><br><span class="line">expr5 &gt;  expr5          大于</span><br><span class="line">expr5 &gt;&#x3D; expr5          大于等于</span><br><span class="line">expr5 &lt;  expr5          小于</span><br><span class="line">expr5 &lt;&#x3D; expr5          小于等于</span><br><span class="line">expr5 &#x3D;~ expr5          匹配正规表达式</span><br><span class="line">expr5 !~ expr5          不匹配正规表达式</span><br><span class="line">expr5 &#x3D;&#x3D;? expr5         等于，忽略大小写</span><br><span class="line">expr5 &#x3D;&#x3D;# expr5         等于，匹配大小写</span><br><span class="line">等等                    如上，? 忽略大小写，# 则匹配之</span><br><span class="line">expr5 is expr5          相同的  List  实例</span><br><span class="line">expr5 isnot expr5       不同的  List  实例</span><br><span class="line">**算术**</span><br><span class="line">expr6 +  expr6 ..       数值加法或列表连接</span><br><span class="line">expr6 -  expr6 ..       数值减法</span><br><span class="line">expr6 .  expr6 ..       字符串连接</span><br><span class="line">expr7 *  expr7 ..       数值乘法</span><br><span class="line">expr7 &#x2F;  expr7 ..       数值除法</span><br><span class="line">expr7 %  expr7 ..       数值求余</span><br><span class="line">! expr7                 逻辑非</span><br><span class="line">- expr7                 一元减法: 取反</span><br><span class="line">+ expr7                 一元加法: 原值</span><br><span class="line">expr8[expr1]            字符串里的字节或者  List  的项目</span><br><span class="line">expr8[expr1 : expr1]    字符串子串或  List  的子列表</span><br><span class="line">expr8.name               Dictionary  的项目</span><br><span class="line">expr8(expr1, ...)       使用  Funcref  变量的函数调用</span><br><span class="line"></span><br><span class="line">&quot;string&quot;                字符串常数，反斜杠有特殊含义</span><br><span class="line">&#39;string&#39;                字符串常数，&#39; 加倍</span><br><span class="line">[expr1, ...]             List </span><br><span class="line">&#123;expr1: expr1, ...&#125;      Dictionary </span><br><span class="line">&amp;option                 选项值</span><br><span class="line">(expr1)                 嵌套表达式</span><br><span class="line">variable                内部变量</span><br><span class="line">va&#123;ria&#125;ble              带花括号的内部变量</span><br><span class="line">$VAR                    环境变量</span><br><span class="line">@r                      寄存器 &#39;r&#39; 的值</span><br><span class="line">function(expr1, ...)    函数调用</span><br><span class="line">func&#123;ti&#125;on(expr1, ...)  带花括号的函数调用</span><br><span class="line">&#123;args -&gt; expr1&#125;         匿名函数表达式</span><br><span class="line">&quot;..&quot; 标明这一层上的操作可以连接。比如: </span><br><span class="line">&amp;nu || &amp;list &amp;&amp; &amp;shell &#x3D;&#x3D; &quot;csh&quot;</span><br><span class="line">同一层的表达式从左到右进行分析。</span><br></pre></td></tr></table></figure><h2 id="3-语句"><a href="#3-语句" class="headerlink" title="3.语句"></a>3.语句</h2><p>:if</p><p>单分支：<br>    :if 表达式<br>         代码块<br>     :endif<br>双分支：<br>    :if 表达式<br>        代码块<br>     :else<br>         代码块2<br>     :endif<br>     多分支：<br>         :if 表达式1<br>             代码块<br>         :elseif 表达式2<br>             代码块2<br>         :else<br>             代码块3<br>         :endif</p><p>:while</p><pre><code>:while 表达式    代码块:endwhile</code></pre><p>:for</p><pre><code>:for &#123;var&#125; in &#123;list&#125;    循环代码块:endfor:for [&#123;var1&#125;,&#123;var2&#125;,...] in &#123;listlist&#125;    循环代码块:endfor</code></pre><p>:continue 跳回while循环的开始;继续循环。在 “:while” 或 “:for” 循环的内部，跳回循环开始的地方。<br>:break  跳至:endwhile;循环结束 。在 “:while” 或 “:for” 循环的内部，跳到相匹配的  “:endwhile” 或 “:endfor” 之后的命令。</p><p>执行单个表达式</p><p>执行一个vim命令行命令<br>    :execute  “vim命令” . 参数<br>    参数可以是变量，如果不是变量，必须单引号引起来<br>    例如：:execute “! “. ‘ls -la’<br>执行一个普通模式命令（快捷操作）<br>参数不能是表达式，可以和:execute 配合使用来带参数<br>    :normal vim命令<br>    例如：:normal gt</p><p>使用函数</p><p>一个函数可以被:call命令调用,参数列表要用括号括起来，并用逗号分割<br>:call search(“Date:”,”W”)</p><p>自定义函数</p><pre><code>:function &#123;name&#125;(&#123;var1&#125;, &#123;var2&#125;, ...)    &#123;函数体&#125;:endfunction# 函数名必须以大写字母开始# 要重定义一个已经存在的函数，在 &quot;function&quot; 命令后加上 !# echo 可以输出函数结果 echo 函数</code></pre><h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><ul><li><a href="https://blog.csdn.net/karelcn/article/details/82963604">原文链接</a></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Markdown </tag>
-            
-            <tag> blog </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Vim基本操作</title>
-      <link href="2020/10/04/025-Vim%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
-      <url>2020/10/04/025-Vim%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
+      <link href="2020/10/05/025-Vim%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+      <url>2020/10/05/025-Vim%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</url>
       
         <content type="html"><![CDATA[<h1 id="Vim基本操作"><a href="#Vim基本操作" class="headerlink" title="Vim基本操作"></a>Vim基本操作</h1><h2 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h2><ul><li>只读方式打开文件 <code>-R</code> eg. <code>vim clipboard.md -R</code></li></ul>]]></content>
       
@@ -580,8 +51,8 @@
     
     <entry>
       <title>Mac常用软件</title>
-      <link href="2020/10/04/026-Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/"/>
-      <url>2020/10/04/026-Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</url>
+      <link href="2020/10/05/026-Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/"/>
+      <url>2020/10/05/026-Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</url>
       
         <content type="html"><![CDATA[<h1 id="Mac系统常用软件"><a href="#Mac系统常用软件" class="headerlink" title="Mac系统常用软件"></a>Mac系统常用软件</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>收集常用的、好用的软件，顺序代表优先级</p><h2 id="知识管理体系"><a href="#知识管理体系" class="headerlink" title="知识管理体系"></a>知识管理体系</h2><ul><li>整理思路，读书笔记归纳<ul><li>思维导图<ul><li><a href="https://www.xmind.cn/download/xmind8">Xmind8</a></li></ul></li></ul></li><li>第二大脑<ul><li>印象笔记</li><li>有道云笔记</li><li>git</li></ul></li><li>开发环境<ul><li>devenv-vim 开发环境</li></ul></li></ul><h2 id="时间管理"><a href="#时间管理" class="headerlink" title="时间管理"></a>时间管理</h2><h2 id="系统扩展"><a href="#系统扩展" class="headerlink" title="系统扩展"></a>系统扩展</h2><ul><li>网速监视(顶部工具栏扩展，显示当前网速)<ul><li><a href="https://www.macbl.com/app/internet/network-speed-monitor">Network Speed Monitor</a></li></ul></li></ul><h2 id="娱乐休闲"><a href="#娱乐休闲" class="headerlink" title="娱乐休闲"></a>娱乐休闲</h2><ul><li>视频转换<ul><li><a href="https://www.macbl.com/app/multimedia-music/uniconverter">UniConverter 11.6.1.1  万能视频格式转换器</a><ul><li>破解版</li></ul></li></ul></li><li>娱乐游戏<ul><li><a href="https://www.macbl.com/app/games/rich4">大富翁4（Rich4） 1.0</a></li><li><a href="https://www.macbl.com/app/games/red-alert-3">红色警戒3：起义时刻（Red Alert 3） 1.00.4473</a></li><li><a href="https://www.ea.com/games/the-sims/the-sims-4">The SIM S4 模拟人生4</a></li></ul></li></ul>]]></content>
       
@@ -603,8 +74,8 @@
     
     <entry>
       <title>027-vagrant使用入门.md</title>
-      <link href="2020/10/04/027-vagrant%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/"/>
-      <url>2020/10/04/027-vagrant%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</url>
+      <link href="2020/10/05/027-vagrant%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/"/>
+      <url>2020/10/05/027-vagrant%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</url>
       
         <content type="html"><![CDATA[<h1 id="027-vagrant使用入门-md"><a href="#027-vagrant使用入门-md" class="headerlink" title="027-vagrant使用入门.md"></a>027-vagrant使用入门.md</h1><h2 id="vagrant官方网站"><a href="#vagrant官方网站" class="headerlink" title="vagrant官方网站"></a>vagrant官方网站</h2><p><img src="file:///Users/mac/tg-git/coding_net/grocery/dailylog/attach/images/image-20200926003801062-1517007.png?lastModify=1601516992" alt="image-20200926003801062"></p><h2 id="官方镜像仓库"><a href="#官方镜像仓库" class="headerlink" title="官方镜像仓库"></a>官方镜像仓库</h2><p><a href="https://app.vagrantup.com/boxes/search">https://app.vagrantup.com/boxes/search</a></p><p><img src="file:///Users/mac/tg-git/coding_net/grocery/dailylog/attach/images/image-20200926010712485-1517007.png?lastModify=1601516992" alt="image-20200926010712485"></p><h2 id="镜像离线下载或镜像加速"><a href="#镜像离线下载或镜像加速" class="headerlink" title="镜像离线下载或镜像加速"></a>镜像离线下载或镜像加速</h2><ul><li>官方网站，大陆访问非常慢7kb/s</li><li><a href="http://www.vagrantbox.es/">http://www.vagrantbox.es/</a></li></ul><p><img src="file:///Users/mac/tg-git/coding_net/grocery/dailylog/attach/images/image-20200926004328137-1517007.png?lastModify=1601516992" alt="image-20200926004328137"></p><h3 id="清华大学镜像-ubuntu-14-04"><a href="#清华大学镜像-ubuntu-14-04" class="headerlink" title="清华大学镜像 ubuntu 14.04"></a>清华大学镜像 ubuntu 14.04</h3><p><a href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/">https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cloud-images/</a></p><ul><li>ubuntu 18</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line">vagrant box add \</span><br><span class="line">https:&#x2F;&#x2F;mirrors.tuna.tsinghua.edu.cn&#x2F;ubuntu-cloud-images&#x2F;bionic&#x2F;current&#x2F;bionic-server-cloudimg-amd64-vagrant.box \</span><br><span class="line">--name ubuntu&#x2F;bionic</span><br><span class="line">vagrant-disksize</span><br><span class="line"></span><br><span class="line">A Vagrant plugin to resize disks in VirtualBox</span><br><span class="line">Installation</span><br><span class="line"></span><br><span class="line">vagrant plugin install vagrant-disksize</span><br><span class="line"></span><br><span class="line">Usage</span><br><span class="line"></span><br><span class="line">Set the size you want for your disk in your Vagrantfile. For example</span><br><span class="line"></span><br><span class="line">Vagrant.configure(&#39;2&#39;) do |config|</span><br><span class="line">  config.vm.box &#x3D; &#39;ubuntu&#x2F;xenial64&#39;</span><br><span class="line">  config.disksize.size &#x3D; &#39;50GB&#39;</span><br><span class="line">end</span><br><span class="line">curl -sfL http:&#x2F;&#x2F;rancher-mirror.cnrancher.com&#x2F;k3s&#x2F;k3s-install.sh | INSTALL_K3S_MIRROR&#x3D;cn sh -</span><br><span class="line"></span><br><span class="line">加入工作节点</span><br><span class="line">curl -sfL http:&#x2F;&#x2F;rancher-mirror.cnrancher.com&#x2F;k3s&#x2F;k3s-install.sh | INSTALL_K3S_MIRROR&#x3D;cn K3S_URL&#x3D;https:&#x2F;&#x2F;myserver:6443 K3S_TOKEN&#x3D;mynodetoken sh -</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">kubectl apply -f https:&#x2F;&#x2F;192.168.2.139:8443&#x2F;v3&#x2F;import&#x2F;7pdpdmnj4qr5hrjn2m4djljnk5fnjb59ln8tvkbrwgdhgphlpmxgbh.yaml</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- 安装Docker(2020.9.26，最新版19.03)</span><br><span class="line">sudo apt install docker.io</span><br><span class="line">- 安装Docker-Compose</span><br><span class="line">sudo apt install docker-compose</span><br><span class="line"></span><br><span class="line">- 当前用户给予权限</span><br><span class="line">sudo usermod -aG docker your-user</span><br><span class="line"></span><br><span class="line">docker-compose&#x2F;bionic 1.17.1-2 all</span><br><span class="line">  Punctual, lightweight development environments using Docker</span><br><span class="line"></span><br><span class="line">docker-containerd&#x2F;bionic 0.2.3+git+docker1.13.1~ds1-1 amd64</span><br><span class="line">  daemon to control runC (Docker&#39;s version)</span><br><span class="line"></span><br><span class="line">docker-doc&#x2F;bionic-updates 19.03.6-0ubuntu1~18.04.1 all</span><br><span class="line">  Linux container runtime -- documentation</span><br><span class="line"></span><br><span class="line">docker-registry&#x2F;bionic 2.6.2~ds1-1 amd64</span><br><span class="line">  Docker toolset to pack, ship, store, and deliver content</span><br><span class="line"></span><br><span class="line">docker-runc&#x2F;bionic 1.0.0~rc2+git+docker1.13.1~ds1-3 amd64</span><br><span class="line">  Open Container Project - runtime (Docker&#39;s version)</span><br><span class="line"></span><br><span class="line">docker.io&#x2F;bionic-updates 19.03.6-0ubuntu1~18.04.1 amd64</span><br><span class="line">  Linux container runtime</span><br></pre></td></tr></table></figure><h2 id="k3s安装"><a href="#k3s安装" class="headerlink" title="k3s安装"></a>k3s安装</h2><h2 id="虚拟机磁盘扩容"><a href="#虚拟机磁盘扩容" class="headerlink" title="虚拟机磁盘扩容"></a>虚拟机磁盘扩容</h2>]]></content>
       
@@ -626,8 +97,8 @@
     
     <entry>
       <title>028-网盘你真的需要吗.md</title>
-      <link href="2020/10/04/028-%E7%BD%91%E7%9B%98%E4%BD%A0%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E5%90%97/"/>
-      <url>2020/10/04/028-%E7%BD%91%E7%9B%98%E4%BD%A0%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E5%90%97/</url>
+      <link href="2020/10/05/028-%E7%BD%91%E7%9B%98%E4%BD%A0%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E5%90%97/"/>
+      <url>2020/10/05/028-%E7%BD%91%E7%9B%98%E4%BD%A0%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E5%90%97/</url>
       
         <content type="html"><![CDATA[<h1 id="网盘你真的需要吗？"><a href="#网盘你真的需要吗？" class="headerlink" title="网盘你真的需要吗？"></a>网盘你真的需要吗？</h1><h2 id="常用的同步工具"><a href="#常用的同步工具" class="headerlink" title="常用的同步工具"></a>常用的同步工具</h2><ul><li>github</li><li>gitee</li><li>Coding.net</li></ul><h2 id="网盘"><a href="#网盘" class="headerlink" title="网盘"></a>网盘</h2><ul><li>百度网盘</li><li>一刻相册</li><li>坚果云</li></ul><h2 id="文档查看和看小说"><a href="#文档查看和看小说" class="headerlink" title="文档查看和看小说"></a>文档查看和看小说</h2><ul><li>看云</li></ul>]]></content>
       
@@ -649,8 +120,8 @@
     
     <entry>
       <title>etcd初级入门</title>
-      <link href="2020/10/04/029-etcd%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8/"/>
-      <url>2020/10/04/029-etcd%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8/</url>
+      <link href="2020/10/05/029-etcd%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8/"/>
+      <url>2020/10/05/029-etcd%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8/</url>
       
         <content type="html"><![CDATA[<h1 id="etcd初级入门"><a href="#etcd初级入门" class="headerlink" title="etcd初级入门"></a>etcd初级入门</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>etcd是k-v键值对数据库，常用来作为微服务架构下注册配置中心</p><h2 id="常用组件"><a href="#常用组件" class="headerlink" title="常用组件"></a>常用组件</h2><ul><li><p>etcd</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;hub.fastgit.org&#x2F;etcd-io&#x2F;etcd</span><br><span class="line">1. 下载二进制文件，安装到系统目录下</span><br><span class="line">2. 运行etcd</span><br></pre></td></tr></table></figure></li></ul><ul><li><p>etcdkeeper</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. 下载地址：</span><br><span class="line">https:&#x2F;&#x2F;hub.fastgit.org&#x2F;evildecay&#x2F;etcdkeeper</span><br><span class="line"></span><br><span class="line">2. 安装二进制文件</span><br><span class="line"></span><br><span class="line">3. 运行etcdkeeper，浏览器浏览，可以看到etcd的所有键值对</span><br><span class="line">.&#x2F;etcdkeeper -p 8092 -h 127.0.0.1</span><br></pre></td></tr></table></figure></li></ul><p><img src="/Users/mac/tg-git/coding_net/grocery/dailylog/attach/images/image-20201002160731886.png" alt="image-20201002160731886"></p><h2 id="免责条款"><a href="#免责条款" class="headerlink" title="免责条款"></a>免责条款</h2><p>以上内容来自于个人理解，可能有所偏驳。文章仅做参考，所产生的一切后果与作者无关。</p>]]></content>
       
@@ -671,11 +142,435 @@
     
     
     <entry>
-      <title>030-做好自己的事&amp;如何挣钱.md</title>
-      <link href="2020/10/04/030-%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%8B&amp;%E5%A6%82%E4%BD%95%E6%8C%A3%E9%92%B1/"/>
-      <url>2020/10/04/030-%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%8B&amp;%E5%A6%82%E4%BD%95%E6%8C%A3%E9%92%B1/</url>
+      <title>2019年MTP管理技能培训笔记-读后感</title>
+      <link href="2020/10/05/006-MTP%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
+      <url>2020/10/05/006-MTP%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0%E8%AF%BB%E5%90%8E%E6%84%9F/</url>
       
-        <content type="html"><![CDATA[<h1 id="做好自己的事-amp-如何挣钱-amp-瞎想"><a href="#做好自己的事-amp-如何挣钱-amp-瞎想" class="headerlink" title="做好自己的事&amp;如何挣钱&amp;瞎想"></a>做好自己的事&amp;如何挣钱&amp;瞎想</h1><p>我想挣钱，我想有钱花，每个人的梦想</p><p>怎么实现？怎么实现？怎么实现？连续问3遍，大多人都不知道，不确定自己知不知道？</p><p>什么途径可以挣钱？能挣多少钱？能为他人提供什么服务？这些服务能值多少钱？</p><p>灵魂三连击！！！重击，bengbengbeng</p><p>现在我的主要任务是什么呢？</p><p>放假，当然是好好休息了。</p><p>休息应该做什么，当然是好好睡觉啦</p><p>学驾驶啦，软件设计师考试啦，看好孩子啦</p><p>今年我有哪些成就</p><ol><li>go语言开发了一个后台服务，并使用了文件型数据库mongoDB</li><li>docker打包，发布，编译，私服搭建，一整套流程完全学会，满足日常工作需要</li><li>成果，形成了完全属于自己的开发环境Docker镜像，实现机器电脑，开发环境的无缝切换</li><li>新技术，搭建了自己的博客，基于GitPage，非常的酷炫，使用了CI，Docker的自动打包也应用了 CI，自动构建，非常的时髦</li><li>在看云上建立的自己的文档仓库，实现了Kindle的无缝打通，融会贯通的感觉，还是相当不错的</li></ol><p>正在进行</p><ol><li>驾校学习，争取今年拿到驾照</li><li>希望今年可以买车</li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="2019年MTP管理技能培训笔记-读后感"><a href="#2019年MTP管理技能培训笔记-读后感" class="headerlink" title="2019年MTP管理技能培训笔记-读后感"></a>2019年MTP管理技能培训笔记-读后感</h1><h2 id="如何分析和解决问题"><a href="#如何分析和解决问题" class="headerlink" title="如何分析和解决问题"></a>如何分析和解决问题</h2><ul><li>原则和理论支撑<ul><li>从现象到本质<ul><li>根据问题现象指定临时应急方案，解决问题</li><li>从多角度调查问题，了解问题的范围</li><li>分析问题原因，包括表面问题和深层问题（引入专家）</li><li>讨论范围内（专家参与）</li><li>进行方案选择和决策（专家参与）</li><li>总结经验，预防再次发生</li></ul></li><li>思维呈现的4个层次<ul><li>通过语言表达出来</li><li>通过文字记录下来（重新思考的过程）</li><li>对文字进行结构化分类（信息处理，清晰）</li><li>形成图表（量化）</li><li>形成检查清单</li></ul></li></ul></li><li>如何描述问题<ul><li>描述问题的一般模式： <strong>从什么角度出发，通过什么手段，解决什么问题，最终达到了什么成果</strong></li><li>如何清晰的描述问题<ul><li>多使用数据，量化的形式描述</li><li>描述具体的行为</li><li>举例说明</li></ul></li><li>描述问题的5W3H法则（回顾报告）<ul><li>when,where,who,what,why 什么时间什么地点谁发生了什么事，为什么</li><li>How,How Many,How Often 如何发生的，严重程度，频次</li></ul></li></ul></li><li>如何分析问题<ul><li>站在一定的高度来分析，从全局看个体，从现象看及本质，从未来回看现在</li><li>5M1E分析法<ul><li>man 人的问题 -&gt; 当事人，当事人同事，上级，干系人</li><li>machine 设备的问题 -&gt; 设备，工具，技术</li><li>material 材料的问题 -&gt; 原料，资金，资源投入</li><li>Enviroment 环境的问题 -&gt;  制度，体系，文化</li><li>Measure 测试的问题 -&gt; 考核，计划，激励</li></ul></li><li>持续发问法<ul><li>继续提出Why，每个问题都是对上一个问题产生的原因（到自己权限的上限为止）</li><li>针对每一层的原因都提出解决方案</li></ul></li></ul></li><li>管理沟通技巧<ul><li>什么是管理沟通<ul><li>目的是为了有效管理，达成共识，双向传递“信息、思想、感情”</li><li>沟通三要素<ul><li>清晰的信息</li><li>正面的思想</li><li>关心的情感</li></ul></li><li>沟通的九大技巧<ul><li>礼貌尊重</li><li>背景铺垫</li><li>认可信任</li><li>征询意见</li><li>同理感受（表达理解）</li><li>自我反思（自我批评）</li><li>积极迎合对方（顺着对方的话往下讲，让对话可以继续）</li><li>委婉拒绝</li><li>展望鼓励（祝福，一般在讲话的最后）</li></ul></li><li>如何向上级汇报工作<ul><li>汇报内容<ul><li>信息方面展现</li><li>思想上表达态度</li><li>情感上表达感谢</li></ul></li><li>汇报方法<ul><li>高，先结果后过程，树立高度，讲话具有层次感</li><li>大，整理信息，呈现大量信息</li><li>上，通过数据表达事实，一次性包领导关心的内容讲完</li><li>全，分享经验教训，全面总结提意见</li></ul></li></ul></li><li>如何向上级提出意见<ul><li>重点在于，通过改变观点背后的事实来改变上级的观点</li><li>注意事项<ul><li>提出新信息，照亮盲点，让事实来改变上级自己的观点</li><li>支持上级的初衷，提出更好的意见</li><li>维护领导尊严，由领导做出决策</li></ul></li><li>说服的套路<ul><li>表达自己的目的意愿(表达共同的愿景）</li><li>描述客观事实（量化，层次化，提供全面的信息）</li><li>假设预期后果</li><li>提供新的方案</li><li>新方案的前景展望</li><li>请领导拍板（决定权交给领导，尊重领导权威）</li></ul></li></ul></li><li>化解平级冲突（消灭萌芽，克己双赢）<ul><li>伸手，主动沟通，提前探讨</li><li>握手，放下面子，承认不足</li><li>牵手，平等互利，双赢</li><li>挽手，自己协商出解决方案，请领导拍板</li></ul></li></ul></li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Docker简易使用教程</title>
+      <link href="2020/10/05/007-Docker%E7%AE%80%E6%98%93%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+      <url>2020/10/05/007-Docker%E7%AE%80%E6%98%93%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Docker简易使用教程"><a href="#Docker简易使用教程" class="headerlink" title="Docker简易使用教程"></a>Docker简易使用教程</h1><h2 id="配置注册处镜像"><a href="#配置注册处镜像" class="headerlink" title="配置注册处镜像"></a>配置注册处镜像</h2><ul><li>配置阿里云的加速器，支持配置多个镜像<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ cat &#x2F;etc&#x2F;docker&#x2F;daemon.json</span><br><span class="line">&#123;</span><br><span class="line">    &quot;registry-mirrors&quot;: [</span><br><span class="line">        &quot;https:&#x2F;&#x2F;registry.docker-cn.com&quot;,</span><br><span class="line">        &quot;https:&#x2F;&#x2F;eqcxmbvw.mirror.aliyuncs.com&quot;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h2 id="容器运行状态"><a href="#容器运行状态" class="headerlink" title="容器运行状态"></a>容器运行状态</h2><ul><li><code>docker container stats</code></li></ul><h2 id="查看网络状态"><a href="#查看网络状态" class="headerlink" title="查看网络状态"></a>查看网络状态</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker inspect mongo |grep IP</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建家庭媒体中心</title>
+      <link href="2020/10/05/008-%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/"/>
+      <url>2020/10/05/008-%E6%90%AD%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/</url>
+      
+        <content type="html"><![CDATA[<h1 id="搭建家庭媒体中心"><a href="#搭建家庭媒体中心" class="headerlink" title="搭建家庭媒体中心"></a>搭建家庭媒体中心</h1><h2 id="下载最新的Minidlna镜像"><a href="#下载最新的Minidlna镜像" class="headerlink" title="下载最新的Minidlna镜像"></a>下载最新的Minidlna镜像</h2><p>docker pull vladgh/minidlna</p><h2 id="启动容器"><a href="#启动容器" class="headerlink" title="启动容器"></a>启动容器</h2><p>MiniDLNA (Dockerfile)</p><p>Image Version Commit License</p><p>This is MiniDLNA on top of minimal Alpine. It can be configured with environment variables.<br>Usage</p><p>Prefix any configuration directive of MiniDLNA with MINIDLNA_ and run your container:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --net&#x3D;host \</span><br><span class="line">  -v &lt;media dir on host&gt;:&#x2F;media \</span><br><span class="line">  -e MINIDLNA_MEDIA_DIR&#x3D;&#x2F;media \</span><br><span class="line">  -e MINIDLNA_FRIENDLY_NAME&#x3D;MyMini \</span><br><span class="line">  vladgh&#x2F;minidlna</span><br></pre></td></tr></table></figure><p>Note: You need to run the container in host mode for it to be able to receive UPnP broadcast packets. The default bridge mode will not work.<br>Multiple Media dirs</p><p>Any environment variable starting with MINIDLNA_MEDIA_DIR will be treated as an additional media_dir directive and any suffix in the variable name will be trimmed (ex: MINIDLNA_MEDIA_DIR_1). This way you can declare multiple media_dir directives</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --net&#x3D;host \</span><br><span class="line">  -v &lt;media dir on host&gt;:&#x2F;media&#x2F;audio \</span><br><span class="line">  -v &lt;media dir on host&gt;:&#x2F;media&#x2F;video \</span><br><span class="line">  -e MINIDLNA_MEDIA_DIR_1&#x3D;A,&#x2F;media&#x2F;audio \</span><br><span class="line">  -e MINIDLNA_MEDIA_DIR_2&#x3D;V,&#x2F;media&#x2F;video \</span><br><span class="line">  -e MINIDLNA_FRIENDLY_NAME&#x3D;MyMini \</span><br><span class="line">  vladgh&#x2F;minidlna</span><br></pre></td></tr></table></figure><p>See: <a href="http://manpages.ubuntu.com/manpages/raring/man5/minidlna.conf.5.html">http://manpages.ubuntu.com/manpages/raring/man5/minidlna.conf.5.html</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>月度考勤统计SQL脚本</title>
+      <link href="2020/10/05/009-%E6%9C%88%E5%BA%A6%E8%80%83%E5%8B%A4%E7%BB%9F%E8%AE%A1SQL%E8%84%9A%E6%9C%AC/"/>
+      <url>2020/10/05/009-%E6%9C%88%E5%BA%A6%E8%80%83%E5%8B%A4%E7%BB%9F%E8%AE%A1SQL%E8%84%9A%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<h1 id="月度考勤统计SQL脚本"><a href="#月度考勤统计SQL脚本" class="headerlink" title="月度考勤统计SQL脚本"></a>月度考勤统计SQL脚本</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><ul><li>python脚本抓取平台考勤数据</li></ul><h2 id="加班数据统计"><a href="#加班数据统计" class="headerlink" title="加班数据统计"></a>加班数据统计</h2><ul><li>统计下班时间<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">--- 查询加班记录</span></span><br><span class="line"><span class="comment">--------------------</span></span><br><span class="line"><span class="keyword">SELECT</span> *</span><br><span class="line"><span class="keyword">FROM</span> touch_card_record <span class="keyword">WHERE</span> <span class="keyword">substr</span>(touchdate,<span class="number">12</span>,<span class="number">19</span>) &gt; <span class="string">&#x27;18:30:00&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">--- 查询所有记录</span></span><br><span class="line"><span class="comment">----------------</span></span><br><span class="line"><span class="keyword">SELECT</span> *</span><br><span class="line"><span class="keyword">FROM</span> touch_card_record;</span><br><span class="line"></span><br><span class="line"><span class="comment">--- 总记录数</span></span><br><span class="line"><span class="comment">-----------------</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="keyword">COUNT</span>(*) <span class="keyword">FROM</span> touch_card_record</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux下安装字体</title>
+      <link href="2020/10/05/010-Linux%E5%AD%97%E4%BD%93/"/>
+      <url>2020/10/05/010-Linux%E5%AD%97%E4%BD%93/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux下安装字体"><a href="#Linux下安装字体" class="headerlink" title="Linux下安装字体"></a>Linux下安装字体</h1><h2 id="复制字体到目录"><a href="#复制字体到目录" class="headerlink" title="复制字体到目录"></a>复制字体到目录</h2><ul><li>目录名字 <code>/usr/share/fonts/</code></li></ul><h2 id="刷新缓存"><a href="#刷新缓存" class="headerlink" title="刷新缓存"></a>刷新缓存</h2><ul><li>生成字体索引信息<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo mkfontscale</span><br><span class="line">sudo mkfontdir</span><br></pre></td></tr></table></figure></li><li>更新字体缓存<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo fc-cache</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> daily </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux系统启动慢排查</title>
+      <link href="2020/10/05/011-Linux%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E6%85%A2%E6%8E%92%E6%9F%A5%E6%89%8B%E5%86%8C/"/>
+      <url>2020/10/05/011-Linux%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E6%85%A2%E6%8E%92%E6%9F%A5%E6%89%8B%E5%86%8C/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux系统启动慢排查"><a href="#Linux系统启动慢排查" class="headerlink" title="Linux系统启动慢排查"></a>Linux系统启动慢排查</h1><h2 id="排除指令"><a href="#排除指令" class="headerlink" title="排除指令"></a>排除指令</h2><ul><li>systemd-cgls 查看服务的启动顺序</li><li>systemd-analyze 查看启动时间</li><li>systemd-analyze blame 查看启动占用的时间</li><li>udisk.server 挂载分区的</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Tmux使用入门</title>
+      <link href="2020/10/05/012-Tmux%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/"/>
+      <url>2020/10/05/012-Tmux%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Tmux使用入门"><a href="#Tmux使用入门" class="headerlink" title="Tmux使用入门"></a>Tmux使用入门</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Tmux是终端多路复用工具</p><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><ul><li>tmux 进入tmux</li></ul><h2 id="窗口分割"><a href="#窗口分割" class="headerlink" title="窗口分割"></a>窗口分割</h2><ul><li>垂直分屏 C-b %</li><li>水平分屏 C-b “</li></ul><h2 id="面板切换"><a href="#面板切换" class="headerlink" title="面板切换"></a>面板切换</h2><ul><li>切换窗口 C-b o/方向键</li><li>上下分屏与左右分屏切换 C-b SPACE</li></ul><h2 id="面板大小"><a href="#面板大小" class="headerlink" title="面板大小"></a>面板大小</h2><ul><li>调整窗口大小 C-b C+方向键</li><li>窗口最大化 C-b z</li></ul><h2 id="翻页"><a href="#翻页" class="headerlink" title="翻页"></a>翻页</h2><ul><li>内容翻页 <code>C-b [</code> ，然后方向键控制，q退出</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vim脚本提取文件名</title>
+      <link href="2020/10/05/013-vim%E8%84%9A%E6%9C%AC%E6%8F%90%E5%8F%96%E6%96%87%E4%BB%B6%E5%90%8D/"/>
+      <url>2020/10/05/013-vim%E8%84%9A%E6%9C%AC%E6%8F%90%E5%8F%96%E6%96%87%E4%BB%B6%E5%90%8D/</url>
+      
+        <content type="html"><![CDATA[<h1 id="vim脚本提取文件名"><a href="#vim脚本提取文件名" class="headerlink" title="vim脚本提取文件名"></a>vim脚本提取文件名</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>创建文件时，希望直接生成文件标题</p><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><ul><li>vimrc支持函数expand，:h expand可以查看帮助<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">:echo expand(&#39;%:t&#39;)     my.txt  name of file (&#39;tail&#39;)</span><br><span class="line">:echo expand(&#39;%:p&#39;)     &#x2F;abc&#x2F;def&#x2F;my.txt full path</span><br><span class="line">:echo expand(&#39;%:p:h&#39;)   &#x2F;abc&#x2F;def    directory containing file (&#39;head&#39;)</span><br><span class="line">:echo expand(&#39;%:p:h:t&#39;) def First get the full path with :p (&#x2F;abc&#x2F;def&#x2F;my.txt), then get the head of that with :h (&#x2F;abc&#x2F;def), then get the tail of that with :t (def)</span><br><span class="line">:echo expand(&#39;%:r&#39;)     my  name of file less one extension (&#39;root&#39;)</span><br><span class="line">:echo expand(&#39;%:e&#39;)     txt name of file&#39;s extension (&#39;extension&#39;)&#96;&#96;&#96;</span><br><span class="line">For more info run :help expand</span><br><span class="line"></span><br><span class="line">If all that is wanted is to display the name of the current file, type Ctrl-G (or press 1 then Ctrl-G for the full path).</span><br><span class="line"></span><br><span class="line">When using @%, the name is displayed relative to the current directory.</span><br><span class="line"></span><br><span class="line">In insert mode, type Ctrl-R then % to insert the name of the current file.</span><br><span class="line"></span><br><span class="line">In command mode (after typing a colon), type Ctrl-R then % to insert the name of the current file. The inserted name can then be edited to create a similar name.</span><br><span class="line"></span><br><span class="line">In normal mode, type &quot;%p to put the name of the current file after the cursor (or &quot;%P to insert the name before the cursor).</span><br><span class="line"></span><br><span class="line">The following commands insert lines consisting of the full path of the current and alternate files into the buffer:</span><br><span class="line"></span><br><span class="line">:put &#x3D;expand(&#39;%:p&#39;)</span><br><span class="line">:put &#x3D;expand(&#39;#:p&#39;)</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vim插件管理</title>
+      <link href="2020/10/05/014-vim%E6%8F%92%E4%BB%B6%E7%AE%A1%E7%90%86/"/>
+      <url>2020/10/05/014-vim%E6%8F%92%E4%BB%B6%E7%AE%A1%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="vim插件管理"><a href="#vim插件管理" class="headerlink" title="vim插件管理"></a>vim插件管理</h1><h2 id="使用vim-plug管理vim插件"><a href="#使用vim-plug管理vim插件" class="headerlink" title="使用vim-plug管理vim插件"></a>使用vim-plug管理vim插件</h2><ul><li>vim-plug 非常好用</li></ul><h2 id="修改-vimrc配置文件后，如何重新加载"><a href="#修改-vimrc配置文件后，如何重新加载" class="headerlink" title="修改~/.vimrc配置文件后，如何重新加载"></a>修改<code>~/.vimrc</code>配置文件后，如何重新加载</h2><ul><li>方法1 <code>source %</code></li><li>方法2 <code>so ~/.vimrc</code></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Emacs常用技巧</title>
+      <link href="2020/10/05/015-Emacs%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+      <url>2020/10/05/015-Emacs%E5%B8%B8%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Emacs常用技巧"><a href="#Emacs常用技巧" class="headerlink" title="Emacs常用技巧"></a>Emacs常用技巧</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Org-Mode管理你的生活</p><h2 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h2><ul><li>转接文件 <code>C-r f</code></li></ul><h3 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h3><ul><li>C-x C-f 读取文件到Emacs</li><li>C-x r 只读的方式打开一个文件</li><li>C-x C-q 清除一个窗口的只读属性</li><li>C-x C-s 保存文件到磁盘</li><li>C-x s 保存所有文件</li><li>C-x i 插入其它文件的内容到当前缓冲</li><li>C-x C-v 用将要读取的文件替换当前文件</li><li>C-x C-w 将当前缓冲写入指定的文件</li><li>C-x C-q Version control checkin/checkout </li></ul><h3 id="输入TAB"><a href="#输入TAB" class="headerlink" title="输入TAB"></a>输入TAB</h3><ul><li>C-q Tab</li></ul><h3 id="阅读模式"><a href="#阅读模式" class="headerlink" title="阅读模式"></a>阅读模式</h3><ul><li>C-L 屏幕重绘，光标行到屏幕中央</li></ul><h2 id="安装配置额外的包"><a href="#安装配置额外的包" class="headerlink" title="安装配置额外的包"></a>安装配置额外的包</h2><ul><li>.spacemacs配置文件</li><li>将包名添加到 dotspacemacs-additional-packages 这个变量中去</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用emby构建家庭媒体中心</title>
+      <link href="2020/10/05/001-%E4%BD%BF%E7%94%A8emby%E6%9E%84%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/"/>
+      <url>2020/10/05/001-%E4%BD%BF%E7%94%A8emby%E6%9E%84%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/</url>
+      
+        <content type="html"><![CDATA[<h1 id="001-使用emby构建家庭媒体中心"><a href="#001-使用emby构建家庭媒体中心" class="headerlink" title="001-使用emby构建家庭媒体中心"></a>001-使用emby构建家庭媒体中心</h1><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>使用Docker快速构建媒体中心</p><ul><li><code>/media</code>媒体目录<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ docker run \</span><br><span class="line">-e PUID&#x3D;1000 \</span><br><span class="line">-e PGID&#x3D;1000 \</span><br><span class="line">-p 8096:8096 \</span><br><span class="line">-v &#x2F;docker&#x2F;emby&#x2F;host&#x2F;config:&#x2F;config \</span><br><span class="line">-v &#x2F;host&#x2F;media:&#x2F;media \</span><br><span class="line">nvllsvm&#x2F;emby-unlocked</span><br></pre></td></tr></table></figure></li></ul><p>docker run <br>-e PUID=1000 <br>-e PGID=1000 <br>-p 8096:8096 <br>-p 8200:8200 <br>-p 1900:1900/udp <br>-v /docker/emby/host/config:/config <br>-v /host/media:/media/jiftle/storage/媒体库 <br>nvllsvm/emby-unlocked</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog-2019 </tag>
+            
+            <tag> blog-2019-12 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>年终总结如何写</title>
+      <link href="2020/10/05/017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%E5%A6%82%E4%BD%95%E5%86%99/"/>
+      <url>2020/10/05/017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%E5%A6%82%E4%BD%95%E5%86%99/</url>
+      
+        <content type="html"><![CDATA[<h1 id="年终总结如何写"><a href="#年终总结如何写" class="headerlink" title="年终总结如何写"></a>年终总结如何写</h1><h2 id="主要从六个方面入手"><a href="#主要从六个方面入手" class="headerlink" title="主要从六个方面入手"></a>主要从六个方面入手</h2><ol><li>要充分认识到<strong>年终总结的重要意义</strong></li><li>工作回顾，对工作完成情况进行总结，全面总结成绩</li><li>分析取得成绩的原因</li><li>分析导致工作目标没有达成的失误和问题</li><li>对当前形势的展望与分析</li><li>下年度的展望和安排，下一年的工作计划</li></ol><h2 id="年总总结的重要意义"><a href="#年总总结的重要意义" class="headerlink" title="年总总结的重要意义"></a>年总总结的重要意义</h2><ul><li>年终总结是一个人对自己过去一年中所做成绩的分析和总结，对查漏补缺，推动工作前进、提高工作素质和能力具有重要的作用。</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何写好年终总结</title>
+      <link href="2020/10/05/018-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+      <url>2020/10/05/018-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<h1 id="如何写好年终总结"><a href="#如何写好年终总结" class="headerlink" title="如何写好年终总结"></a>如何写好年终总结</h1><p>每年临近年底都是企业进行年度工作总结的阶段，而工作总结则是每一位管理者必须面对的课题。如何写好一份年终工作总结是许多管理者头疼的问题，既不能太过“格式化”， 又不能写成“流水账”，要不自己不满意，上司也不满意。一篇<strong>好的年终总结是职场人士有利的竞争筹码</strong>，甚至是<strong>升职加薪的“助推器”</strong>。</p><h2 id="为什么要写年终总结？"><a href="#为什么要写年终总结？" class="headerlink" title="为什么要写年终总结？"></a>为什么要写年终总结？</h2><p>不要小看工作总结，或大或小，都与我们的绩效，升迁，加薪，去留息息相关。聪明的人不会仅仅在工作总结里总结，而是会<strong>通过汇报的机会争取资源</strong>，毕竟，工作总结是制度规定里面允许你和上级领导沟通的一种重要途径。</p><p>对于领导来说，他们不会盯着每个员工的日常工作情况，而且时间的跨度比较大，年初做的事情，到了年底，不<strong>提醒下领导</strong>，都忘记了，年终总结有助于了解员工的工作成果，工作状态，关注员工在工作中的成长，看到员工哪方面有所欠缺需要弥补，那些地方做的不对需要调整，领导根据了解到的情况，在未来的工作中给予帮助和支持；领导也会在你自己的分析与调整中，发现你的潜力，会给你一些机会，让你更好的成长。</p><p><strong>对于自己来说</strong>，为自己一年的工作经历做梳理归纳，从中总结经验，做好复盘，发现自己的不足，然后做好改进计划，这种计划，实施，总结，发现不足，改进计划的<strong>自我螺旋式成长</strong>。在这个过程中，不断整理分析，最终形成自己的方法论，实践经验+理论知识，工作总结就是这样一个自身提高的机会，要用心看待这个事情。</p><p>那怎么才能写出一份既能体现个人价值，又能讨领导欢心的年终总结呢？这里有个<strong>套路</strong>：“找找模版，整整数据，夸夸自己，表表忠心，复制黏贴，搞定”</p><h2 id="年终总结写什么"><a href="#年终总结写什么" class="headerlink" title="年终总结写什么"></a>年终总结写什么</h2><h3 id="工作成果回顾"><a href="#工作成果回顾" class="headerlink" title="工作成果回顾"></a>工作成果回顾</h3><p>作为总结的第一部分，目的就是要<strong>让领导最直观的知道过去的一年完成了那些工作？经历了怎样的过程？ 最终的结果如何？</strong></p><p>很多人头疼内容怎么写，感觉无从下笔，可以采用记“流水账”的形式把一年的做过事情都列出来。不管三七二十一，只要做过的事情都写下来，借助OKR，包括时间，目标，关键结果，完成的情况，最好每一个条附上一个实例说明，全部列完以后，挑出重要的部分，然后根据你呈现方式的需要，做数据的统计。</p><p>有了内容和数据以后，需要把它呈现出来， 可以使用不同的形式</p><ol><li><p>时间轴<br>最简单的是用时间轴，常用的时间轴有<br>根据日期，比如月份，季度<br>根据项目阶段，比如准备阶段，实施阶段，冲刺阶段，维护阶段，<br>里程碑事件，比如用户数量突破xx, 成交金额突破xxx</p></li><li><p>关键词</p></li></ol><p>关键词很好理解，可以把一年的成绩做一个统计，比如说2018年，拿了2个大奖，得了3个荣誉，开发了多少新客户等等，这些数字就是关键词</p><ol start="3"><li>重要性</li></ol><p>根据重要性排序把你的工作进行归类，按重要性进行排列，在工作中的重要性的潜规则就是领导最重视的就是最重要的。</p><p>如今是数字时代，数据是多多益善，呈现的方式最好用图表，数据太枯燥，数据可以做成折现统计图，扇形统计图，条形统计图，对比表格等直观，可视的图表</p><p>通过罗列出成果，用表格，图表展示出来，成果回顾可以给领导一个深刻的印象，为接下来的分析做好准备。</p><h3 id="总结自己的经验和不足"><a href="#总结自己的经验和不足" class="headerlink" title="总结自己的经验和不足"></a>总结自己的经验和不足</h3><p>这一份对自己过去一年做一个分析，你对自己过往的工作经历有什么看法，那些地方做的不错，那些地方存在不足，那些地方需要改进。</p><p>对于领导来说，希望通过<strong>了解员工的工作状态与其在工作中的成长</strong>，所以其中内容要体现重点</p><p>可以借助平衡计分卡（BSC）， 这是一种常见的绩效考核方式，针对每个问题说出2～3个具体点，主要不要假大空的废话</p><ol><li>为公司贡献了什么？</li><li>为客户做了什么？</li><li>为自己学习了什么？</li><li>为下属做了什么？</li><li>为公司在管理和流程上做了什么？</li></ol><p>对于每个问题，那些对的好，那些做的不好，那些需要改进，都记下来。<br>点出我们工作中有价值的成果，并且提炼经验，与公司同事共享，让别人也能从中获得价值。<br>对于工作中的不足之处以及需要改进的地方，也需要列出来，这样也可以树立一个踏实，谦逊和可靠的形象。</p><h3 id="来年的改善和设定明年的目标规划"><a href="#来年的改善和设定明年的目标规划" class="headerlink" title="来年的改善和设定明年的目标规划"></a>来年的改善和设定明年的目标规划</h3><p>针对自己的分析，你觉得在这些重要的环节和发现的问题中，有没有办法把事情做的更好或者解决存在的问题，可以把这些思考列出来，做一个行动计划</p><p>更重要的是，一年过去了，有问题、有收获，更重要的是明年你的目标是什么？这里边可以跟你的领导去谈，看看公司的规划，领导对你的期望，也可以寻求领导资源和帮助， 然后给出你的打算、你的方向、你的目标。</p><p>根据目标，开始做明年的规划，这里面需要用到SMART原则。</p><h3 id="最后记得感谢领导和同事"><a href="#最后记得感谢领导和同事" class="headerlink" title="最后记得感谢领导和同事"></a>最后记得感谢领导和同事</h3><p>年度总结，不能只谈自己的业绩，还要<strong>感谢</strong>那些支持你取得这些成绩和成长的领导和同事，感谢领导的支持，同事的帮助。</p><h3 id="好的模板"><a href="#好的模板" class="headerlink" title="好的模板"></a>好的模板</h3><p>写完了这些，我们需要有一个<strong>好的呈现方式</strong>，那就找一个好的模版，小编这里给你准备了PPT模版</p><h3 id="年终总结的禁忌"><a href="#年终总结的禁忌" class="headerlink" title="年终总结的禁忌"></a>年终总结的禁忌</h3><ul><li>避免主观感受或模糊不清的词汇<ul><li>你觉得“这个任务我完成的挺好的”， 领导可不一定这么觉得，要用数据说话，比如用户增长多少，成交增加多少，效率提高多少等等</li><li>少用“差不多”，“还行吧”等不确定的词语，会让人家觉得你做事马虎。</li></ul></li><li>避免夸大其词或者轻描淡写<ul><li>看你的工作总结都是你的直属领导，他对你的工作有一定的了解，面对领导吹牛的事情最好不要做。</li><li>但是总结中也不能轻描淡写，只有总结成绩，没有经验，成果以及影响的总结，没有亮点，这样领导会觉得你什么都没有做，觉得你可有可无。</li></ul></li><li>缺乏分析<br>  -这类总结，只有总结工作和取得的成绩，没有发现工作中存在的问题，也没有进行认真的分析和研究，或者只是提困难，没有建设性的意见。对于未来，领导最看重的是你对工作看法，建议或者意见，通过这些看法领导可以看到你的潜力，然后培养你。如果没有分析，领导觉得你没有自己的看法，看不到你的潜力。</li><li>避免花里胡哨，内容空洞<ul><li>“题目吸引人，格式很动人，内容恶心人”，注重形式而不注重事实，形式大于内容。这类总结没有实际意义</li></ul></li></ul><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>世上有个不变的真理：只有从偶然的成功中寻获可复制的规律，才能从一个成功创造出另一个成功。年终总结不仅仅是升级交代的一项任务，更是一次自我的复盘和检验，把经验转化为能力的过程。</p><h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><ul><li><a href="http://www.sohu.com/a/288014197_100091630">如何写好年终工作总结？这是最全面的答案了 </a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vim分屏标签</title>
+      <link href="2020/10/05/019-vim%E5%88%86%E5%B1%8F%E6%A0%87%E7%AD%BE/"/>
+      <url>2020/10/05/019-vim%E5%88%86%E5%B1%8F%E6%A0%87%E7%AD%BE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="vim分屏标签"><a href="#vim分屏标签" class="headerlink" title="vim分屏标签"></a>vim分屏标签</h1><h2 id="tab标签"><a href="#tab标签" class="headerlink" title="tab标签"></a>tab标签</h2><ul><li>创建新tab :tabnew</li><li>关闭当前tab :tabc</li><li>关闭其他tab :tabo</li><li>查看所有的tab :tabs</li><li>前一个 :tabp</li><li>后一个 :tabn</li></ul><h2 id="分屏"><a href="#分屏" class="headerlink" title="分屏"></a>分屏</h2><ul><li>上下分屏 sp</li><li>左右分屏 vsp</li><li>关闭当前屏幕 Ctrl+W c</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>设计模式学习笔记</title>
+      <link href="2020/10/05/019-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>2020/10/05/019-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="设计模式学习笔记"><a href="#设计模式学习笔记" class="headerlink" title="设计模式学习笔记"></a>设计模式学习笔记</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>有人一直说开发人员，23种设计模式要烂熟于胸，而我没有做到，学习之。</p><h2 id="J2EE模式-超越教科书，不在23种以内-7种"><a href="#J2EE模式-超越教科书，不在23种以内-7种" class="headerlink" title="J2EE模式(超越教科书，不在23种以内) 7种"></a>J2EE模式(超越教科书，不在23种以内) 7种</h2><ul><li>数据传输对象模式<ul><li>数据传输对象是可以序列化和反序列化的，方便在网络上传输。这种处理数据传输的方式，一般会包含多个字段/属性，这种方式成为数据传输设计模式. DTO</li></ul></li><li>服务定位器设计模式<ul><li>就是定义一个服务的集合，这个集合具有缓存功能，能够缓存已经实例化的服务，不需要每次都创建新的实例</li></ul></li><li>拦截过滤器模式<ul><li>集中的请求处理机制</li></ul></li><li>数据访问对象模式<ul><li>DAO模式，实体，访问，接口</li></ul></li><li>组合实体模式<ul><li>一个实体包含多个实体，通过最外层的实体方法更新内部实体的属性</li></ul></li><li>业务代码模式<ul><li>表示层和业务层解耦</li></ul></li><li>MVC模式<ul><li>模型，视图，控制器，分层开发</li></ul></li></ul><h2 id="创建型-Creational-Patterns-5种"><a href="#创建型-Creational-Patterns-5种" class="headerlink" title="创建型(Creational Patterns) 5种"></a>创建型(Creational Patterns) 5种</h2><p>解决的对象创建的问题</p><ul><li>工厂模式(Factory Pattern)<ul><li>提供一种创建对象的方式</li><li>提供统一的接口负载对象的创建，具体的实现类负责创建类的实例，</li><li>有多种实现，但是想提供统一接口的场景，适用工厂模式</li></ul></li><li>抽象工厂模式(Abstract Factory Pattern)<ul><li>生产工厂的工厂，在工厂模式上的基础上更加抽象</li></ul></li><li>单例模式(Singleton Pattern)<ul><li>单一实例，减少实例不断创建释放造成的资源消耗</li></ul></li><li>建造者模式(Builder Pattern)<ul><li>建造器，负责复杂对象的创建</li></ul></li><li>原型模式(Prototype Pattern)<ul><li>对象的缓存，一旦创建直接返回，没有创建才会进行实例化</li></ul></li></ul><h2 id="结构型-Structural-Patterns-8种"><a href="#结构型-Structural-Patterns-8种" class="headerlink" title="结构型(Structural Patterns) 8种"></a>结构型(Structural Patterns) 8种</h2><ul><li>适配器模式<ul><li>两个不兼容接口之间的桥梁，解决兼容性问题</li></ul></li><li>桥接器模式<ul><li>使用非继承的模式来解决类关系的问题</li></ul></li><li>过滤器模式<ul><li>实现过滤功能</li></ul></li><li>组合模式<ul><li>复杂对象，属性可以时对象</li></ul></li><li>装饰器模式<ul><li>定义独立的类，在类的功能上加上其他的功能，称之为装饰</li></ul></li><li>外观模式<ul><li>系统的对外展现提供一个组接口，屏蔽内部的复杂实现，目标简单易用，易于理解</li></ul></li><li>享元模式<ul><li>运行共享技术实现减少对象创建资源消耗的问题，数据库的连接池就是实现的一种</li></ul></li><li>代理模式<ul><li>加入中间层，实现间接访问</li></ul></li></ul><h2 id="行为型-Behavioral-Patterns-12种"><a href="#行为型-Behavioral-Patterns-12种" class="headerlink" title="行为型(Behavioral Patterns) 12种"></a>行为型(Behavioral Patterns) 12种</h2><ul><li>责任链模式<ul><li>链条式结构，处理消息传递时常用</li></ul></li><li>命令模式<ul><li>请求或参数抽象为命令对象，新的命令很容易添加</li></ul></li><li>解释器模式<ul><li>常用在SQL解析符号处理、表达式解析引擎、规则解析</li></ul></li><li>迭代器模式<ul><li>提供统一的接口，访问集合，不需要集合内部复杂的结构</li></ul></li><li>中介者模式<ul><li>MVC模式中的控制器属于中介者模式，加入中间层，不直接交互</li></ul></li><li>备忘录模式<ul><li>为了反悔，保存中间状态</li></ul></li><li>观察者模式<ul><li>一对多关系时，一个发生变化，通知其他关联对象</li></ul></li><li>状态模式<ul><li>状态决定行为，存储类的状态</li></ul></li><li>空对象模式<ul><li>一种默认状态，处理默认的情况，提供默认的行为</li></ul></li><li>策略模式<ul><li>不同策略，封装不同行为的组合，不同的策略，不同的算法，策略可以自由切换非常灵活</li></ul></li><li>模板模式<ul><li>变和不变分类抽离，封装不变的部分形成模板</li></ul></li><li>访问者模式<ul><li>数据结构与数据操作分离，稳定的数据结构和易变的操作</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Emacs性能问题排查</title>
+      <link href="2020/10/05/020-Emacs%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
+      <url>2020/10/05/020-Emacs%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Emacs性能问题排查"><a href="#Emacs性能问题排查" class="headerlink" title="Emacs性能问题排查"></a>Emacs性能问题排查</h1><h2 id="查看启动时间"><a href="#查看启动时间" class="headerlink" title="查看启动时间"></a>查看启动时间</h2><ul><li>命令 <code>emacs --timed-requires</code></li><li>输出<ul><li>屏幕中央的位置显示</li></ul></li></ul><h2 id="查看内存和CPU占用"><a href="#查看内存和CPU占用" class="headerlink" title="查看内存和CPU占用"></a>查看内存和CPU占用</h2><ul><li>命令 <code>emacs --profile</code></li><li>输出<ul><li>屏幕中央的位置显示</li></ul></li></ul><h2 id="换个思路，Emacs以服务的方式运行"><a href="#换个思路，Emacs以服务的方式运行" class="headerlink" title="换个思路，Emacs以服务的方式运行"></a>换个思路，Emacs以服务的方式运行</h2><ul><li>启动服务<code>emacs --daemon</code></li><li>启动客户端<code>emacsclient -t</code>，终端方式启动</li><li>启动客户端的命令太长，在<code>/etc/bash.bashrc</code>设置别名<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ------------ 定义emacsclient的别名，Emacs后台服务模式启动，加快速度 -----------</span></span><br><span class="line"><span class="built_in">alias</span> et=<span class="string">&#x27;emacsclient -t&#x27;</span></span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>021-Linux系统剪贴板.md</title>
+      <link href="2020/10/05/021-Linux%E7%B3%BB%E7%BB%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/"/>
+      <url>2020/10/05/021-Linux%E7%B3%BB%E7%BB%9F%E5%89%AA%E8%B4%B4%E6%9D%BF/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux系统剪贴板"><a href="#Linux系统剪贴板" class="headerlink" title="Linux系统剪贴板"></a>Linux系统剪贴板</h1><h2 id="终端结果复制到系统剪贴板"><a href="#终端结果复制到系统剪贴板" class="headerlink" title="终端结果复制到系统剪贴板"></a>终端结果复制到系统剪贴板</h2><ul><li>需要借助xclip命令行工具’xclip’</li><li>安装<code>apt-get install -y xclip</code></li></ul><h2 id="命令结果终端共享"><a href="#命令结果终端共享" class="headerlink" title="命令结果终端共享"></a>命令结果终端共享</h2><ul><li>结果输出到系统剪贴板’pwd | xclip -selection c’</li><li>粘贴<code>Ctrl + Shift + v</code></li></ul><h2 id="Docker和宿主机共享剪贴板"><a href="#Docker和宿主机共享剪贴板" class="headerlink" title="Docker和宿主机共享剪贴板"></a>Docker和宿主机共享剪贴板</h2><ul><li>在共享卷创建clipboard.md文件</li><li>需要共享的写入到clipboard.md文件，相互读取就可以了</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git使用技巧</title>
+      <link href="2020/10/05/022-Git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+      <url>2020/10/05/022-Git%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Git使用技巧"><a href="#Git使用技巧" class="headerlink" title="Git使用技巧"></a>Git使用技巧</h1><h2 id="HTTPS和GIT协议转换"><a href="#HTTPS和GIT协议转换" class="headerlink" title="HTTPS和GIT协议转换"></a>HTTPS和GIT协议转换</h2><ul><li>git协议，不用每次都输入用户名和密码<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git@github.com:jiftle&#x2F;grocery.git</span><br></pre></td></tr></table></figure></li><li>https协议，服务器端不要做配置<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:&#x2F;&#x2F;git.dev.tencent.com&#x2F;jiftle&#x2F;grocery.git</span><br></pre></td></tr></table></figure></li></ul><h2 id="git本地仓库和远程仓库关联"><a href="#git本地仓库和远程仓库关联" class="headerlink" title="git本地仓库和远程仓库关联"></a>git本地仓库和远程仓库关联</h2><ol><li>创建远程仓库</li><li>初始化本地仓库<code>git init     git add .     git commit  -m &quot;desc&quot;</code></li><li>关联远程仓库  <code>git remote add origin https://gitee.com/lp369/mypython.git</code></li><li>第一次先拉取远程库中的README.md和.gitignore等文件     <code>git pull --rebase origin master</code></li><li>提交本地代码<code>git push origin master</code></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vim使用技巧</title>
+      <link href="2020/10/05/023-Vim%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7-%E6%89%A7%E8%A1%8C%E5%A4%96%E9%83%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>2020/10/05/023-Vim%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7-%E6%89%A7%E8%A1%8C%E5%A4%96%E9%83%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Vim使用技巧-执行外部命令"><a href="#Vim使用技巧-执行外部命令" class="headerlink" title="Vim使用技巧-执行外部命令"></a>Vim使用技巧-执行外部命令</h1><h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><p>vim 是十分强大的文本编辑工具，但有一些事它做不了。本文简单说说在不离开 vim 编辑器的情况下，执行 shell 命令、工具。</p><h2 id="进入shell"><a href="#进入shell" class="headerlink" title="进入shell"></a>进入shell</h2><ul><li>在 vim 中执行 :shell 或 :sh，当退出当前 shell 时，就会回到 vim；</li><li>也可以使用 ctr-z 进入 shell， 然后执行 fg 回到 vim。</li><li>上述功能可用于下述场景：<ul><li>如我们编辑了一个文件，但是发现无法保存（没有写权限），你可以先改变该文件读写权限，然后再回到 vim 保存刚刚的修改。</li></ul></li></ul><h2 id="在vim中执行-shell-命令"><a href="#在vim中执行-shell-命令" class="headerlink" title="在vim中执行 shell 命令!"></a>在vim中执行 shell 命令!</h2><ul><li>我们只需要在命令前 加上 ! 就可以。<ul><li>如，<code>:! sort %</code><ul><li>该命令会对当前编辑的文件（％）内容进行排序，并输出。</li><li>但该命令仅对文件内容进行操作，命令不会缓存中的内容进行操作。</li><li>! 通常和非交互式命令结合使用。</li></ul></li></ul></li></ul><h2 id="读取命令的输出"><a href="#读取命令的输出" class="headerlink" title="读取命令的输出"></a>读取命令的输出</h2><ul><li>很多人常用 vim read命令读取内容， 如：<code>:read textfile</code></li><li>但 read还可以用于读取 shell 命令的输出，如：<code>:read ! ls | sort</code></li></ul><h2 id="使用外部命令过滤文本"><a href="#使用外部命令过滤文本" class="headerlink" title="使用外部命令过滤文本"></a>使用外部命令过滤文本</h2><ul><li>进入 vim visual模式，选中你想操作的文本，然后执行 shell 命令。</li><li>你选中的命令会被 shell 命令的输出替换。</li></ul><h2 id="注："><a href="#注：" class="headerlink" title="注："></a>注：</h2><ul><li>默认情况下，vim 使用系统默认使用的 shell。</li><li>查看 vim 使用了哪一个 shell <code>:set shell ?</code></li><li>设置你想要试用的shell <code>:set shell=/path/to/shell</code></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog-2020 </tag>
+            
+            <tag> blog-2020-01 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>024-Vim脚本编写入门.md</title>
+      <link href="2020/10/05/024-Vim%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E5%85%A5%E9%97%A8/"/>
+      <url>2020/10/05/024-Vim%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E5%85%A5%E9%97%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Vim脚本编写入门"><a href="#Vim脚本编写入门" class="headerlink" title="Vim脚本编写入门"></a>Vim脚本编写入门</h1><h2 id="入门案例："><a href="#入门案例：" class="headerlink" title="入门案例："></a>入门案例：</h2><ul><li>冒号: 字符非必须，只有键入命令时需要，编写Vim脚本时可以省略<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">:let i &#x3D; 1</span><br><span class="line">:while i &lt; 5</span><br><span class="line">:echo &quot;Hello,World!&quot; i</span><br><span class="line">:let i +&#x3D; 1</span><br><span class="line">:endwhile</span><br></pre></td></tr></table></figure></li></ul><h2 id="1-变量"><a href="#1-变量" class="headerlink" title="1.变量"></a>1.变量</h2><ul><li><p>定义变量 :let<br>:let {变量} = {表达式}<br>表达式类型</p></li><li><p>==vim脚本变量类型有9种==    </p></li></ul><p>数值        32位或64位带符号整数。<br>        64-位整数只有在编译时带  +num64  特性时才有效。<br>        示例:  -123  0x10  0177  0b1011<br>浮点数     带小数的数值。<br>        {仅当编译时加入  +float  特性才有效}<br>        示例: 123.456  1.15e-6  -1.1e3<br>字符串<br>列表     项目的有序的序列。<br>        示例: [1, 2, [‘a’, ‘b’]]<br>字典        关联数组:每个项目包含一个键和一个值<br>        示例: {‘blue’: “#0000ff”, ‘red’: “#ff0000”}<br>函数引用 指向一个函数的引用<br>        示例: function(“strlen”)<br>特殊     v:false 、 v:true 、 v:none  和  v:null 。<br>工作        用于作业<br>通道        用于通道<br>    数值和字符串类型之间会根据使用的情况自动转换<br>    列表、字典、函数引用、作业和通道类型不会自动进行转换。</p><p>变量有不同的命名空间，根据附加的前缀决定:</p><p> (无) 函数内: 局部于函数；否则: 全局<br> buffer-variable     b:   局部于当前缓冲区。<br> window-variable     w:   局部于当前窗口。<br> tabpage-variable    t:   局部于当前标签页。<br> global-variable     g:   全局。<br> local-variable      l:   局部于函数。<br> script-variable     s:   局部于  :source  的 Vim 脚本。<br> function-argument   a:   函数参数 (只限于函数内使用)。<br> vim-variable        v:   Vim 预定义的全局变量</p><p>删除变量 :unlet<br>:unlet {变量}</p><pre><code>例如:unlet s:count，这将删除count局部变量并释放其占用的内存。如果不确定这个变量是否存在，又不希望看到系统在它不存在时报错，可以在命令后面加!，即:unlet! s:count</code></pre><h2 id="2-表达式"><a href="#2-表达式" class="headerlink" title="2. 表达式"></a>2. 表达式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">expr2 ? expr1 : expr1   if-then-else</span><br><span class="line">expr3 || expr3 ..       逻辑或</span><br><span class="line">expr4 &amp;&amp; expr4 ..       逻辑与</span><br><span class="line">expr5 &#x3D;&#x3D; expr5          等于</span><br><span class="line">expr5 !&#x3D; expr5          不等于</span><br><span class="line">expr5 &gt;  expr5          大于</span><br><span class="line">expr5 &gt;&#x3D; expr5          大于等于</span><br><span class="line">expr5 &lt;  expr5          小于</span><br><span class="line">expr5 &lt;&#x3D; expr5          小于等于</span><br><span class="line">expr5 &#x3D;~ expr5          匹配正规表达式</span><br><span class="line">expr5 !~ expr5          不匹配正规表达式</span><br><span class="line">expr5 &#x3D;&#x3D;? expr5         等于，忽略大小写</span><br><span class="line">expr5 &#x3D;&#x3D;# expr5         等于，匹配大小写</span><br><span class="line">等等                    如上，? 忽略大小写，# 则匹配之</span><br><span class="line">expr5 is expr5          相同的  List  实例</span><br><span class="line">expr5 isnot expr5       不同的  List  实例</span><br><span class="line">**算术**</span><br><span class="line">expr6 +  expr6 ..       数值加法或列表连接</span><br><span class="line">expr6 -  expr6 ..       数值减法</span><br><span class="line">expr6 .  expr6 ..       字符串连接</span><br><span class="line">expr7 *  expr7 ..       数值乘法</span><br><span class="line">expr7 &#x2F;  expr7 ..       数值除法</span><br><span class="line">expr7 %  expr7 ..       数值求余</span><br><span class="line">! expr7                 逻辑非</span><br><span class="line">- expr7                 一元减法: 取反</span><br><span class="line">+ expr7                 一元加法: 原值</span><br><span class="line">expr8[expr1]            字符串里的字节或者  List  的项目</span><br><span class="line">expr8[expr1 : expr1]    字符串子串或  List  的子列表</span><br><span class="line">expr8.name               Dictionary  的项目</span><br><span class="line">expr8(expr1, ...)       使用  Funcref  变量的函数调用</span><br><span class="line"></span><br><span class="line">&quot;string&quot;                字符串常数，反斜杠有特殊含义</span><br><span class="line">&#39;string&#39;                字符串常数，&#39; 加倍</span><br><span class="line">[expr1, ...]             List </span><br><span class="line">&#123;expr1: expr1, ...&#125;      Dictionary </span><br><span class="line">&amp;option                 选项值</span><br><span class="line">(expr1)                 嵌套表达式</span><br><span class="line">variable                内部变量</span><br><span class="line">va&#123;ria&#125;ble              带花括号的内部变量</span><br><span class="line">$VAR                    环境变量</span><br><span class="line">@r                      寄存器 &#39;r&#39; 的值</span><br><span class="line">function(expr1, ...)    函数调用</span><br><span class="line">func&#123;ti&#125;on(expr1, ...)  带花括号的函数调用</span><br><span class="line">&#123;args -&gt; expr1&#125;         匿名函数表达式</span><br><span class="line">&quot;..&quot; 标明这一层上的操作可以连接。比如: </span><br><span class="line">&amp;nu || &amp;list &amp;&amp; &amp;shell &#x3D;&#x3D; &quot;csh&quot;</span><br><span class="line">同一层的表达式从左到右进行分析。</span><br></pre></td></tr></table></figure><h2 id="3-语句"><a href="#3-语句" class="headerlink" title="3.语句"></a>3.语句</h2><p>:if</p><p>单分支：<br>    :if 表达式<br>         代码块<br>     :endif<br>双分支：<br>    :if 表达式<br>        代码块<br>     :else<br>         代码块2<br>     :endif<br>     多分支：<br>         :if 表达式1<br>             代码块<br>         :elseif 表达式2<br>             代码块2<br>         :else<br>             代码块3<br>         :endif</p><p>:while</p><pre><code>:while 表达式    代码块:endwhile</code></pre><p>:for</p><pre><code>:for &#123;var&#125; in &#123;list&#125;    循环代码块:endfor:for [&#123;var1&#125;,&#123;var2&#125;,...] in &#123;listlist&#125;    循环代码块:endfor</code></pre><p>:continue 跳回while循环的开始;继续循环。在 “:while” 或 “:for” 循环的内部，跳回循环开始的地方。<br>:break  跳至:endwhile;循环结束 。在 “:while” 或 “:for” 循环的内部，跳到相匹配的  “:endwhile” 或 “:endfor” 之后的命令。</p><p>执行单个表达式</p><p>执行一个vim命令行命令<br>    :execute  “vim命令” . 参数<br>    参数可以是变量，如果不是变量，必须单引号引起来<br>    例如：:execute “! “. ‘ls -la’<br>执行一个普通模式命令（快捷操作）<br>参数不能是表达式，可以和:execute 配合使用来带参数<br>    :normal vim命令<br>    例如：:normal gt</p><p>使用函数</p><p>一个函数可以被:call命令调用,参数列表要用括号括起来，并用逗号分割<br>:call search(“Date:”,”W”)</p><p>自定义函数</p><pre><code>:function &#123;name&#125;(&#123;var1&#125;, &#123;var2&#125;, ...)    &#123;函数体&#125;:endfunction# 函数名必须以大写字母开始# 要重定义一个已经存在的函数，在 &quot;function&quot; 命令后加上 !# echo 可以输出函数结果 echo 函数</code></pre><h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><ul><li><a href="https://blog.csdn.net/karelcn/article/details/82963604">原文链接</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用Docker构建开发环境</title>
+      <link href="2020/10/05/0-DevEnvBaseOnDocker/"/>
+      <url>2020/10/05/0-DevEnvBaseOnDocker/</url>
+      
+        <content type="html"><![CDATA[<h1 id="使用Docker构建开发环境"><a href="#使用Docker构建开发环境" class="headerlink" title="使用Docker构建开发环境"></a>使用Docker构建开发环境</h1><h2 id="Base-Docker-Images"><a href="#Base-Docker-Images" class="headerlink" title="Base Docker Images"></a>Base Docker Images</h2><ul><li>Ubuntu 1804</li></ul><h2 id="支持的系统"><a href="#支持的系统" class="headerlink" title="支持的系统"></a>支持的系统</h2><ul><li>Linux(deepin)</li><li>MacOS(10.15)</li></ul><h2 id="Feature"><a href="#Feature" class="headerlink" title="Feature"></a>Feature</h2><ul><li>vim 8.2</li><li>gvim</li><li>emacs 26.3</li><li>spacemacs</li><li>eclipse 3.8</li><li>gtk2.0</li><li>gtk3.0</li><li>eclipse 4.15</li></ul><h2 id="Docker和主机之间的互操作性"><a href="#Docker和主机之间的互操作性" class="headerlink" title="Docker和主机之间的互操作性"></a>Docker和主机之间的互操作性</h2><ul><li>目录共享</li><li>剪贴板共享</li><li>GUI程序运行在主机桌面</li></ul><h2 id="缺陷"><a href="#缺陷" class="headerlink" title="缺陷"></a>缺陷</h2><ul><li>大型的GUI不能运行，依赖多，（不如直接安装虚拟机）</li><li>gvim中文输入法，不能解决<ul><li>emacs can input chinese , select input-method of use set-input-method</li></ul></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sed &#39;4,4s&#x2F;tags: [&#x2F;tags: [[&#x2F;; 4,4s&#x2F;$&#x2F;&amp;]&#x2F;&#39; 0-DevEnvBaseOnDocker.md]</span><br><span class="line"></span><br><span class="line">sed -i &#39;s&#x2F;tags: [&#x2F;tags: [[&#x2F;g;s&#x2F;tags: [.*&#x2F;&amp;]&#x2F;g&#39; &#96;grep .md -rl .&#x2F;&#96;]</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
@@ -686,6 +581,111 @@
             <tag> GitMdNote </tag>
             
             <tag> blog-2020-10 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用docker构建vim-golang开发环境</title>
+      <link href="2020/10/05/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+      <url>2020/10/05/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</url>
+      
+        <content type="html"><![CDATA[<h1 id="使用docker构建vim-golang开发环境"><a href="#使用docker构建vim-golang开发环境" class="headerlink" title="使用docker构建vim-golang开发环境"></a>使用docker构建vim-golang开发环境</h1><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>docker可以构建一个属于自己的开发环境容器，需要使用时，下载镜像，开箱即用，避免每次都搭建开发环境，浪费不少的时间。</p><h2 id="路线图Road-Map"><a href="#路线图Road-Map" class="headerlink" title="路线图Road Map"></a>路线图Road Map</h2><ul><li>vim-golang 开发环境</li><li>spacemacs Org-mode  –放弃，鸡肋  –已实现，转变思维不一定非要运行在GUI模式下</li></ul><h2 id="目的-抓住主要矛盾-围绕目标来展开工作"><a href="#目的-抓住主要矛盾-围绕目标来展开工作" class="headerlink" title="目的(抓住主要矛盾,围绕目标来展开工作)"></a>目的(抓住主要矛盾,围绕目标来展开工作)</h2><ul><li>搭建基于Docker的开箱即用的，工作和开发环境  –已实现</li><li>支持golang开发  –已实现</li><li>支持TypeScript的开发  –已实现</li></ul><h2 id="需要解决的问题"><a href="#需要解决的问题" class="headerlink" title="需要解决的问题"></a>需要解决的问题</h2><ul><li>vim插件vim-airline，状态栏图标不显示  –优先级，低   –已解决</li><li>重新构建devenv-vim镜像，使用dockerfile技术构建，减小体积，去除冗余  –优先级，低 [#D]<ul><li>已进行尝试，但是体积不能没有减小，反而增大了</li></ul></li></ul><h2 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h2><ul><li>家里-运行<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">docker run -itd \</span><br><span class="line">`<span class="comment"># 注释请忽略，----------- 工作目录映射 -------------` \</span></span><br><span class="line">-w /home/john `<span class="comment"># 默认工作目录` \</span></span><br><span class="line">-v ~:/home/john `<span class="comment"># 默认工作目录，映射` \</span></span><br><span class="line">-v /media/jiftle/work/work/git/coding_net/grocery/dailylog:/home/john/dailylog `<span class="comment"># 日志仓库目录` \</span></span><br><span class="line">-v /media/jiftle/work/work/git:/home/john/git `<span class="comment"># git仓库目录` \</span></span><br><span class="line">`<span class="comment"># 注释请忽略，----------- 用户密钥 -------------` \</span></span><br><span class="line">-v ~/.ssh:/home/john/.ssh:ro `<span class="comment"># .ssh密钥` \</span></span><br><span class="line">`<span class="comment"># 注释请忽略，----------- 端口映射 -------------` \</span></span><br><span class="line">-p 8001:8001 `<span class="comment"># 日志仓库，预览服务` \</span></span><br><span class="line">-p 8080:8080 `<span class="comment"># web程序调试端口` \</span></span><br><span class="line">`<span class="comment"># 注释请忽略，----------- 解决时区问题 -------------` \</span></span><br><span class="line">-v /etc/localtime:/etc/localtime:ro \</span><br><span class="line">jiftle/devenv-vim:V1.0.0.B.6_191208</span><br></pre></td></tr></table></figure></li><li>公司运行<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">docker run -itd \</span><br><span class="line">&#96;# 注释请忽略，----------- 设置名称 -------------&#96; \</span><br><span class="line">--name&#x3D;&quot;devenv-vim&quot; \</span><br><span class="line">&#96;# 注释请忽略，----------- 工作目录映射 -------------&#96; \</span><br><span class="line">-w &#x2F;home&#x2F;john &#96;# 默认工作目录&#96; \</span><br><span class="line">-v ~:&#x2F;home&#x2F;john &#96;# 默认工作目录，映射&#96; \</span><br><span class="line">-v &#x2F;usrlocal&#x2F;git:&#x2F;home&#x2F;john&#x2F;git &#96;# git仓库目录&#96; \</span><br><span class="line">&#96;# 注释请忽略，----------- 用户密钥 -------------&#96; \</span><br><span class="line">-v ~&#x2F;.ssh:&#x2F;root&#x2F;.ssh:ro &#96;# .ssh密钥&#96; \</span><br><span class="line">&#96;# 注释请忽略，----------- 端口映射 -------------&#96; \</span><br><span class="line">-p 8001:8001 &#96;# 日志仓库，预览服务&#96; \</span><br><span class="line">-p 8080:8080 &#96;# 调试运行，端口&#96; \</span><br><span class="line">&#96;# 注释请忽略，----------- 解决时区问题 -------------&#96; \</span><br><span class="line">-v &#x2F;etc&#x2F;localtime:&#x2F;etc&#x2F;localtime:ro \</span><br><span class="line">&#96;# 注释请忽略，----------- 自动重启 -------------&#96; \</span><br><span class="line">--restart&#x3D;always \</span><br><span class="line">&#96;# 共享主机剪贴板，因为剪贴板是x11的一部分&#96; \</span><br><span class="line">-e DISPLAY \</span><br><span class="line">-v &#x2F;tmp&#x2F;.X11-unix:&#x2F;tmp&#x2F;.X11-unix \</span><br><span class="line">jiftle&#x2F;devenv-vim:v0.3</span><br></pre></td></tr></table></figure></li><li>附加进入容器<code>docker exec -it devenv-vim bash</code></li></ul><h2 id="容器保存为镜像"><a href="#容器保存为镜像" class="headerlink" title="容器保存为镜像"></a>容器保存为镜像</h2><ul><li>提交容器的快照作为镜像<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker commit -m=<span class="string">&#x27;vim,git,vim-plug,ctags,tig,lang=C.UTF-8&#x27;</span> -a=<span class="string">&#x27;jiftle&#x27;</span> 5d jiftle/devenv-vim:V1.0.0.B.1_191206</span><br></pre></td></tr></table></figure></li></ul><h2 id="内存限制报错处理"><a href="#内存限制报错处理" class="headerlink" title="内存限制报错处理"></a>内存限制报错处理</h2><ul><li>docker run报错<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Your kernel does not support cgroup swap limit capabilities</span><br></pre></td></tr></table></figure></li><li>原因，内核需要设置cgroup参数</li><li>处理步骤<ul><li>修改配置grub配置文件<code>/etc/default/grub</code></li><li>修改<code>GRUB_CMDLINE_LINE</code>参数为<code>GRUB_CMDLINE_LINUX=&quot;cgroup_enable=memory swapaccount=1&quot;</code></li><li>更新Grub，<code>sudo update-grub</code></li><li>重启机器</li></ul></li></ul><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul><li>需要映射的目录<ul><li>/home 主目录</li><li>dailylog 日志目录</li><li>devrepo 开发仓库</li></ul></li></ul><h2 id="存在问题"><a href="#存在问题" class="headerlink" title="存在问题"></a>存在问题</h2><ul><li>vim状态栏的字体图标不显示，乱码  –已解决，字体问题NerdFont可以解决<ul><li>家里电脑正常</li></ul></li></ul><h2 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h2><ul><li>12.5 周四<ul><li>日志<ul><li>开始尝试制作vim镜像，成功</li><li>安装git</li><li>安装vim插件</li><li>配置golang的开发环境</li></ul></li><li>遗留问题<ul><li>关于映射目录下软连接不能用的问题，因为软连接的路径指向的是宿主机的，不是容器里的，所以软连接失效了</li><li>尝试解决<ul><li>方法1：常用的开发目录，都用卷标的方式引用下  –已解决</li><li>方法2：目标目录搞成软连接，软连接再映射到容器里</li></ul></li></ul></li></ul></li><li>12.8 周日<ul><li>V1.0.0.B.6版本<ul><li>开发环境<ul><li>vim</li><li>golang env</li><li>node env</li><li>YCM</li></ul></li><li>工具<ul><li>curl</li><li>wget</li><li>git</li><li>tig</li><li>tree</li><li>htop</li><li>cmake</li><li>python3</li></ul></li></ul></li></ul></li><li>12.9 周一<ul><li>尝试x11docker，能够运行图形化程序，但是不是我想要的   –放弃这种方式</li></ul></li><li>12.25 周二<ul><li>制作v0.5版本镜像，目标如下<ul><li>支持多种配色       –ok</li><li>支持代码片段       –ok</li><li>加入自己开发的vim插件  –ok</li><li>为镜像设置默认的git配置账号和Email，名字要中性的，不要体现自己的名字，保护隐私  -ok</li></ul></li></ul></li><li>2019-12-25 Wed.<ul><li><input checked="" disabled="" type="checkbox"> GitMdBlog模板修改修改，列表页，文章页超级链接，打开新页面</li></ul></li><li>2019-12-27 周五<ul><li>v0.7版本<ul><li>spacemacs，集成完毕，without gui, run on the term</li><li>vim markdown outline</li><li>vim-orgmode，能够显示*.org文件，自动折叠功能，语法高亮</li><li>spacemacs，Org-Mode，自定义GTD时间管理法可以用  –最大心愿实现</li></ul></li><li>v0.8版本<ul><li>tmux</li></ul></li></ul></li><li>2020-05-24 周日<ul><li>集成了emacs</li><li>eclipse</li><li>vim</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>003-Docker运行图形界面程序.md</title>
+      <link href="2020/10/05/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/"/>
+      <url>2020/10/05/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="003-Docker运行图形界面程序-md"><a href="#003-Docker运行图形界面程序-md" class="headerlink" title="003-Docker运行图形界面程序.md"></a>003-Docker运行图形界面程序.md</h1><h2 id="原理简介"><a href="#原理简介" class="headerlink" title="原理简介"></a>原理简介</h2><h2 id="宿主机配置"><a href="#宿主机配置" class="headerlink" title="宿主机配置"></a>宿主机配置</h2><ul><li>宿主机系统中安装x11服务<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install x11-xserver-utils</span><br></pre></td></tr></table></figure></li><li>启动容器前执行<code>xhost +</code></li></ul><h2 id="容器启动配置"><a href="#容器启动配置" class="headerlink" title="容器启动配置"></a>容器启动配置</h2><ul><li>容器运行时加入参数，uid和gid两个参数不需要<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-v /tmp/.X11-unix:/tmp/.X11-unix `<span class="comment"># gui程序需要`\</span></span><br><span class="line">-e DISPLAY=<span class="variable">$DISPLAY</span> \</span><br></pre></td></tr></table></figure></li><li>完整指令<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">docker run -itd \</span><br><span class="line">-v ~:&#x2F;home&#x2F;john &#96;# 默认工作目录，映射&#96; \</span><br><span class="line">-v &#x2F;usrlocal&#x2F;git:&#x2F;home&#x2F;john&#x2F;git &#96;# git仓库目录&#96; \</span><br><span class="line">-p 8001:8001 &#96;# 日志仓库，预览服务&#96; \</span><br><span class="line">-p 8080:8080 &#96;# web程序调试端口&#96; \</span><br><span class="line">-w &#x2F;home&#x2F;john &#96;# 默认工作目录&#96; \</span><br><span class="line">-v &#x2F;etc&#x2F;localtime:&#x2F;etc&#x2F;localtime:ro &#96;# 当地时间&#96; \</span><br><span class="line">-v &#x2F;tmp&#x2F;.X11-unix:&#x2F;tmp&#x2F;.X11-unix &#96;# gui程序需要&#96;\</span><br><span class="line">-e DISPLAY&#x3D;$DISPLAY \</span><br><span class="line">--name devenv-vim &#96;# 容器名字&#96; \</span><br><span class="line">jiftle&#x2F;devenv-vim:V1.0.0.B.6_191208 \</span><br><span class="line">bash</span><br></pre></td></tr></table></figure></li></ul><h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><ul><li>安装GUI小工具<code>sudo apt-get install xarclock</code></li><li>运行工具<code>xarclock</code></li><li>配置成功，会显示个桌面时钟</li></ul><h2 id="高阶，在Docker中运行Emacs"><a href="#高阶，在Docker中运行Emacs" class="headerlink" title="高阶，在Docker中运行Emacs"></a>高阶，在Docker中运行Emacs</h2><ul><li>经过测试，网上的方法，会引起deepin桌面系统的崩溃，不建议用这种方式</li><li>x11docker 验证了debian下有bug，导致x11 server崩溃</li><li>调整方向，使用别人做好的spacemacs Docker</li><li>网上的Docker解决了dbus的问题，但是中文输入法不支持的问题，仍然存在</li><li>可能是这句<code>-v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket </code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">docker run -ti --rm -v $(<span class="string">&#x27;pwd&#x27;</span>):/mnt/workspace \</span><br><span class="line"> -v /etc/localtime:/etc/localtime:ro \</span><br><span class="line"> -v ~/.ssh/id_rsa:<span class="variable">$&#123;HOME&#125;</span>/.ssh/id_rsa:ro \</span><br><span class="line"> -v ~/.gnupg:<span class="variable">$&#123;HOME&#125;</span>/.gnupg \</span><br><span class="line"> -v /var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket \  </span><br><span class="line"> -v /tmp/.X11-unix:/tmp/.X11-unix \</span><br><span class="line"> -v /etc/machine-id:/etc/machine-id:ro \</span><br><span class="line"> -e DISPLAY=<span class="variable">$DISPLAY</span> \</span><br><span class="line"> -e TZ=UA \</span><br><span class="line"> --name spacemacs jare/spacemacs</span><br></pre></td></tr></table></figure></li><li>关于输入法的问题，EmcasChina有解答pyim，明天安装pyim试试</li><li><a href="https://github.com/tumashu/pyim">https://github.com/tumashu/pyim</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>构建基于Git的知识管理体系</title>
+      <link href="2020/10/05/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/"/>
+      <url>2020/10/05/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/</url>
+      
+        <content type="html"><![CDATA[<h1 id="构建基于Git的知识管理体系"><a href="#构建基于Git的知识管理体系" class="headerlink" title="构建基于Git的知识管理体系"></a>构建基于Git的知识管理体系</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>基于“让你成长为一棵树而不是一地草”的理念，搭建自己的知识金字塔，构建持续发展、增值的技能树。</p><h2 id="最终目标"><a href="#最终目标" class="headerlink" title="最终目标"></a>最终目标</h2><h3 id="主阵地"><a href="#主阵地" class="headerlink" title="主阵地"></a>主阵地</h3><ul><li>GitMdNote 个人日志，Git仓库，个人知识，收集归纳的主战场<ul><li>GitMdBlog 日志仓库预览工具，方便查看，友好界面，专注(golang)</li></ul></li></ul><h3 id="第二大脑"><a href="#第二大脑" class="headerlink" title="第二大脑"></a>第二大脑</h3><ul><li>EverNote 云端存储同步工具，可以用来归档，整理，多终端查看</li></ul><h3 id="辅助工具"><a href="#辅助工具" class="headerlink" title="辅助工具"></a>辅助工具</h3><ul><li>EverSynClient 印象笔记同步工具，同步笔记仓库到印象笔记(TypeScript)</li><li>GitHubPage 定期发布文章，输出成功到Page，打造个人名片</li></ul><h2 id="路线图-RoadMap"><a href="#路线图-RoadMap" class="headerlink" title="路线图 RoadMap"></a>路线图 RoadMap</h2><ul><li>v1.0 (初步构建起，一个小型的，自发展的个人知识管理体系)<ul><li>GitMdNote   –已实现</li><li>EverNote    –已实现</li><li>GitMdBlog   –已实现</li><li>EverSynClient  –开发中</li><li>GitHubPage     –未开始</li></ul></li></ul><h2 id="遐想"><a href="#遐想" class="headerlink" title="遐想"></a>遐想</h2><ul><li>拥有自己的知识体系后，就可以定时从思维宝库里，提取出精华，知识变现</li><li>拥有知识，并能够将接收到的信息，转化为知识，并将其变现为财富，才是真的学有所成</li><li>当前网络中，现实生活中，存在非常多的傻逼，脑袋不清楚，容易带节奏，还他妈的纠缠不清，活该一辈子搬砖</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>高标准做事</title>
+      <link href="2020/10/05/005-%E9%AB%98%E6%A0%87%E5%87%86%E5%81%9A%E4%BA%8B/"/>
+      <url>2020/10/05/005-%E9%AB%98%E6%A0%87%E5%87%86%E5%81%9A%E4%BA%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="高标准做事"><a href="#高标准做事" class="headerlink" title="高标准做事"></a>高标准做事</h1><p>高标准做事，做事要强调一个“高”字，要有高度的责任心，高度的执行力：高昂的志向、高远的目标、高涨的激情、高雅的格调、高超的水平、高强的技能。要做到高瞻远瞩、高屋建瓴、高歌猛进！正是这些高标准和高要求，才使人成就了事业的辉煌和人生的高贵与完美！</p><h2 id="一、思想上要高标准"><a href="#一、思想上要高标准" class="headerlink" title="一、思想上要高标准"></a>一、思想上要高标准</h2><ul><li>给自己一个希望：<ul><li>不论你遇到了多揪心的挫折，都应当以坚持不懈的信心和毅力，感动自己，感动他人，把自己锤炼成一个做大事的人。</li></ul></li><li>保持向上的激情：<ul><li>我们需要激情，需要开拓，让我们从现在做起，兢兢业业，开拓创新，扎扎实实做好本职工作，在平凡的工作中燃烧激情。</li></ul></li><li>自信是高调做事的秘诀：<ul><li>信心对于做事成功者具有重要意义，成功的欲望是创造和拥有财富的源泉。人一旦有了这种欲望，并经由自我暗示和潜意识的激发后形成一种自信心，这种信心就会转化成一种“积极的感情”，它能帮助人们释放出无穷的热情、智慧和精力，进而帮助人们获得财富与事业上的巨大成就。</li></ul></li><li>别让借口“吃掉”你的希望：<ul><li>无论什么时候，我们都不要为自己寻找借口，只有尽职尽责，勇往直前，不找借口，才能实现理想，创造辉煌人生。</li></ul></li><li>丑小鸭也能变成白天鹅：<ul><li>一个人有希望，再加上坚忍不拔的决心，就会产生创造的能力；一个人有希望，再加上持之以恒的努力，就会达到目的。</li></ul></li><li>点燃希望之火：<ul><li>一颗充满希望的心灵，具有极大的创造力，这种创造力会激发人的潜能，实现人的理想。</li></ul></li><li>成功需要付出代价：<ul><li>从古到今，凡成事者，成大事者，莫不受尽磨难，在磨难中完成自我教育，如此也水到渠成地成就了事业。</li></ul></li><li>主动去做应该做的事：<ul><li>只有气服懒惰，积极进取的人，才能不断成功，不断取得好成绩。</li></ul></li><li>不要轻言放弃，坚持就能成功：<ul><li>抱定任何都不放弃的信念，即使在一片懊悔或叹息、宽容或指责的氛围中也要坚持。是的，任何时候都不要放弃，无论条件多么的困难，只要能坚持到底，成功就一定属于你。</li></ul></li><li>学会自己鼓励自己：<ul><li>能自己鼓励自己的人就算不是一个成功者，但绝对不会是一个失败者，你还是趁早练练这“功夫”吧！<br>永远保持好心情：</li><li>突破困境的方法，首先在于要肃清胸中快乐和成功的仇敌，其次要集中思想，坚定意识。只有运用正确的思想，并抱定坚定的精神，才能从逆境中突围。</li></ul></li><li>激发自己的潜能：<ul><li>倘若你和一般失败者面谈，你就会发现：他们之所以失败，是因为他们从来不曾走进足以激发人、鼓励人的环境中，是因为他们的潜能从来不曾被激发，是因为他们没有力量从不良的环境中振作。</li></ul></li><li>不要畏惧贫穷和困苦：<ul><li>行走于人生丛林中的每个人都应该记住，如果你正在遭受困苦，这并不是完全是件坏事，“天将大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为”。因为老天要把重任交给你，必先磨炼和考验你！</li></ul></li><li>发掘出自身的强项：<ul><li>当巨大的压力、非常的变故和重大责任压在一个人身上时，隐伏在他生命最深处的种种能力，才会突然涌现出来，使他成就大业。</li></ul></li><li>坚定生活的信念：<ul><li>困境可以检验一个人的品质。如果一个人敢于直面困境，积极主动寻求解决问题的办法，能在任何不利的环境中始终充满热情，坚定对生活的信念，那么他迟早会成功。</li></ul></li><li>把挫折当成垫脚石：<ul><li>在生活中，有的人被挫折打倒，有的人却把挫折当成垫脚石，不断前进。只要我们正视坎坷，永不放弃自己的追求，生活的艰辛将被我们踩在脚下，生命将会永放光芒！</li></ul></li><li>对生活充满热情：<ul><li>有了热情，就能把额外的工作视作机遇，就能把陌生人变成朋友，就能真诚地宽容别人。有了热情，就能充分利用余暇时间来完成自己的兴趣爱好。有了热情，就会抛弃怨恨，变得心胸宽广。有了热情，就会战胜困难，取得成功。</li></ul></li></ul><h2 id="二、在细节上要高标准"><a href="#二、在细节上要高标准" class="headerlink" title="二、在细节上要高标准"></a>二、在细节上要高标准</h2><ul><li>注重细节，从小事做起：<ul><li>看不到细节，或者不把细节当回事的人，对工作缺乏认真的态度，对事情只能是敷衍了事。而注重细节的人，不仅认真地对待工作，将小事做细，并且能在做细的过程中找到机会，从而使自己走上成功之路。</li></ul></li><li>工作中没有小事：<ul><li>点石成金，滴水成河，只有认真对待自己所做的一切事情，才能克服万难，取得成功。</li></ul></li><li>认真对待每一次训练：<ul><li>那些在平时训练和准备过程中认真对待的人则相反，由于一直接受了高强度的模拟训练，他们更容易在关键的比赛中表现出镇定的心态，因为在他们心目中，这无异于平时的一场简单的比赛和训练。</li></ul></li><li>悄悄地为他人做点好事；<ul><li>试着去真心真意地帮助别人，当这一切完全发自你的意愿时，你将会感觉到这是件多么快乐的事，你的心灵就会得到回报—一种和平、安静、温暖的感觉。</li></ul></li><li>敬业精神+脚踏实地=成功：<ul><li>敬业，不仅仅是事业成功的保障，更是实现人生价值的手段，有的人在生活中，总是不满意目前的职业，希望改变自己的处境。但世界上绝对没有不劳而获的事情，人们的成功无一不是按部就班、脚踏实地努力的结果。</li></ul></li><li>相信自己，正视开端：<ul><li>任何大的成功，都是从小事一点一滴累积而来的。没有做不到的事，只有不肯做的人。想想你曾经历过的失败，当时的你真的用尽全力试过各种办法了吗？困难不会是成功的障碍，只有你自己才可能是一个最大的绊脚石。</li></ul></li><li>扎实的基础是成功的法宝：<ul><li>如果一味地追求过高远的目标，丧失了眼前可以成功的机会，就会成为高远目标的牺牲品。许多年轻人不满意现在的工作，羡慕那些大款或高级白领人员，不安心本职工作，总是想跳槽。其实，没有十分的本领，就不应有些妄想。我们还是多向成功之人学习，脚踏实地，做好基础工作，一步一个脚印地走上成功之途。</li></ul></li><li>实干才能脱颖而出：<ul><li>那些充满乐观精神、积极向上的人，总有一股使不完的劲，神情专注，心情愉快，并且主动找事做，在实干中实现自己的理想。</li></ul></li><li>不为薪水而工作：<ul><li>想要获得成功，实现人生目标，就不要为薪水而工作。当一个人积极进取，尽心尽力时，他就能实现更高的人生价值。</li></ul></li><li>要征服世界，先战胜自己：<ul><li>要想成功，就要战胜自己的感情，培养自己控制命运的能力。</li></ul></li><li>用心做事，尽职尽责：<ul><li>以积极主动的心态对待你的工作、你的公司，你就会充满活力与创造性的完成工作，你就会成为一个值得信赖的人，一个老板乐于雇用的人，一个拥有自己事业的人。</li></ul></li></ul><h2 id="三，目标有多大，人生舞台就有多大，志存高远自强不息。"><a href="#三，目标有多大，人生舞台就有多大，志存高远自强不息。" class="headerlink" title="三，目标有多大，人生舞台就有多大，志存高远自强不息。"></a>三，目标有多大，人生舞台就有多大，志存高远自强不息。</h2><p>要重视自己的人生志向，志存高远就会自我激励，奋发向上，有所成就。人生就是奋斗与抗争的醒悟过程。靠进取心摆脱颓废，胜利属于坚韧性格的人。万丈高楼平地起，循序渐进铸辉煌！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux命令行常用快捷键</title>
+      <link href="2020/10/05/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+      <url>2020/10/05/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Linux命令行常用快捷键"><a href="#Linux命令行常用快捷键" class="headerlink" title="Linux命令行常用快捷键"></a>Linux命令行常用快捷键</h1><p>以下命令为Linux中高频发常用命令，适用于Linux中远程连接客户端软件“SecureCTR”和“Xshell” 。其他远程客户端软件使用情况基本与之类似</p><h2 id="高频命令"><a href="#高频命令" class="headerlink" title="高频命令"></a>高频命令</h2><ul><li><p>补全命令</p><ul><li>tab   补全命令，每补全一个字符至少两次。</li></ul></li><li><p>移动光标快捷键：</p><ul><li>Ctrl+a   光标回到命令行首。</li><li>Ctrl+e    光标回到命令行末。</li><li>Ctrl+f   光标向右移动一个字符。</li><li>Ctrl+b   光标向左移动一个字符。</li></ul></li><li><p>中断命令：</p><ul><li>Ctrl+c  中断正在执行的任务命令或者删除整行。</li></ul></li><li><p>暂停命令：</p><ul><li>Ctrl+z   暂停正在运行行中的任务。</li></ul></li></ul><h2 id="低频命令"><a href="#低频命令" class="headerlink" title="低频命令"></a>低频命令</h2><ul><li><p>复制快捷键：</p><ul><li>Ctrl+Insert   复制命令（选中字符进行复制）</li></ul></li><li><p>粘贴快捷键：</p><ul><li>Ctrl+Insert   粘贴命令 </li></ul></li><li><p>剪切命令：</p><ul><li>Ctrl+k  剪切光标处到行尾处的字符。（有删除的作用）</li><li>Ctrl+u  剪切光标处到行首处的字符。（有删除的作用）</li><li>Ctrl+w  剪切光标前的一个单词（有删除的作用）</li><li>Ctrl+y   粘贴Ctrl+k 、Ctrl+u、Ctrl+w  剪切/删除的文本</li></ul></li><li><p>清除命令：</p><ul><li>Ctrl+h   删除光标前一个字符，等同于‘’Backspance‘’</li><li>Del       删除光标后的一个字符。</li><li>Ctrl+l    清除屏幕上所有内容，并开始新的一行，</li></ul></li><li><p>锁定、 解锁命令：</p><ul><li>Ctrl+s   锁定界面，使之无法输入内容。</li><li>Ctrl+q   解开Ctrl+s的锁定界面，进行输入</li></ul></li><li><p>重复使用命令：</p><ul><li>Ctrl+d   退出当前shell命令行，也可以直接关闭shell运行。</li><li>Ctrl+r   搜索命令行中使用过的命令记录。</li><li>Ctrl+g   从正在执行Ctrl+r的搜索中退出。</li></ul></li><li><p>Esc相关命令：</p><ul><li>Esc+.    获取上一条命令的最后部分（空格分隔）</li><li>Esc+b   移动到当前单词的开头。</li><li>Esc+f    移动到当前单词的结尾。</li></ul></li></ul><h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><ul><li><a href="https://www.cnblogs.com/wangxiaopang/p/10828471.html">Linux命令行常用快捷键</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> blog </tag>
             
         </tags>
       
