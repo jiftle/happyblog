@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/030-%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%8B&%E5%A6%82%E4%BD%95%E6%8C%A3%E9%92%B1/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/024-Vim%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/0-DevEnvBaseOnDocker/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/025-Vim%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/026-Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/027-vagrant%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/028-%E7%BD%91%E7%9B%98%E4%BD%A0%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E5%90%97/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/005-%E9%AB%98%E6%A0%87%E5%87%86%E5%81%9A%E4%BA%8B/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/029-etcd%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/006-MTP%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
@@ -177,49 +177,49 @@
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/0-DevEnvBaseOnDocker/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/024-Vim%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/025-Vim%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/026-Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/027-vagrant%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/005-%E9%AB%98%E6%A0%87%E5%87%86%E5%81%9A%E4%BA%8B/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/028-%E7%BD%91%E7%9B%98%E4%BD%A0%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E5%90%97/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/006-MTP%E5%9F%B9%E8%AE%AD%E7%AC%94%E8%AE%B0%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/029-etcd%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/05/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>https://jiftle.github.io/2020/10/05/030-%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%8B&%E5%A6%82%E4%BD%95%E6%8C%A3%E9%92%B1/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
