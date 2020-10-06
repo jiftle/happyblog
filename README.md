@@ -8,6 +8,15 @@ This is my personal blog
 
 Happy life ,Happy work, Love family
 
+##  Feature
+
+- Markdown写文章
+    - 和日志系统，完美结合
+- 评论系统Gitalk
+    - 免费的评论插件，利用github的issue功能
+- 不蒜子访问统计
+    - 引入一句话，就可以具有访问统计功能
+
 ## CI
 
 持续集成
