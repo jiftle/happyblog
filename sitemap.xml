@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/07/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <loc>https://jiftle.github.io/2020/10/07/031-%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E7%9A%84%E5%B9%B3%E8%A1%8C%E5%AE%87%E5%AE%99/</loc>
     
     <lastmod>2020-10-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/07/0-DevEnvBaseOnDocker/</loc>
+    <loc>https://jiftle.github.io/2020/10/03/028-%E7%BD%91%E7%9B%98%E4%BD%A0%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E5%90%97/</loc>
     
     <lastmod>2020-10-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/07/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <loc>https://jiftle.github.io/2020/10/04/030-%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%8B&%E5%A6%82%E4%BD%95%E6%8C%A3%E9%92%B1/</loc>
     
     <lastmod>2020-10-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/07/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/</loc>
+    <loc>https://jiftle.github.io/2019/12/11/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/</loc>
     
     <lastmod>2020-10-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/07/004-%E6%9E%84%E5%BB%BA%E5%9F%BA%E4%BA%8EGit%E7%9A%84%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB/</loc>
+    <loc>https://jiftle.github.io/2020/10/07/018-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
     
     <lastmod>2020-10-07</lastmod>
     
@@ -114,7 +114,7 @@
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/07/001-%E4%BD%BF%E7%94%A8emby%E6%9E%84%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/</loc>
+    <loc>https://jiftle.github.io/2020/10/07/016-Linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     
     <lastmod>2020-10-07</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/07/018-%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
+    <loc>https://jiftle.github.io/about/index.html</loc>
     
     <lastmod>2020-10-07</lastmod>
     
@@ -205,7 +205,7 @@
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/07/028-%E7%BD%91%E7%9B%98%E4%BD%A0%E7%9C%9F%E7%9A%84%E9%9C%80%E8%A6%81%E5%90%97/</loc>
+    <loc>https://jiftle.github.io/link/index.html</loc>
     
     <lastmod>2020-10-07</lastmod>
     
@@ -219,9 +219,44 @@
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/2020/10/07/030-%E5%81%9A%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%8B&%E5%A6%82%E4%BD%95%E6%8C%A3%E9%92%B1/</loc>
+    <loc>https://jiftle.github.io/categories/index.html</loc>
     
     <lastmod>2020-10-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiftle.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-10-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiftle.github.io/2020/10/03/0-DevEnvBaseOnDocker/</loc>
+    
+    <lastmod>2020-10-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiftle.github.io/2019/12/05/002-%E4%BD%BF%E7%94%A8docker%E6%9E%84%E5%BB%BAvim-golang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    
+    <lastmod>2019-12-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiftle.github.io/2019/12/02/001-%E4%BD%BF%E7%94%A8emby%E6%9E%84%E5%BB%BA%E5%AE%B6%E5%BA%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%BF%83/</loc>
+    
+    <lastmod>2019-12-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jiftle.github.io/2019/12/02/003-Docker%E8%BF%90%E8%A1%8C%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E7%A8%8B%E5%BA%8F/</loc>
+    
+    <lastmod>2019-12-02</lastmod>
     
   </url>
   
@@ -235,47 +270,82 @@
 
   
   <url>
-    <loc>https://jiftle.github.io/tags/Markdown-GitMdNote-blog-2020-10/</loc>
+    <loc>https://jiftle.github.io/tags/Markdown/</loc>
     <lastmod>2020-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/tags/Markdown-blog-2019-blog-2019-12/</loc>
+    <loc>https://jiftle.github.io/tags/GitMdNote/</loc>
     <lastmod>2020-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/tags/Markdown-blog/</loc>
+    <loc>https://jiftle.github.io/tags/blog-2020-10/</loc>
     <lastmod>2020-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/tags/Markdown-daily/</loc>
+    <loc>https://jiftle.github.io/tags/blog-2019/</loc>
     <lastmod>2020-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/tags/Markdown-blog-2020-blog-2020-01/</loc>
+    <loc>https://jiftle.github.io/tags/blog-2019-12/</loc>
     <lastmod>2020-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jiftle.github.io/tags/Markdown-GitMdNote-blog-2020-01/</loc>
+    <loc>https://jiftle.github.io/tags/blog/</loc>
+    <lastmod>2020-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiftle.github.io/tags/daily/</loc>
+    <lastmod>2020-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiftle.github.io/tags/blog-2020/</loc>
+    <lastmod>2020-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiftle.github.io/tags/blog-2020-01/</loc>
     <lastmod>2020-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://jiftle.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/</loc>
+    <lastmod>2020-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jiftle.github.io/categories/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/</loc>
+    <lastmod>2020-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
