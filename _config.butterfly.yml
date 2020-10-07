@@ -7,20 +7,20 @@
 #   name || link || icon
 
 menu:
-  # Home: / || fas fa-home
-  # Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
+  首页: / || fas fa-home
+  档案: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   - Music || /music/ || fas fa-music
   #   - Movie || /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+  友情链接: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
 
-# Code Blocks (代碼相關)
+# Code Blocks (代碼相關) 代码相关
 # --------------------------------------
 
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
@@ -83,7 +83,7 @@ katex:
   per_page: false
   hide_scrollbar: true
 
-# Image (圖片設置)
+# Image (圖片設置) 图片设置
 # --------------------------------------
 
 # Favicon（網站圖標）
@@ -91,7 +91,7 @@ favicon: /img/favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img:
+  img: ./img/keai-girl.jpg
   effect: false
 
 # The banner image of home page
@@ -288,7 +288,7 @@ disqusjs:
 livere:
   uid:
 
-# gitalk
+# gitalk  --------- 评论系统
 # https://github.com/gitalk/gitalk
 gitalk:
   client_id: bdcb7e65e2d12b842564

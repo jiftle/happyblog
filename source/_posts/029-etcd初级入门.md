@@ -1,7 +1,7 @@
 ---
 title: etcd初级入门
 time: 2020-10-03 15:22
-tags: Markdown,blog-2019,blog-2019-12
+tags: [Markdown,blog-2019,blog-2019-12]
 notebook: blog
 ---
 
@@ -35,7 +35,7 @@ etcd是k-v键值对数据库，常用来作为微服务架构下注册配置中�
   ./etcdkeeper -p 8092 -h 127.0.0.1
   ````
 
-![image-20201002160731886](/Users/mac/tg-git/coding_net/grocery/dailylog/attach/images/image-20201002160731886.png)
+![image-20201007232538187](https://gitee.com/yctxkj/imagerepo/raw/master/image-20201007232538187.png)
 
 ## 免责条款
 

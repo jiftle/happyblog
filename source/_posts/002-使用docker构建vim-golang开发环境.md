@@ -1,7 +1,10 @@
 ---
 title: 使用docker构建vim-golang开发环境
+date: 2019-12-05 23:38
+updated: 2019-12-05 23:38
+categories: 技术文章
 time: 2019-12-05 23:38
-tags: Markdown,blog
+tags: [Markdown,blog]
 notebook: blog
 ---
 

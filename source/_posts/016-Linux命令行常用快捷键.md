@@ -1,7 +1,7 @@
 ---
 title: Linux命令行常用快捷键
 time: 2019-12-31 11:28
-tags: Markdown,blog
+tags: [Markdown,blog]
 notebook: blog
 ---
 
