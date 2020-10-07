@@ -1,7 +1,7 @@
 ---
 title: 003-Docker运行图形界面程序.md
 time: 2016-12-02 17:38
-tags: [Markdown,blog]
+tags: Markdown,blog
 notebook: blog
 ---
 

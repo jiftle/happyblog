@@ -1,7 +1,7 @@
 ---
 title: 027-vagrant使用入门.md
 time: 2020-10-03 15:22
-tags: [Markdown,GitMdNote,blog-2020-10]
+tags: Markdown,GitMdNote,blog-2020-10
 notebook: blog
 ---
 
@@ -9,20 +9,22 @@ notebook: blog
 
 ## vagrant官方网站
 
-![image-20200926003801062](file:///Users/mac/tg-git/coding_net/grocery/dailylog/attach/images/image-20200926003801062-1517007.png?lastModify=1601516992)
+![image-20201007114212736](https://gitee.com/yctxkj/imagerepo/raw/master/image-20201007114212736.png)
 
 ## 官方镜像仓库
 
+
+
 https://app.vagrantup.com/boxes/search
 
-![image-20200926010712485](file:///Users/mac/tg-git/coding_net/grocery/dailylog/attach/images/image-20200926010712485-1517007.png?lastModify=1601516992)
+![image-20201007114253089](https://gitee.com/yctxkj/imagerepo/raw/master/image-20201007114253089.png)
 
 ## 镜像离线下载或镜像加速
 
 - 官方网站，大陆访问非常慢7kb/s
 - http://www.vagrantbox.es/
 
-![image-20200926004328137](file:///Users/mac/tg-git/coding_net/grocery/dailylog/attach/images/image-20200926004328137-1517007.png?lastModify=1601516992)
+![image-20201007114316815](https://gitee.com/yctxkj/imagerepo/raw/master/image-20201007114316815.png)
 
 ### 清华大学镜像 ubuntu 14.04 
 

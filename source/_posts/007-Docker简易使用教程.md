@@ -1,7 +1,7 @@
 ---
 title: Docker简易使用教程
 time: 2019-12-17 14:00
-tags: [Markdown,blog]
+tags: Markdown,blog
 notebook: blog
 ---
 

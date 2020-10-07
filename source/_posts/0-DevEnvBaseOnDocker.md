@@ -1,7 +1,7 @@
 ---
 title: 使用Docker构建开发环境
 time: 2020-10-03 15:23
-tags: [Markdown,GitMdNote,blog-2020-10]
+tags: Markdown,GitMdNote,blog-2020-10
 notebook: blog
 ---
 
@@ -40,8 +40,8 @@ notebook: blog
   - emacs can input chinese , select input-method of use set-input-method
 
 ```
-sed '4,4s/tags: [/tags: [[/; 4,4s/$/&]/' 0-DevEnvBaseOnDocker.md]
+sed '4,4s/tags: /tags: [/; 4,4s/$/&]/' 0-DevEnvBaseOnDocker.md
 
-sed -i 's/tags: [/tags: [[/g;s/tags: [.*/&]/g' `grep .md -rl ./`]
+sed -i 's/tags: /tags: [/g;s/tags: .*/&]/g' `grep .md -rl ./`
 ```
 

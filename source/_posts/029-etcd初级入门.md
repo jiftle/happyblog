@@ -1,7 +1,7 @@
 ---
 title: etcd初级入门
 time: 2020-10-03 15:22
-tags: [Markdown,blog-2019,blog-2019-12]
+tags: Markdown,blog-2019,blog-2019-12
 notebook: blog
 ---
 

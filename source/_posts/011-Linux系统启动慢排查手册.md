@@ -1,7 +1,7 @@
 ---
 title: Linux系统启动慢排查
 time: 2019-12-25 13:59
-tags: [Markdown,blog]
+tags: Markdown,blog
 notebook: diary
 ---
 
