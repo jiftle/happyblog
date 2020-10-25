@@ -1,7 +1,7 @@
 ---
 title: 027-vagrant使用入门.md
 time: 2020-10-03 15:22
-tags: [Markdown,GitMdNote,blog-2020-10]
+tags: [[Markdown,GitMdNote,blog-2020-10]]
 notebook: blog
 ---
 
