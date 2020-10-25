@@ -3,7 +3,7 @@ title: 001-Linux日志概述.md
 date: 2020-10-09 16:06
 updated: 2020-10-09 16:06
 tags: [Markdown,GitMdNote,blog-2020-10]
-categories: Linux
+categories: 01-Linux
 time: 2020-10-09 16:06
 notebook: blog
 ---

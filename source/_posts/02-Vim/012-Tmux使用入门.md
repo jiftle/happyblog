@@ -1,11 +1,14 @@
 ---
-title: Tmux使用入门
+title: 012-Tmux使用入门.md
+date: 2019-12-29 21:43
+updated: 2019-12-29 21:43
+tags: [Markdown,GitMdNote,blog-2020-10]
+categories: 02-Vim
 time: 2019-12-29 21:43
-tags: [Markdown,blog]
 notebook: blog
 ---
 
-# Tmux使用入门
+# 012-Tmux使用入门.md
 
 ## 简介
 

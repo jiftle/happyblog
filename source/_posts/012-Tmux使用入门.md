@@ -1,7 +1,7 @@
 ---
 title: Tmux使用入门
 time: 2019-12-29 21:43
-tags: [[Markdown,blog]]
+tags: [[[Markdown,blog]]]
 notebook: blog
 ---
 

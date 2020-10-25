@@ -1,7 +1,7 @@
 ---
 title: Emacs常用技巧
 time: 2019-12-30 13:48
-tags: [[Markdown,blog]]
+tags: [[[Markdown,blog]]]
 notebook: blog
 ---
 

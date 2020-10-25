@@ -1,7 +1,10 @@
 ---
 title: etcd初级入门
+date: 2020-10-03 15:22
+updated: 2020-10-03 15:22
+tags: [Markdown,GitMdNote,blog-2020-10]
+categories: 08-MicroService
 time: 2020-10-03 15:22
-tags: [Markdown,blog-2019,blog-2019-12]
 notebook: blog
 ---
 

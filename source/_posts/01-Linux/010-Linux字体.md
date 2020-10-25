@@ -1,8 +1,11 @@
 ---
-title: Linux下安装字体
+title: Linux系统安装字体
+date: 2019-12-25 11:48
+updated: 2019-12-25 11:48
+tags: [Markdown,GitMdNote,blog-2020-10]
+categories: 技术文章
 time: 2019-12-25 11:48
-tags: [Markdown,daily]
-notebook: diary
+notebook: blog
 ---
 
 #  Linux下安装字体

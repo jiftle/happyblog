@@ -1,7 +1,10 @@
 ---
 title: Linux命令行常用快捷键
+date: 2019-12-31 11:28
+updated: 2019-12-31 11:28
+tags: [Markdown,GitMdNote,blog-2020-10]
+categories: 技术文章
 time: 2019-12-31 11:28
-tags: [Markdown,blog]
 notebook: blog
 ---
 

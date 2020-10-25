@@ -1,11 +1,14 @@
 ---
-title: Emacs常用技巧
+title: 015-Emacs常用技巧.md
+date: 2019-12-30 13:48
+updated: 2019-12-30 13:48
+tags: [Markdown,GitMdNote,blog-2020-10]
+categories: 技术文章
 time: 2019-12-30 13:48
-tags: [Markdown,blog]
 notebook: blog
 ---
 
-# Emacs常用技巧
+# 015-Emacs常用技巧.md
 
 
 ## 简介

@@ -1,7 +1,10 @@
 ---
-title: 021-Linux系统剪贴板.md
+title: Linux系统剪贴板
+date: 2020-01-01 23:10
+updated: 2020-01-01 23:10
+tags: [Markdown,GitMdNote,blog-2020-10]
+categories: 01-Linux
 time: 2020-01-01 23:10
-tags: [Markdown,blog]
 notebook: blog
 ---
 

@@ -3,7 +3,7 @@ title: 002-Tmux真彩色配置.md
 date: 2020-10-24 18:10
 updated: 2020-10-24 18:10
 tags: [Markdown,GitMdNote,blog-2020-10]
-categories: 技术文章
+categories: 02-Vim
 time: 2020-10-24 18:10
 notebook: blog
 ---

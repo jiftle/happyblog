@@ -3,7 +3,7 @@ title: 使用emby构建家庭媒体中心
 date: 2019-12-02 17:38
 updated: 2019-12-02 17:38
 categories: 技术文章
-tags: [[Markdown,blog-2019,blog-2019-12]]
+tags: [[[Markdown,blog-2019,blog-2019-12]]]
 time: 2019-12-02 17:38
 notebook: blog
 ---

@@ -2,7 +2,7 @@
 title: 使用Docker构建开发环境
 date: 2020-10-03 15:23
 updated: 2020-10-03 15:23
-categories: 技术文章
+categories: 3-Docker
 time: 2020-10-03 15:23
 tags: [Markdown,GitMdNote,blog-2020-10]
 notebook: blog

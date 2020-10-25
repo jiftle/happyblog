@@ -1,9 +1,14 @@
 ---
 title: Linux系统启动慢排查
+date: 2019-12-25 13:59
+updated: 2019-12-25 13:59
+tags: [Markdown,GitMdNote,blog-2020-10]
+categories: 01-Linux
 time: 2019-12-25 13:59
-tags: [Markdown,blog]
-notebook: diary
+notebook: blog
 ---
+
+# 011-Linux系统启动慢排查手册.md
 
 #  Linux系统启动慢排查
 

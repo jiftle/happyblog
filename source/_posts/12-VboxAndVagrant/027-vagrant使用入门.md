@@ -1,7 +1,10 @@
 ---
 title: 027-vagrant使用入门.md
-time: 2020-10-03 15:22
+date: 2020-10-25 21:56
+updated: 2020-10-25 21:56
 tags: [Markdown,GitMdNote,blog-2020-10]
+categories: 12-VboxAndVagrant
+time: 2020-10-03 15:22
 notebook: blog
 ---
 

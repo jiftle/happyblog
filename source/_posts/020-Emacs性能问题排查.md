@@ -1,7 +1,7 @@
 ---
 title: Emacs性能问题排查
 time: 2019-12-31 22:11
-tags: [[Markdown,blog]]
+tags: [[[Markdown,blog]]]
 notebook: blog
 ---
 
